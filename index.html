@@ -25,10 +25,13 @@
         .spinner { width: 16px; height: 16px; border: 2px solid #223042; border-top: 2px solid #66c0f4; border-radius: 50%; animation: spin 0.8s linear infinite; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
+        /* กล่องค้นหาและปุ่มกากบาท */
         .search-wrapper { max-width: 580px; margin: 0 auto; position: relative; display: flex; align-items: center; }
         .search-input { width: 100%; padding: 12px 45px; font-size: 0.98em; color: #ffffff; background: #141c26; border: 1px solid #32445a; border-radius: 28px; outline: none; transition: all 0.25s ease; }
         .search-input:focus { border-color: #66c0f4; box-shadow: 0 0 18px rgba(102, 192, 244, 0.35); }
         .search-icon { position: absolute; left: 16px; color: #627b97; }
+        .search-clear-btn { position: absolute; right: 14px; background: none; border: none; color: #8f98a0; font-size: 1.1em; cursor: pointer; display: none; padding: 4px; }
+        .search-clear-btn:hover { color: #ffffff; }
 
         .container { max-width: 1440px; margin: 0 auto; padding: 0 25px; }
         .games-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 25px; }
@@ -76,6 +79,7 @@
         <div class="search-wrapper">
             <span class="search-icon">🔍</span>
             <input type="text" id="search-input" class="search-input" placeholder="ค้นหาด้วยชื่อเกม หรือ App ID...">
+            <button id="search-clear-btn" class="search-clear-btn" title="ล้างการค้นหา">✕</button>
         </div>
     </div>
 
@@ -96,6 +100,7 @@
         const loader = document.getElementById('loader');
         const totalBadge = document.getElementById('total-badge');
         const searchInput = document.getElementById('search-input');
+        const clearBtn = document.getElementById('search-clear-btn');
         const autoSyncAlert = document.getElementById('auto-sync-alert');
 
         fetch('mod_data/games.json')
@@ -144,7 +149,6 @@
                 const displayUrl = game.url.length > 40 ? game.url.substring(0, 37) + '...' : game.url;
                 const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)" title="คลิกเพื่อคัดลอก App ID">📋 ${game.appid}</button>` : '';
                 
-                // สร้างลิงก์ Steam กลับมาแล้วค่ะพี่!
                 const steamUrl = game.appid ? `https://store.steampowered.com/app/${game.appid}/` : '#';
                 
                 card.innerHTML = `
@@ -177,8 +181,13 @@
             else loader.innerHTML = 'เลื่อนลงเพื่อดูเพิ่มเติม...';
         }
 
+        // ระบบค้นหาและปุ่มเคลียร์ข้อความ
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase().replace(/[-_.,'" ]/g, '');
+            
+            // โชว์หรือซ่อนปุ่มกากบาทตามการพิมพ์
+            clearBtn.style.display = e.target.value ? 'block' : 'none';
+
             if (!query) {
                 filteredGames = allGames;
             } else {
@@ -190,6 +199,17 @@
             grid.innerHTML = '';
             currentIndex = 0;
             totalBadge.innerText = query ? `พบ ${filteredGames.length} รายการ` : `ทั้งหมด ${allGames.length} รายการ`;
+            loadMoreGames();
+        });
+
+        // เวลากดปุ่มกากบาท ให้เคลียร์ค่าแล้วโหลดข้อมูลใหม่ทั้งหมด
+        clearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            clearBtn.style.display = 'none';
+            filteredGames = allGames;
+            grid.innerHTML = '';
+            currentIndex = 0;
+            totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
             loadMoreGames();
         });
 
