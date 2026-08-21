@@ -13,7 +13,7 @@
         .header-subtitle { font-size: 0.95em; color: #8f98a0; display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
         .badge { background: #212e3f; border: 1px solid #32445a; color: #66c0f4; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
         
-        /* สไตล์กล่องแจ้งเตือนและแอนิเมชันหมุนๆ แบบเดิมเป๊ะ */
+        /* สไตล์กล่องแจ้งเตือนและแอนิเมชันหมุนๆ */
         .sync-alert {
             max-width: 580px; margin: 0 auto 20px auto; background: #172433; border: 1px solid #283a4e;
             padding: 12px 15px; border-radius: 8px; font-size: 0.95em; display: flex; justify-content: center;
@@ -38,20 +38,22 @@
 
         .game-card { background: #182230; border: 1px solid #253549; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.25s ease, border-color 0.25s ease; }
         .game-card:hover { transform: translateY(-6px); border-color: #66c0f4; }
-        .image-box { width: 100%; height: 160px; background: #000; overflow: hidden; }
-        .game-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; }
+        .image-box { width: 100%; height: 160px; background: #000; overflow: hidden; position: relative; display: block; text-decoration: none; cursor: pointer; }
+        .game-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; display: block; }
         .image-box:hover .game-cover { transform: scale(1.06); }
         
         .card-content { padding: 16px; display: flex; flex-direction: column; flex-grow: 1; gap: 10px; }
         .meta-row { display: flex; justify-content: space-between; }
         .tag-recommend-bottom { color: #66c0f4; font-size: 0.82em; font-weight: 600; }
-        .appid-btn { background: #131c26; border: 1px solid #283a4e; color: #8bb7db; padding: 3px 8px; border-radius: 5px; font-size: 0.76em; cursor: pointer; }
-        .appid-btn.copied { background: #10b981; color: #fff; }
-        .game-name { color: #ffffff; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .appid-btn { background: #131c26; border: 1px solid #283a4e; color: #8bb7db; padding: 3px 8px; border-radius: 5px; font-size: 0.76em; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s ease; user-select: none; }
+        .appid-btn:hover { background: #1c2c3d; border-color: #66c0f4; color: #ffffff; transform: translateY(-1px); }
+        .appid-btn.copied { background: rgba(16, 185, 129, 0.2) !important; border-color: #10b981 !important; color: #34d399 !important; }
+        .game-name { color: #ffffff; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.7em; }
         .mod-url-box { background: rgba(0,0,0,0.3); border: 1px dashed #32445a; padding: 8px; border-radius: 4px; font-size: 0.82em; word-break: break-all; }
         .mod-url-box a { color: #66c0f4; text-decoration: none; }
         .card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; border-top: 1px solid #223042; padding-top: 10px; }
-        .btn-mod { background: linear-gradient(90deg, #47bfff 0%, #1a9fff 100%); color: #fff; text-decoration: none; font-size: 0.84em; font-weight: 600; padding: 7px 14px; border-radius: 4px; }
+        .btn-mod { background: linear-gradient(90deg, #47bfff 0%, #1a9fff 100%); color: #fff; text-decoration: none; font-size: 0.84em; font-weight: 600; padding: 7px 14px; border-radius: 4px; transition: opacity 0.2s ease, transform 0.2s ease; display: inline-flex; align-items: center; gap: 5px; }
+        .btn-mod:hover { opacity: 0.9; transform: scale(1.02); box-shadow: 0 0 10px rgba(102, 192, 244, 0.4); }
         .price-badge { background: #000; color: #a4d007; font-size: 0.85em; font-weight: 700; padding: 4px 8px; border-radius: 3px; }
 
         .loader-wrapper { text-align: center; padding: 35px; color: #627b97; display: flex; justify-content: center; align-items: center; gap: 12px; }
@@ -66,7 +68,6 @@
             <span class="badge" id="total-badge">กำลังโหลด...</span>
         </div>
         
-        <!-- ข้อความแจ้งเตือนแบบเดิมเป๊ะๆ -->
         <div id="auto-sync-alert" class="sync-alert loading">
             <div class="spinner"></div>
             <span>กำลังตรวจสอบข้อมูลใหม่...</span>
@@ -104,7 +105,6 @@
                 filteredGames = allGames;
                 totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
                 
-                // ถ่วงเวลาแสดงเอฟเฟกต์หมุนๆ แล้วเปลี่ยนเป็นข้อความของเดิมเป๊ะๆ
                 setTimeout(() => {
                     autoSyncAlert.classList.remove('loading');
                     autoSyncAlert.classList.add('success');
@@ -142,10 +142,13 @@
                 card.className = 'game-card';
                 const priceHtml = game.price ? `<span class="price-badge">${game.price}</span>` : `<span style="font-size:0.8em; color:#56708a;">ฟรี / Mod</span>`;
                 const displayUrl = game.url.length > 40 ? game.url.substring(0, 37) + '...' : game.url;
-                const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)">📋 ${game.appid}</button>` : '';
+                const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)" title="คลิกเพื่อคัดลอก App ID">📋 ${game.appid}</button>` : '';
+                
+                // สร้างลิงก์ Steam กลับมาแล้วค่ะพี่!
+                const steamUrl = game.appid ? `https://store.steampowered.com/app/${game.appid}/` : '#';
                 
                 card.innerHTML = `
-                    <a class="image-box" href="${game.url}" target="_blank">
+                    <a class="image-box" href="${steamUrl}" target="_blank" title="คลิกเพื่อไปที่หน้าร้านค้า Steam">
                         <img class="game-cover" src="${game.img}" alt="${game.name}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg';">
                     </a>
                     <div class="card-content">
@@ -154,8 +157,11 @@
                                 <div class="tag-recommend-bottom">👍 ${game.type}</div>
                                 ${appIdBtn}
                             </div>
-                            <div class="game-name">${game.name}</div>
-                            <div class="mod-url-box">🔗 <a href="${game.url}" target="_blank">${displayUrl}</a></div>
+                            <div class="game-name" title="${game.name}">${game.name}</div>
+                            <div class="mod-url-box" title="${game.url}">
+                                🔗 <strong>ดาวน์โหลดที่:</strong><br>
+                                <a href="${game.url}" target="_blank">${displayUrl}</a>
+                            </div>
                         </div>
                         <div class="card-footer">
                             <a class="btn-mod" href="${game.url}" target="_blank">📥 โหลด Mod ไทย</a>
