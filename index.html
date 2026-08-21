@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModSubThai - Steam Showcase</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: radial-gradient(circle at top, #1b2838 0%, #0d121a 100%); color: #c7d5e0; min-height: 100vh; padding-bottom: 60px; }
+        .header-container { text-align: center; padding: 35px 20px 20px; background: linear-gradient(180deg, rgba(23,26,33,0.95) 0%, rgba(23,26,33,0) 100%); }
+        .header-title { font-size: 2.2em; font-weight: 800; color: #ffffff; margin-bottom: 6px; }
+        .header-title span { color: #66c0f4; text-shadow: 0 0 15px rgba(102, 192, 244, 0.4); }
+        .header-subtitle { font-size: 0.95em; color: #8f98a0; display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+        .badge { background: #212e3f; border: 1px solid #32445a; color: #66c0f4; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
+        
+        /* กล่องแจ้งเตือนถูกเปลี่ยนเป็นบอกสถานะว่ารันอัตโนมัติ */
+        .sync-alert { max-width: 580px; margin: 0 auto 20px; background: #172433; border: 1px solid #283a4e; color: #a4d007; padding: 12px 15px; border-radius: 8px; font-size: 0.95em; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.15); }
+        
+        .search-wrapper { max-width: 580px; margin: 0 auto; position: relative; display: flex; align-items: center; }
+        .search-input { width: 100%; padding: 12px 45px; font-size: 0.98em; color: #ffffff; background: #141c26; border: 1px solid #32445a; border-radius: 28px; outline: none; transition: all 0.25s ease; }
+        .search-input:focus { border-color: #66c0f4; box-shadow: 0 0 18px rgba(102, 192, 244, 0.35); }
+        .search-icon { position: absolute; left: 16px; color: #627b97; }
+
+        .container { max-width: 1440px; margin: 0 auto; padding: 0 25px; }
+        .games-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 25px; }
+        @media (max-width: 1200px) { .games-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 850px) { .games-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 550px) { .games-grid { grid-template-columns: 1fr; } }
+
+        .game-card { background: #182230; border: 1px solid #253549; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.25s ease, border-color 0.25s ease; }
+        .game-card:hover { transform: translateY(-6px); border-color: #66c0f4; }
+        .image-box { width: 100%; height: 160px; background: #000; overflow: hidden; }
+        .game-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; }
+        .image-box:hover .game-cover { transform: scale(1.06); }
+        
+        .card-content { padding: 16px; display: flex; flex-direction: column; flex-grow: 1; gap: 10px; }
+        .meta-row { display: flex; justify-content: space-between; }
+        .tag-recommend-bottom { color: #66c0f4; font-size: 0.82em; font-weight: 600; }
+        .appid-btn { background: #131c26; border: 1px solid #283a4e; color: #8bb7db; padding: 3px 8px; border-radius: 5px; font-size: 0.76em; cursor: pointer; }
+        .appid-btn.copied { background: #10b981; color: #fff; }
+        .game-name { color: #ffffff; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .mod-url-box { background: rgba(0,0,0,0.3); border: 1px dashed #32445a; padding: 8px; border-radius: 4px; font-size: 0.82em; word-break: break-all; }
+        .mod-url-box a { color: #66c0f4; text-decoration: none; }
+        .card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; border-top: 1px solid #223042; padding-top: 10px; }
+        .btn-mod { background: linear-gradient(90deg, #47bfff 0%, #1a9fff 100%); color: #fff; text-decoration: none; font-size: 0.84em; font-weight: 600; padding: 7px 14px; border-radius: 4px; }
+        .price-badge { background: #000; color: #a4d007; font-size: 0.85em; font-weight: 700; padding: 4px 8px; border-radius: 3px; }
+
+        .loader-wrapper { text-align: center; padding: 35px; color: #627b97; }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <h1 class="header-title">🎮 ModSubThai <span>Steam Showcase</span></h1>
+        <div class="header-subtitle">
+            <span>ศูนย์รวมมอดภาษาไทยบน Steam</span>
+            <span class="badge" id="total-badge">กำลังโหลด...</span>
+        </div>
+        
+        <div class="sync-alert">
+            ✨ ข้อมูลอัปเดตอัตโนมัติด้วยบอทของ GitHub (ระบบ Cloud)
+        </div>
+
+        <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" class="search-input" placeholder="ค้นหาด้วยชื่อเกม หรือ App ID...">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="games-grid" id="games-grid"></div>
+        <div id="loader" class="loader-wrapper">กำลังดึงข้อมูล...</div>
+    </div>
+
+    <script>
+        let allGames = [];
+        let filteredGames = [];
+        let currentIndex = 0;
+        const batchSize = 16;
+        
+        const grid = document.getElementById('games-grid');
+        const loader = document.getElementById('loader');
+        const totalBadge = document.getElementById('total-badge');
+        const searchInput = document.getElementById('search-input');
+
+        // ดึงข้อมูลจากไฟล์ JSON แค่ครั้งเดียวตอนเปิดเว็บ
+        fetch('mod_data/games.json')
+            .then(res => res.json())
+            .then(data => {
+                allGames = data.items || [];
+                filteredGames = allGames;
+                totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
+                loadMoreGames();
+            })
+            .catch(() => {
+                loader.innerHTML = '⚠️ ไม่สามารถโหลดข้อมูลได้ หรือยังไม่มีการสร้างฐานข้อมูล';
+            });
+
+        function copyAppId(appid, element) {
+            navigator.clipboard.writeText(appid).then(() => {
+                const originalHtml = element.innerHTML;
+                element.classList.add('copied');
+                element.innerHTML = '✓ คัดลอกแล้ว!';
+                setTimeout(() => { element.classList.remove('copied'); element.innerHTML = originalHtml; }, 1500);
+            });
+        }
+
+        function loadMoreGames() {
+            if (currentIndex >= filteredGames.length) {
+                loader.innerHTML = '✨ แสดงครบทุกเกมแล้ว';
+                return;
+            }
+
+            loader.innerHTML = 'กำลังโหลด...';
+            const nextBatch = filteredGames.slice(currentIndex, currentIndex + batchSize);
+            
+            nextBatch.forEach(game => {
+                const card = document.createElement('div');
+                card.className = 'game-card';
+                const priceHtml = game.price ? `<span class="price-badge">${game.price}</span>` : `<span style="font-size:0.8em; color:#56708a;">ฟรี / Mod</span>`;
+                const displayUrl = game.url.length > 40 ? game.url.substring(0, 37) + '...' : game.url;
+                const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)">📋 ${game.appid}</button>` : '';
+                
+                card.innerHTML = `
+                    <a class="image-box" href="${game.url}" target="_blank">
+                        <img class="game-cover" src="${game.img}" alt="${game.name}" loading="lazy">
+                    </a>
+                    <div class="card-content">
+                        <div>
+                            <div class="meta-row">
+                                <div class="tag-recommend-bottom">👍 ${game.type}</div>
+                                ${appIdBtn}
+                            </div>
+                            <div class="game-name">${game.name}</div>
+                            <div class="mod-url-box">🔗 <a href="${game.url}" target="_blank">${displayUrl}</a></div>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn-mod" href="${game.url}" target="_blank">📥 โหลด Mod ไทย</a>
+                            ${priceHtml}
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+
+            currentIndex += batchSize;
+            if (currentIndex >= filteredGames.length) loader.innerHTML = '✨ แสดงครบทุกเกมแล้ว';
+            else loader.innerHTML = 'เลื่อนลงเพื่อดูเพิ่มเติม...';
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().replace(/[-_.,'" ]/g, '');
+            if (!query) {
+                filteredGames = allGames;
+            } else {
+                filteredGames = allGames.filter(g => 
+                    g.name.toLowerCase().replace(/[-_.,'" ]/g, '').includes(query) || 
+                    (g.appid && g.appid.includes(query))
+                );
+            }
+            grid.innerHTML = '';
+            currentIndex = 0;
+            totalBadge.innerText = query ? `พบ ${filteredGames.length} รายการ` : `ทั้งหมด ${allGames.length} รายการ`;
+            loadMoreGames();
+        });
+
+        window.addEventListener('scroll', () => {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) loadMoreGames();
+        });
+    </script>
+</body>
+</html>
