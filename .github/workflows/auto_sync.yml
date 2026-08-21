@@ -1,0 +1,36 @@
+name: Auto Sync Steam Mods
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # รันทุกๆ 6 ชั่วโมง
+  workflow_dispatch: # อนุญาตให้กดปุ่มรันแบบ Manual ได้
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # อนุญาตให้บอทเขียนไฟล์ทับได้
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Auto Sync Script
+        run: python update_data.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add mod_data/games.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update games.json" && git push)
