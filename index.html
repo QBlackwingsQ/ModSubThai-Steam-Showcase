@@ -13,9 +13,24 @@
         .header-subtitle { font-size: 0.95em; color: #8f98a0; display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
         .badge { background: #212e3f; border: 1px solid #32445a; color: #66c0f4; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
         
-        /* กล่องแจ้งเตือนถูกเปลี่ยนเป็นบอกสถานะว่ารันอัตโนมัติ */
-        .sync-alert { max-width: 580px; margin: 0 auto 20px; background: #172433; border: 1px solid #283a4e; color: #a4d007; padding: 12px 15px; border-radius: 8px; font-size: 0.95em; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.15); }
-        
+        /* กล่องแจ้งเตือนสถานะแบบเดิม */
+        .sync-alert {
+            max-width: 580px;
+            margin: 0 auto 20px auto;
+            background: #172433;
+            border: 1px solid #283a4e;
+            color: #66c0f4;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-size: 0.95em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+        .sync-alert.success { color: #a4d007; }
+
         .search-wrapper { max-width: 580px; margin: 0 auto; position: relative; display: flex; align-items: center; }
         .search-input { width: 100%; padding: 12px 45px; font-size: 0.98em; color: #ffffff; background: #141c26; border: 1px solid #32445a; border-radius: 28px; outline: none; transition: all 0.25s ease; }
         .search-input:focus { border-color: #66c0f4; box-shadow: 0 0 18px rgba(102, 192, 244, 0.35); }
@@ -56,8 +71,9 @@
             <span class="badge" id="total-badge">กำลังโหลด...</span>
         </div>
         
-        <div class="sync-alert">
-            ✨ ข้อมูลอัปเดตอัตโนมัติด้วยบอทของ GitHub (ระบบ Cloud)
+        <!-- กล่องแจ้งเตือนสถานะแบบหน้าตาเดิม -->
+        <div id="auto-sync-alert" class="sync-alert success">
+            ✨ ข้อมูลเป็นปัจจุบันแล้ว (ระบบอัปเดตอัตโนมัติผ่าน Cloud)
         </div>
 
         <div class="search-wrapper">
@@ -81,18 +97,22 @@
         const loader = document.getElementById('loader');
         const totalBadge = document.getElementById('total-badge');
         const searchInput = document.getElementById('search-input');
+        const autoSyncAlert = document.getElementById('auto-sync-alert');
 
-        // ดึงข้อมูลจากไฟล์ JSON แค่ครั้งเดียวตอนเปิดเว็บ
         fetch('mod_data/games.json')
             .then(res => res.json())
             .then(data => {
                 allGames = data.items || [];
                 filteredGames = allGames;
                 totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
+                autoSyncAlert.innerHTML = `✨ ข้อมูลเป็นปัจจุบันแล้ว (มีข้อมูลทั้งหมด ${allGames.length} รายการ)`;
                 loadMoreGames();
             })
             .catch(() => {
-                loader.innerHTML = '⚠️ ไม่สามารถโหลดข้อมูลได้ หรือยังไม่มีการสร้างฐานข้อมูล';
+                autoSyncAlert.className = 'sync-alert';
+                autoSyncAlert.style.color = '#ff6b6b';
+                autoSyncAlert.innerHTML = '⚠️ ยังไม่พบฐานข้อมูลเกม กรุณารอบอททำงานสักครู่';
+                loader.innerHTML = '⚠️ ไม่มีข้อมูลแสดงผล';
             });
 
         function copyAppId(appid, element) {
