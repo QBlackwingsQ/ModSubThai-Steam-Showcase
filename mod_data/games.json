@@ -1,6 +1,42 @@
 {
-  "total_count": 785,
+  "total_count": 789,
   "items": [
+    {
+      "appid": "978300",
+      "name": "Saints Row®: The Third™ Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/978300/header_292x136.jpg?t=1764671001",
+      "desc": "$29.99 แนะนำ 22 สิงหาคม Mod ภาษาไทย Saints Row®: The Third™ Remastered\nโหลดได้ที่ : www.nexusmods.com/saintsrow3remaster/mods/49",
+      "url": "https://www.nexusmods.com/saintsrow3remaster/mods/49",
+      "type": "แนะนำ22 สิงหาคม",
+      "price": "$29.99"
+    },
+    {
+      "appid": "1007400",
+      "name": "Alien Shooter 2 - The Legend",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1007400/header_292x136.jpg?t=1700734144",
+      "desc": "$14.99 แนะนำ 22 สิงหาคม Mod ภาษาไทย Alien Shooter 2 - The Legend\nโหลดได้ที่ : www.nexusmods.com/alienshooter2thelegend/mods/6",
+      "url": "https://www.nexusmods.com/alienshooter2thelegend/mods/6",
+      "type": "แนะนำ22 สิงหาคม",
+      "price": "$14.99"
+    },
+    {
+      "appid": "1839950",
+      "name": "Terminator: Dark Fate - Defiance",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1839950/header_292x136.jpg?t=1784740088",
+      "desc": "$39.99 แนะนำ 22 สิงหาคม Mod ภาษาไทย Terminator Dark Fate Defiance\nโหลดได้ที่ : www.nexusmods.com/terminatordarkfatedefiance/mods/86",
+      "url": "https://www.nexusmods.com/terminatordarkfatedefiance/mods/86",
+      "type": "แนะนำ22 สิงหาคม",
+      "price": "$39.99"
+    },
+    {
+      "appid": "1118520",
+      "name": "Paralives",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1118520/277ab7a2ad1bbce0f4837bb37a3c86d109bd5258/header_292x136.jpg?t=1786381921",
+      "desc": "$39.99 แนะนำ 22 สิงหาคม Mod ภาษาไทย Paralives\nโหลดได้ที่ : www.patreon.com/EASYMOD/posts/paralives-99-ew-159201493\nหรือ www.nexusmods.com/paralives/mods/18\nหรือ www.nexusmods.com/paralives/mods/333 รับชมบทวิจารณ์แบบเต็ม [www.youtube.com]",
+      "url": "https://www.patreon.com/EASYMOD/posts/paralives-99-ew-159201493",
+      "type": "แนะนำ22 สิงหาคม",
+      "price": "$39.99"
+    },
     {
       "appid": "2013300",
       "name": "Alien Shooter 2 - New Era",
