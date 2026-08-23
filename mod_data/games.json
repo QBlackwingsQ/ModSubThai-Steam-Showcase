@@ -1,6 +1,24 @@
 {
-  "total_count": 789,
+  "total_count": 791,
   "items": [
+    {
+      "appid": "10680",
+      "name": "Aliens vs. Predator™",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/10680/header_292x136.jpg?t=1763676764",
+      "desc": "-90% $14.99 $1.49 แนะนำ 23 สิงหาคม Mod ภาษาไทย Aliens vs. Predator\nโหลดได้ที่ : www.nexusmods.com/aliensvspredator/mods/17",
+      "url": "https://www.nexusmods.com/aliensvspredator/mods/17",
+      "type": "แนะนำ23 สิงหาคม",
+      "price": "$1.49"
+    },
+    {
+      "appid": "588430",
+      "name": "Fallout Shelter",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588430/e5fc3db882e0222253437f4936ec8b31df9e3a08/header_292x136_alt_assets_64.jpg?t=1786883748",
+      "desc": "เล่นฟรี แนะนำ 23 สิงหาคม Mod ภาษาไทย Fallout Shelter\nโหลดได้ที่ : www.nexusmods.com/falloutshelter/mods/211",
+      "url": "https://www.nexusmods.com/falloutshelter/mods/211",
+      "type": "แนะนำ23 สิงหาคม",
+      "price": "เล่นฟรี"
+    },
     {
       "appid": "978300",
       "name": "Saints Row®: The Third™ Remastered",
