@@ -1,6 +1,51 @@
 {
-  "total_count": 795,
+  "total_count": 800,
   "items": [
+    {
+      "appid": "57300",
+      "name": "Amnesia: The Dark Descent",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/57300/header_292x136.jpg?t=1751032707",
+      "desc": "-90% $19.99 $1.99 แนะนำ 25 สิงหาคม Mod ภาษาไทย Amnesia: The Dark Descent\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ25 สิงหาคม",
+      "price": "$1.99"
+    },
+    {
+      "appid": "1912750",
+      "name": "Terra Memoria",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1912750/header_292x136.jpg?t=1773840653",
+      "desc": "$19.99 แนะนำ 25 สิงหาคม Mod ภาษาไทย Terra Memoria\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ25 สิงหาคม",
+      "price": "$19.99"
+    },
+    {
+      "appid": "1163550",
+      "name": "Captain Tsubasa: Rise of New Champions",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1163550/header_292x136.jpg?t=1718965999",
+      "desc": "$39.99 แนะนำ 25 สิงหาคม Mod ภาษาไทย Captain Tsubasa: Rise of New Champions\nโหลดได้ที่ : nexusmods.com/captaintsubasariseofnewchampions/mods/112",
+      "url": "https://nexusmods.com/captaintsubasariseofnewchampions/mods/112",
+      "type": "แนะนำ25 สิงหาคม",
+      "price": "$39.99"
+    },
+    {
+      "appid": "1171690",
+      "name": "Wayfinder",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1171690/c160c2414475275fdde381833e04ba2f631fa3c7/header_292x136.jpg?t=1768340055",
+      "desc": "-88% $24.99 $2.99 แนะนำ 25 สิงหาคม Mod ภาษาไทย Wayfinder\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ25 สิงหาคม",
+      "price": "$2.99"
+    },
+    {
+      "appid": "2825860",
+      "name": "The Sinking City 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2825860/05f1db0ecea4914621f13ebaa81710e505de2c6b/header_292x136.jpg?t=1787235451",
+      "desc": "$49.99 แนะนำ 25 สิงหาคม Mod ภาษาไทย The Sinking City 2\nโหลดได้ที่ : www.nexusmods.com/thesinkingcity2/mods/28",
+      "url": "https://www.nexusmods.com/thesinkingcity2/mods/28",
+      "type": "แนะนำ25 สิงหาคม",
+      "price": "$49.99"
+    },
     {
       "appid": "1180660",
       "name": "Tell Me Why",
