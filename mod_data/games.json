@@ -1,6 +1,24 @@
 {
-  "total_count": 808,
+  "total_count": 810,
   "items": [
+    {
+      "appid": "413420",
+      "name": "Danganronpa 2: Goodbye Despair",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413420/header_292x136.jpg?t=1781085654",
+      "desc": "$19.99 แนะนำ 27 สิงหาคม Mod ภาษาไทย Danganronpa 2: Goodbye Despair\nโหลดได้ที่ : www.nexusmods.com/mods/1?game_id=9866",
+      "url": "https://www.nexusmods.com/mods/1?game_id=9866",
+      "type": "แนะนำ27 สิงหาคม",
+      "price": "$19.99"
+    },
+    {
+      "appid": "3211430",
+      "name": "BRIGANDINE ABYSS",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3211430/f31f9d5047355f830df9dfb1031847fc83cd0e52/header_292x136.jpg?t=1787827228",
+      "desc": "$49.99 แนะนำ 27 สิงหาคม Mod ภาษาไทย BRIGANDINE ABYSS\nโหลดได้ที่ : steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592939664045841664",
+      "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592939664045841664",
+      "type": "แนะนำ27 สิงหาคม",
+      "price": "$49.99"
+    },
     {
       "appid": "2026000",
       "name": "Our Adventurer Guild",
