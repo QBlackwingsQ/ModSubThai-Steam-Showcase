@@ -1,6 +1,51 @@
 {
-  "total_count": 810,
+  "total_count": 815,
   "items": [
+    {
+      "appid": "1868180",
+      "name": "Etrian Odyssey HD",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1868180/header_292x136.jpg?t=1763531289",
+      "desc": "$39.99 แนะนำ 28 สิงหาคม Mod ภาษาไทย Etrian Odyssey HD\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ28 สิงหาคม",
+      "price": "$39.99"
+    },
+    {
+      "appid": "1868170",
+      "name": "Etrian Odyssey II HD",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1868170/header_292x136.jpg?t=1763531945",
+      "desc": "$39.99 แนะนำ 28 สิงหาคม Mod ภาษาไทย Etrian Odyssey II HD\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ28 สิงหาคม",
+      "price": "$39.99"
+    },
+    {
+      "appid": "2075800",
+      "name": "STAR WARS Zero Company™",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2075800/2c7d5dad080c4888faaa03c4a955136c50f5bfae/header_292x136.jpg?t=1787848803",
+      "desc": "ถ่ายทอดสด $49.99 แนะนำ 28 สิงหาคม Mod ภาษาไทย STAR WARS: Zero Company\nโหลดได้ที่ : www.nexusmods.com/starwarszerocompany/mods/11",
+      "url": "https://www.nexusmods.com/starwarszerocompany/mods/11",
+      "type": "แนะนำ28 สิงหาคม",
+      "price": "$49.99"
+    },
+    {
+      "appid": "360430",
+      "name": "Mafia III: Definitive Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/360430/header_292x136.jpg?t=1786727594",
+      "desc": "$29.99 แนะนำ 28 สิงหาคม Mod ภาษาไทย Mafia III: Definitive Edition\nโหลดได้ที่ : www.nexusmods.com/mafia3definitiveedition/mods/72",
+      "url": "https://www.nexusmods.com/mafia3definitiveedition/mods/72",
+      "type": "แนะนำ28 สิงหาคม",
+      "price": "$29.99"
+    },
+    {
+      "appid": "10500",
+      "name": "Total War: EMPIRE – Definitive Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/10500/header_292x136.jpg?t=1763646960",
+      "desc": "$24.99 แนะนำ 28 สิงหาคม Mod ภาษาไทย Empire: Total War\nโหลดได้ที่ : patreon.com/EASYMOD",
+      "url": "https://patreon.com/EASYMOD",
+      "type": "แนะนำ28 สิงหาคม",
+      "price": "$24.99"
+    },
     {
       "appid": "413420",
       "name": "Danganronpa 2: Goodbye Despair",
