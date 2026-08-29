@@ -1,6 +1,42 @@
 {
-  "total_count": 815,
+  "total_count": 819,
   "items": [
+    {
+      "appid": "454650",
+      "name": "DRAGON BALL XENOVERSE 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/454650/header_292x136.jpg?t=1783463273",
+      "desc": "$19.99 แนะนำ 29 สิงหาคม Mod ภาษาไทย DRAGON BALL XENOVERSE 2\nโหลดได้ที่ : www.nexusmods.com/dragonballxenoverse2/mods/447",
+      "url": "https://www.nexusmods.com/dragonballxenoverse2/mods/447",
+      "type": "แนะนำ29 สิงหาคม",
+      "price": "$19.99"
+    },
+    {
+      "appid": "1004640",
+      "name": "FINAL FANTASY TACTICS - The Ivalice Chronicles",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004640/2d8e4389e157b62f07bdc7c9468bf04010d574c0/header_292x136.jpg?t=1781662166",
+      "desc": "$49.99 แนะนำ 29 สิงหาคม Mod ภาษาไทย FINAL FANTASY TACTICS - The Ivalice Chronicles\nโหลดได้ที่ : www.nexusmods.com/finalfantasytacticstheivalicechronicles/mods/122",
+      "url": "https://www.nexusmods.com/finalfantasytacticstheivalicechronicles/mods/122",
+      "type": "แนะนำ29 สิงหาคม",
+      "price": "$49.99"
+    },
+    {
+      "appid": "383150",
+      "name": "Dead Island Definitive Edition",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383150/header_292x136.jpg?t=1725361899",
+      "desc": "$19.99 แนะนำ 29 สิงหาคม Mod ภาษาไทย Dead Island Definitive Edition\nโหลดได้ที่ : www.nexusmods.com/deadisland/mods/122",
+      "url": "https://www.nexusmods.com/deadisland/mods/122",
+      "type": "แนะนำ29 สิงหาคม",
+      "price": "$19.99"
+    },
+    {
+      "appid": "627270",
+      "name": "Injustice™ 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/627270/header_292x136.jpg?t=1745536404",
+      "desc": "$49.99 แนะนำ 29 สิงหาคม Mod ภาษาไทย Injustice™ 2\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ29 สิงหาคม",
+      "price": "$49.99"
+    },
     {
       "appid": "1868180",
       "name": "Etrian Odyssey HD",
