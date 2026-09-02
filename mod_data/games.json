@@ -1,6 +1,24 @@
 {
-  "total_count": 839,
+  "total_count": 841,
   "items": [
+    {
+      "appid": "970560",
+      "name": "STEINS;GATE: My Darling's Embrace",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/970560/header_292x136.jpg?t=1715703432",
+      "desc": "$29.99 แนะนำ 2 กันยายน Mod ภาษาไทย STEINS;GATE: My Darling's Embrace\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ2 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "920210",
+      "name": "LEGO® Star Wars™: The Skywalker Saga",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/920210/header_292x136.jpg?t=1747346983",
+      "desc": "$49.99 แนะนำ 2 กันยายน Mod ภาษาไทย LEGO Star Wars The Skywalker Saga\nโหลดได้ที่ : www.nexusmods.com/legostarwarstheskywalkersaga/mods/359",
+      "url": "https://www.nexusmods.com/legostarwarstheskywalkersaga/mods/359",
+      "type": "แนะนำ2 กันยายน",
+      "price": "$49.99"
+    },
     {
       "appid": "4538960",
       "name": "ZENONIA 1",
