@@ -2,6 +2,15 @@
   "total_count": 850,
   "items": [
     {
+      "appid": "3014320",
+      "name": "OCTOPATH TRAVELER 0",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3014320/64e57769c968124451e35898eae64217f99bd9c4/header_292x136.jpg?t=1779854659",
+      "desc": "$49.99 แนะนำ 4 กันยายน Mod ภาษาไทย OCTOPATH TRAVELER 0\nโหลดได้ที่ : www.nexusmods.com/octopathtraveler0/mods/138",
+      "url": "https://www.nexusmods.com/octopathtraveler0/mods/138",
+      "type": "แนะนำ4 กันยายน",
+      "price": "$49.99"
+    },
+    {
       "appid": "385800",
       "name": "NEKOPARA Vol. 0",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/385800/header_292x136.jpg?t=1726605114",
