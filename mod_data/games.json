@@ -1,6 +1,15 @@
 {
-  "total_count": 851,
+  "total_count": 852,
   "items": [
+    {
+      "appid": "1771300",
+      "name": "Kingdom Come: Deliverance II",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/header_292x136.jpg?t=1777975568",
+      "desc": "$59.99 แนะนำ 6 กันยายน Mod ภาษาไทย Kingdom Come Deliverance II\nโหลดได้ที่ : www.nexusmods.com/kingdomcomedeliverance2/mods/2729",
+      "url": "https://www.nexusmods.com/kingdomcomedeliverance2/mods/2729",
+      "type": "แนะนำ6 กันยายน",
+      "price": "$59.99"
+    },
     {
       "appid": "2350790",
       "name": "Moonlighter 2: The Endless Vault",
