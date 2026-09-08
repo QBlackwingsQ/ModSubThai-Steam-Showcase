@@ -1,6 +1,24 @@
 {
-  "total_count": 862,
+  "total_count": 864,
   "items": [
+    {
+      "appid": "1057090",
+      "name": "Ori and the Will of the Wisps",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1057090/header_292x136.jpg?t=1759530749",
+      "desc": "$29.99 แนะนำ 8 กันยายน Mod ภาษาไทย Ori and the Will of the Wisps\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ8 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "2218750",
+      "name": "Halls of Torment",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2218750/header_292x136.jpg?t=1779993327",
+      "desc": "-25% $6.66 $4.99 แนะนำ 8 กันยายน Mod ภาษาไทย Halls of Torment\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ8 กันยายน",
+      "price": "$4.99"
+    },
     {
       "appid": "743450",
       "name": "Monster Prom",
