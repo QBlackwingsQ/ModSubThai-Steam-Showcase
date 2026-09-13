@@ -1,6 +1,150 @@
 {
-  "total_count": 885,
+  "total_count": 901,
   "items": [
+    {
+      "appid": "2089600",
+      "name": "Urban Myth Dissolution Center",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2089600/header_292x136.jpg?t=1765525788",
+      "desc": "-30% $17.99 $12.59 แนะนำ 13 กันยายน Mod ภาษาไทย Urban Myth Dissolution Center \nโหลดได้ที่ : www.nexusmods.com/mods/1?game_id=10101",
+      "url": "https://www.nexusmods.com/mods/1?game_id=10101",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$12.59"
+    },
+    {
+      "appid": "3180070",
+      "name": "No, I'm not a Human",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3180070/fadebc14211b17b5a6603926612ead9294cad9ce/header_292x136.jpg?t=1782490040",
+      "desc": "$14.99 แนะนำ 13 กันยายน Mod ภาษาไทย No, I'm not a Human\nโหลดได้ที่ : www.nexusmods.com/noimnotahuman/mods/20",
+      "url": "https://www.nexusmods.com/noimnotahuman/mods/20",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$14.99"
+    },
+    {
+      "appid": "618970",
+      "name": "Outcast - Second Contact",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/618970/header_292x136.jpg?t=1725290976",
+      "desc": "-90% $14.99 $1.49 แนะนำ 13 กันยายน Mod ภาษาไทย Outcast - Second Contact\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$1.49"
+    },
+    {
+      "appid": "268910",
+      "name": "Cuphead",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268910/header_292x136.jpg?t=1709068852",
+      "desc": "$19.99 แนะนำ 13 กันยายน Mod ภาษาไทย Cuphead \nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "2295970",
+      "name": "UFO ROBOT GRENDIZER - The Feast of the Wolves",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2295970/header_292x136.jpg?t=1722245303",
+      "desc": "$39.99 แนะนำ 13 กันยายน Mod ภาษาไทย UFO ROBOT GRENDIZER - The Feast of the Wolves\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$39.99"
+    },
+    {
+      "appid": "254460",
+      "name": "Obscure",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/254460/header_292x136.jpg?t=1447358758",
+      "desc": "$6.99 แนะนำ 13 กันยายน Mod ภาษาไทย Obscure \nโหลดได้ที่ : gtathesims.github.io/oldgametothai/games/obscure.html",
+      "url": "https://gtathesims.github.io/oldgametothai/games/obscure.html",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$6.99"
+    },
+    {
+      "appid": "254480",
+      "name": "Obscure II (Obscure: The Aftermath)",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/254480/header_292x136.jpg?t=1447358758",
+      "desc": "$9.99 แนะนำ 13 กันยายน Mod ภาษาไทย Obscure II: The Aftermath\nโหลดได้ที่ : gtathesims.github.io/oldgametothai/games/obscure2.html",
+      "url": "https://gtathesims.github.io/oldgametothai/games/obscure2.html",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$9.99"
+    },
+    {
+      "appid": "948740",
+      "name": "AI: The Somnium Files",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/948740/header_292x136.jpg?t=1750221445",
+      "desc": "-80% $19.99 $3.99 แนะนำ 13 กันยายน Mod ภาษาไทย AI: The Somnium Files\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$3.99"
+    },
+    {
+      "appid": "2827750",
+      "name": "Fatal Claw",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2827750/d7d0e546e2ed7a1cd07f3abfdc2b65f140201b24/header_292x136.jpg?t=1788943585",
+      "desc": "ถ่ายทอดสด $24.99 แนะนำ 13 กันยายน Mod ภาษาไทย Fatal Claw\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$24.99"
+    },
+    {
+      "appid": "1013140",
+      "name": "Outcast - A New Beginning",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1013140/header_292x136.jpg?t=1744710731",
+      "desc": "$39.99 แนะนำ 13 กันยายน Mod ภาษาไทย Outcast A New Beginning\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$39.99"
+    },
+    {
+      "appid": "2473480",
+      "name": "Tails of Iron 2: Whiskers of Winter",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2473480/da284ada5b08b6ea07b2ec5d9301a8d20f35e537/header_292x136_alt_assets_1.jpg?t=1787324420",
+      "desc": "$24.99 แนะนำ 13 กันยายน Mod ภาษาไทย Tails of Iron 2 Whiskers of Winter\nโหลดได้ที่ : drive.google.com/file/d/14OcqP_-qcqH-BEtyIMrdGROpgWn2NKlR/",
+      "url": "https://google.com/file/d/14OcqP_-qcqH-BEtyIMrdGROpgWn2NKlR/",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$24.99"
+    },
+    {
+      "appid": "1182900",
+      "name": "A Plague Tale: Requiem",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1182900/header_292x136.jpg?t=1784712272",
+      "desc": "-70% $49.99 $14.99 แนะนำ 13 กันยายน Mod ภาษาไทย A Plague Tale Requiem\nโหลดได้ที่ : www.nexusmods.com/aplaguetalerequiem/mods/52",
+      "url": "https://www.nexusmods.com/aplaguetalerequiem/mods/52",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$14.99"
+    },
+    {
+      "appid": "2271930",
+      "name": "IfSunSets",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2271930/b891be414f976cd22bb5dfc766654d1fd9d22775/header_292x136.jpg?t=1783660051",
+      "desc": "$19.99 แนะนำ 13 กันยายน Mod ภาษาไทย IfSunSets\nโหลดได้ที่ : www.nexusmods.com/ifsunsets/mods/3",
+      "url": "https://www.nexusmods.com/ifsunsets/mods/3",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "761600",
+      "name": "Onimusha: Warlords",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/761600/header_292x136.jpg?t=1784004466",
+      "desc": "$19.99 แนะนำ 13 กันยายน Mod ภาษาไทย Onimusha Warlords \nโหลดได้ที่ : www.nexusmods.com/onimushawarlords/mods/26",
+      "url": "https://www.nexusmods.com/onimushawarlords/mods/26",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "287290",
+      "name": "Resident Evil Revelations 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/287290/header_292x136.jpg?t=1769125412",
+      "desc": "-75% $19.99 $4.99 แนะนำ 13 กันยายน Mod ภาษาไทย Resident Evil Revelations 2 \nโหลดได้ที่ : www.nexusmods.com/residentevilrevelations2/mods/177",
+      "url": "https://www.nexusmods.com/residentevilrevelations2/mods/177",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$4.99"
+    },
+    {
+      "appid": "21690",
+      "name": "Resident Evil 5",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/21690/header_292x136.jpg?t=1768960574",
+      "desc": "-75% $19.99 $4.99 แนะนำ 13 กันยายน Mod ภาษาไทย Resident Evil 5 \nโหลดได้ที่ : www.nexusmods.com/residentevil5goldedition/mods/1104",
+      "url": "https://www.nexusmods.com/residentevil5goldedition/mods/1104",
+      "type": "แนะนำ13 กันยายน",
+      "price": "$4.99"
+    },
     {
       "appid": "1938090",
       "name": "Call of Duty®",
