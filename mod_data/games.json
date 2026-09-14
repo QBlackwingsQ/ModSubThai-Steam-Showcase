@@ -1,6 +1,87 @@
 {
-  "total_count": 901,
+  "total_count": 910,
   "items": [
+    {
+      "appid": "2172910",
+      "name": "CAPTAIN TSUBASA 2: WORLD FIGHTERS",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2172910/714df3514b1166414caef8c31b092f5786e8245d/header_292x136.jpg?t=1788135682",
+      "desc": "$59.99 แนะนำ 14 กันยายน Mod ภาษาไทย CAPTAIN TSUBASA 2: WORLD FIGHTERS\nโหลดได้ที่ : www.nexusmods.com/captaintsubasa2worldfighters/mods/13",
+      "url": "https://www.nexusmods.com/captaintsubasa2worldfighters/mods/13",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$59.99"
+    },
+    {
+      "appid": "311260",
+      "name": "The Guild 3",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/311260/header_292x136.jpg?t=1764839802",
+      "desc": "$29.99 แนะนำ 14 กันยายน Mod ภาษาไทย The Guild 3\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "3336520",
+      "name": "Dinotica",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3336520/3364bb97392eaaf1db91a0997a03361a6d3c307f/header_292x136.jpg?t=1786692940",
+      "desc": "$17.99 แนะนำ 14 กันยายน Mod ภาษาไทย Dinotica\nโหลดได้ที่ : mrt-game-studio.itch.io/dinotica-mod-thai",
+      "url": "https://itch.io/dinotica-mod-thai",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$17.99"
+    },
+    {
+      "appid": "3333700",
+      "name": "The Royal Writ",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3333700/0a5dc22c52d71db15651d9b461bac1e354402059/header_292x136.jpg?t=1785491287",
+      "desc": "-50% $14.99 $7.49 แนะนำ 14 กันยายน Mod ภาษาไทย The Royal Writ \nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$7.49"
+    },
+    {
+      "appid": "1996090",
+      "name": "Vapor World: Over The Mind",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1996090/0e4c8a97f5936dd77af239b25710ed7bf33d1583/header_292x136.jpg?t=1787549229",
+      "desc": "ถ่ายทอดสด $14.99 แนะนำ 14 กันยายน Mod ภาษาไทย Vapor World\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$14.99"
+    },
+    {
+      "appid": "1904480",
+      "name": "Absolum",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1904480/65f868078425ea29b87cb85075fcd1b3a8b71400/header_292x136.jpg?t=1782461798",
+      "desc": "$24.99 แนะนำ 14 กันยายน Mod ภาษาไทย Absolum\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$24.99"
+    },
+    {
+      "appid": "452570",
+      "name": "Battle Chef Brigade Deluxe",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/452570/header_292x136.jpg?t=1763397067",
+      "desc": "$19.99 แนะนำ 14 กันยายน Mod ภาษาไทย Battle Chef Brigade\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "231430",
+      "name": "Company of Heroes 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/231430/header_292x136.jpg?t=1750947634",
+      "desc": "$19.99 แนะนำ 14 กันยายน Mod ภาษาไทย Company of Heroes 2\nโหลดได้ที่ : www.nexusmods.com/companyofheroes2/mods/6",
+      "url": "https://www.nexusmods.com/companyofheroes2/mods/6",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "207350",
+      "name": "Ys Origin",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/207350/header_292x136.jpg?t=1740514836",
+      "desc": "-75% $19.99 $4.99 แนะนำ 14 กันยายน Mod ภาษาไทย Ys Origin\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ14 กันยายน",
+      "price": "$4.99"
+    },
     {
       "appid": "2089600",
       "name": "Urban Myth Dissolution Center",
