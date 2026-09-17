@@ -1,6 +1,42 @@
 {
-  "total_count": 921,
+  "total_count": 925,
   "items": [
+    {
+      "appid": "1150640",
+      "name": "Yu-Gi-Oh! Legacy of the Duelist : Link Evolution",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150640/header_292x136.jpg?t=1737488349",
+      "desc": "$39.99 แนะนำ 17 กันยายน Mod ภาษาไทย  Yu-Gi-Oh! Legacy of the Duelist Link Evolution\nโหลดได้ที่ : www.facebook.com/profile.php?id=61591867472894 รับชมบทวิจารณ์แบบเต็ม [www.youtube.com]",
+      "url": "https://www.facebook.com/profile.php?id=61591867472894",
+      "type": "แนะนำ17 กันยายน",
+      "price": "$39.99"
+    },
+    {
+      "appid": "3472040",
+      "name": "NBA 2K26",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3472040/f7e126add75c3b09779b44cd349be93d31b0a80b/header_292x136.jpg?t=1786115051",
+      "desc": "$69.99 แนะนำ 17 กันยายน Mod ภาษาไทย NBA2K 26\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ17 กันยายน",
+      "price": "$69.99"
+    },
+    {
+      "appid": "429660",
+      "name": "Tales of Berseria™",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/429660/header_292x136.jpg?t=1763571708",
+      "desc": "$49.99 แนะนำ 17 กันยายน Mod ภาษาไทย Tales of Berseria\nโหลดได้ที่ : www.nexusmods.com/talesofberseria/mods/86?tab=description",
+      "url": "https://www.nexusmods.com/talesofberseria/mods/86?tab=description",
+      "type": "แนะนำ17 กันยายน",
+      "price": "$49.99"
+    },
+    {
+      "appid": "553850",
+      "name": "HELLDIVERS™ 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header_292x136.jpg?t=1789585784",
+      "desc": "$39.99 แนะนำ 17 กันยายน Mod ภาษาไทย HELLDIVERS 2\nโหลดได้ที่ : www.nexusmods.com/helldivers2/mods/16248",
+      "url": "https://www.nexusmods.com/helldivers2/mods/16248",
+      "type": "แนะนำ17 กันยายน",
+      "price": "$39.99"
+    },
     {
       "appid": "367500",
       "name": "Dragon's Dogma: Dark Arisen",
