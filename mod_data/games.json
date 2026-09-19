@@ -1,6 +1,33 @@
 {
-  "total_count": 925,
+  "total_count": 928,
   "items": [
+    {
+      "appid": "990050",
+      "name": "Death end re;Quest",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990050/05d6a9d2e9c9585dfd2dd815b68231babe08a1d3/header_292x136.jpg?t=1782150373",
+      "desc": "-75% $29.99 $7.49 แนะนำ 19 กันยายน Mod ภาษาไทย Death end re;Quest\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ19 กันยายน",
+      "price": "$7.49"
+    },
+    {
+      "appid": "3947460",
+      "name": "Creator Chronicles",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3947460/a96bf25e5ef026cc66a2e760842927e12c3bd444/header_292x136_alt_assets_0.jpg?t=1789697241",
+      "desc": "ถ่ายทอดสด -30% $11.99 $8.39 แนะนำ 19 กันยายน Mod ภาษาไทย Creator Chronicles\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ19 กันยายน",
+      "price": "$8.39"
+    },
+    {
+      "appid": "1184370",
+      "name": "Pathfinder: Wrath of the Righteous - Enhanced Edition",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1184370/header_292x136.jpg?t=1781096468",
+      "desc": "ถ่ายทอดสด -80% $49.99 $9.99 แนะนำ 19 กันยายน Mod ภาษาไทย Pathfinder: Wrath of the Righteous - Enhanced Edition\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ19 กันยายน",
+      "price": "$9.99"
+    },
     {
       "appid": "1150640",
       "name": "Yu-Gi-Oh! Legacy of the Duelist : Link Evolution",
