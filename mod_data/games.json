@@ -1,6 +1,60 @@
 {
-  "total_count": 928,
+  "total_count": 934,
   "items": [
+    {
+      "appid": "2530980",
+      "name": "Tales of Graces f Remastered",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/header_292x136.jpg?t=1739758056",
+      "desc": "-75% $39.99 $9.99 แนะนำ 20 กันยายน Mod ภาษาไทย Tales of Graces f Remastered\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ20 กันยายน",
+      "price": "$9.99"
+    },
+    {
+      "appid": "505230",
+      "name": "Pathologic 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/505230/header_292x136.jpg?t=1785515990",
+      "desc": "-80% $34.99 $6.99 แนะนำ 20 กันยายน Mod ภาษาไทย Pathologic 2\nโหลดได้ที่ : www.nexusmods.com/pathologic2/mods/55",
+      "url": "https://www.nexusmods.com/pathologic2/mods/55",
+      "type": "แนะนำ20 กันยายน",
+      "price": "$6.99"
+    },
+    {
+      "appid": "3365050",
+      "name": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365050/88463ca3fdb8b19cfd4eed0aef01645f8a47e80d/header_292x136.jpg?t=1781064354",
+      "desc": "-25% $39.99 $29.99 แนะนำ 20 กันยายน Mod ภาษาไทย Atelier Ryza 3: Alchemist of the End & the Secret Key DX\nโหลดได้ที่ : www.nexusmods.com/atelierryza3/mods/8",
+      "url": "https://www.nexusmods.com/atelierryza3/mods/8",
+      "type": "แนะนำ20 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "3365030",
+      "name": "Atelier Ryza: Ever Darkness & the Secret Hideout DX",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365030/c4c218966e29841ba6d54babac01503740e4b63c/header_292x136.jpg?t=1781064259",
+      "desc": "-35% $39.99 $25.99 แนะนำ 20 กันยายน Mod ภาษาไทย Atelier Ryza: Ever Darkness & the Secret Hideout DX\nโหลดได้ที่ : www.nexusmods.com/atelierryza1/mods/10",
+      "url": "https://www.nexusmods.com/atelierryza1/mods/10",
+      "type": "แนะนำ20 กันยายน",
+      "price": "$25.99"
+    },
+    {
+      "appid": "49520",
+      "name": "Borderlands 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header_292x136.jpg?t=1751931279",
+      "desc": "-75% $19.99 $4.99 แนะนำ 20 กันยายน Mod ภาษาไทย Borderlands 2\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ20 กันยายน",
+      "price": "$4.99"
+    },
+    {
+      "appid": "1229240",
+      "name": "Chained Echoes",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229240/header_292x136.jpg?t=1788522273",
+      "desc": "-65% $24.99 $8.74 แนะนำ 20 กันยายน Mod ภาษาไทย Chained Echoes \nโหลดได้ที่ : www.nexusmods.com/chainedechoes/mods/17",
+      "url": "https://www.nexusmods.com/chainedechoes/mods/17",
+      "type": "แนะนำ20 กันยายน",
+      "price": "$8.74"
+    },
     {
       "appid": "990050",
       "name": "Death end re;Quest",
