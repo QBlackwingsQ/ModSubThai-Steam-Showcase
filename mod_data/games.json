@@ -1,6 +1,69 @@
 {
-  "total_count": 936,
+  "total_count": 943,
   "items": [
+    {
+      "appid": "4562940",
+      "name": "HOPE 01",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4562940/3d4b1cdcc3c07352bfea9ef340f80dc581c412b9/header_292x136.jpg?t=1789973749",
+      "desc": "-10% $11.99 $10.79 แนะนำ 22 กันยายน Mod ภาษาไทย HOPE 01 \nโหลดได้ที่ : github.com/toonyoza56/HOPE01ThaiTranslate",
+      "url": "https://github.com/toonyoza56/HOPE01ThaiTranslate",
+      "type": "แนะนำ22 กันยายน",
+      "price": "$10.79"
+    },
+    {
+      "appid": "2290180",
+      "name": "Riders Republic",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290180/c384df0cbfeba26c167fab3d30961f3850b17b3d/header_292x136.jpg?t=1782492474",
+      "desc": "-90% $39.99 $3.99 แนะนำ 22 กันยายน Mod ภาษาไทย Riders Republic \nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ22 กันยายน",
+      "price": "$3.99"
+    },
+    {
+      "appid": "3700",
+      "name": "Sniper Elite",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3700/header_292x136.jpg?t=1579791723",
+      "desc": "$7.99 แนะนำ 22 กันยายน Mod ภาษาไทย Sniper Elite\nโหลดได้ที่ : www.nexusmods.com/sniperelite/mods/5",
+      "url": "https://www.nexusmods.com/sniperelite/mods/5",
+      "type": "แนะนำ22 กันยายน",
+      "price": "$7.99"
+    },
+    {
+      "appid": "238090",
+      "name": "Sniper Elite 3",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238090/header_292x136.jpg?t=1601483606",
+      "desc": "$29.99 แนะนำ 22 กันยายน Mod ภาษาไทย Sniper Elite 3\nโหลดได้ที่ : www.nexusmods.com/sniperelite3/mods/9",
+      "url": "https://www.nexusmods.com/sniperelite3/mods/9",
+      "type": "แนะนำ22 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "63380",
+      "name": "Sniper Elite V2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/63380/header_292x136.jpg?t=1601483610",
+      "desc": "แนะนำ 22 กันยายน Mod ภาษาไทย Sniper Elite 2\nโหลดได้ที่ : www.nexusmods.com/sniperelitev2/mods/9",
+      "url": "https://www.nexusmods.com/sniperelitev2/mods/9",
+      "type": "แนะนำ22 กันยายน",
+      "price": ""
+    },
+    {
+      "appid": "644830",
+      "name": "The Surge 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/644830/header_292x136.jpg?t=1727794351",
+      "desc": "$29.99 แนะนำ 22 กันยายน Mod ภาษาไทย The Surge 2\nโหลดได้ที่ : www.nexusmods.com/thesurge2/mods/12",
+      "url": "https://www.nexusmods.com/thesurge2/mods/12",
+      "type": "แนะนำ22 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "378540",
+      "name": "The Surge",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/378540/header_292x136.jpg?t=1727864911",
+      "desc": "$14.99 แนะนำ 22 กันยายน Mod ภาษาไทย The Surge\nโหลดได้ที่ : www.nexusmods.com/thesurge/mods/12",
+      "url": "https://www.nexusmods.com/thesurge/mods/12",
+      "type": "แนะนำ22 กันยายน",
+      "price": "$14.99"
+    },
     {
       "appid": "312660",
       "name": "Sniper Elite 4",
