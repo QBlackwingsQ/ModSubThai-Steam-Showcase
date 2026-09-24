@@ -1,6 +1,60 @@
 {
-  "total_count": 943,
+  "total_count": 950,
   "items": [
+    {
+      "appid": "1658290",
+      "name": "Eiyuden Chronicle: Rising",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1658290/header_292x136.jpg?t=1725035783",
+      "desc": "-75% $14.99 $3.74 แนะนำ 24 กันยายน Mod ภาษาไทย Eiyuden Chronicle Rising\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ24 กันยายน",
+      "price": "$3.74"
+    },
+    {
+      "appid": "466300",
+      "name": "Planescape: Torment: Enhanced Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/466300/header_292x136.jpg?t=1746122996",
+      "desc": "$19.99 แนะนำ 24 กันยายน Mod ภาษาไทย Planescape Torment Enhanced Edition\nโหลดได้ที่ : monnmod.com",
+      "url": "https://monnmod.com",
+      "type": "แนะนำ24 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "567640",
+      "name": "Danganronpa V3: Killing Harmony",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/567640/header_292x136.jpg?t=1750134757",
+      "desc": "$39.99 แนะนำ 24 กันยายน Mod ภาษาไทย Danganronpa V3: Killing Harmony\nโหลดได้ที่ : www.nexusmods.com/danganronpav3killingharmony/mods/3",
+      "url": "https://www.nexusmods.com/danganronpav3killingharmony/mods/3",
+      "type": "แนะนำ24 กันยายน",
+      "price": "$39.99"
+    },
+    {
+      "appid": "4358690",
+      "name": "Graveyard Keeper 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4358690/77b3cff49c45431ec507e6da5e41383050362c35/header_292x136_alt_assets_1.jpg?t=1790169326",
+      "desc": "ถ่ายทอดสด $24.99 แนะนำ 24 กันยายน Mod ภาษาไทย Graveyard Keeper 2\nโหลดได้ที่ : www.nexusmods.com/graveyardkeeper2/mods/53",
+      "url": "https://www.nexusmods.com/graveyardkeeper2/mods/53",
+      "type": "แนะนำ24 กันยายน",
+      "price": "$24.99"
+    },
+    {
+      "appid": "1133500",
+      "name": "Overthrown",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1133500/e18946ecfca84807e0b782b2cd9219782d9e3b4d/header_292x136.jpg?t=1774545254",
+      "desc": "-50% $24.99 $12.49 แนะนำ 24 กันยายน Mod ภาษาไทย Overthrown\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ24 กันยายน",
+      "price": "$12.49"
+    },
+    {
+      "appid": "1636440",
+      "name": "SILENT HILL: Townfall",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1636440/0ed1cb4bc30631f95b92f7f13bb06c15d49b4afa/header_292x136.jpg?t=1790222467",
+      "desc": "$49.99 แนะนำ 24 กันยายน Mod ภาษาไทย SILENT HILL: Townfall\nโหลดได้ที่ : www.nexusmods.com/silenthilltownfall/mods/50\nหรือ www.nexusmods.com/silenthilltownfall/mods/38",
+      "url": "https://www.nexusmods.com/silenthilltownfall/mods/50",
+      "type": "แนะนำ24 กันยายน",
+      "price": "$49.99"
+    },
     {
       "appid": "4562940",
       "name": "HOPE 01",
