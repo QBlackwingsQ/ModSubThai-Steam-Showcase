@@ -1,6 +1,24 @@
 {
-  "total_count": 950,
+  "total_count": 952,
   "items": [
+    {
+      "appid": "313120",
+      "name": "Stranded Deep",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/313120/header_292x136.jpg?t=1785441084",
+      "desc": "$19.99 แนะนำ 25 กันยายน Mod ภาษาไทย Stranded Deep\nโหลดได้ที่ : www.nexusmods.com/strandeddeep/mods/291",
+      "url": "https://www.nexusmods.com/strandeddeep/mods/291",
+      "type": "แนะนำ25 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "612470",
+      "name": "Bio Inc. Redemption",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/612470/header_292x136.jpg?t=1788438440",
+      "desc": "$12.99 แนะนำ 25 กันยายน Mod ภาษาไทย Bio Inc. Redemption\nโหลดได้ที่ : www.nexusmods.com/bioincredemption/mods/2",
+      "url": "https://www.nexusmods.com/bioincredemption/mods/2",
+      "type": "แนะนำ25 กันยายน",
+      "price": "$12.99"
+    },
     {
       "appid": "1658290",
       "name": "Eiyuden Chronicle: Rising",
