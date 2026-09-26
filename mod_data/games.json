@@ -1,6 +1,78 @@
 {
-  "total_count": 957,
+  "total_count": 965,
   "items": [
+    {
+      "appid": "1608290",
+      "name": "GNOSIA",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1608290/header_292x136.jpg?t=1764922887",
+      "desc": "$24.99 แนะนำ 26 กันยายน Mod ภาษาไทย Gnosia\nโหลดได้ที่ : mega.nz/file/og8D3DQJ#QqwAKuQe3uwdRv-vWh0j7k5_HIurACX2MCjZzHKLM3Y",
+      "url": "https://store.steampowered.com/app/1608290/",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$24.99"
+    },
+    {
+      "appid": "339230",
+      "name": "ZOMBI",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/339230/header_292x136.jpg?t=1777996181",
+      "desc": "-75% $19.99 $4.99 แนะนำ 26 กันยายน Mod ภาษาไทย Zombi\nโหลดได้ที่ : www.nexusmods.com/zombi/mods/5",
+      "url": "https://www.nexusmods.com/zombi/mods/5",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$4.99"
+    },
+    {
+      "appid": "728740",
+      "name": "Sniper Elite V2 Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/728740/header_292x136.jpg?t=1601483608",
+      "desc": "$9.99 แนะนำ 26 กันยายน Mod ภาษาไทย Sniper Elite 2 Remastered\nโหลดได้ที่ : www.nexusmods.com/sniperelitev2/mods/11",
+      "url": "https://www.nexusmods.com/sniperelitev2/mods/11",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$9.99"
+    },
+    {
+      "appid": "1715130",
+      "name": "Crysis Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1715130/0c28c46e93f734d31b035e13057472b51b377936/header_292x136.jpg?t=1785838535",
+      "desc": "$29.99 แนะนำ 26 กันยายน Mod ภาษาไทย Crysis Remastered\nโหลดได้ที่ : www.nexusmods.com/crysisremastered/mods/43",
+      "url": "https://www.nexusmods.com/crysisremastered/mods/43",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "2096610",
+      "name": "Crysis 3 Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2096610/ca8cc5ee7d4ce7a8fda5b050a9827aa117768b86/header_292x136.jpg?t=1783415156",
+      "desc": "$29.99 แนะนำ 26 กันยายน Mod ภาษาไทย Crysis Remastered 3\nโหลดได้ที่ : www.nexusmods.com/crysis3/mods/24",
+      "url": "https://www.nexusmods.com/crysis3/mods/24",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$29.99"
+    },
+    {
+      "appid": "233270",
+      "name": "Far Cry 3 - Blood Dragon",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/233270/header_292x136.jpg?t=1752169303",
+      "desc": "-75% $14.99 $3.74 แนะนำ 26 กันยายน Mod ภาษาไทย Far Cry 3 Blood Dragon \nโหลดได้ที่ : www.nexusmods.com/farcry3blooddragon/mods/14",
+      "url": "https://www.nexusmods.com/farcry3blooddragon/mods/14",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$3.74"
+    },
+    {
+      "appid": "1029690",
+      "name": "Sniper Elite 5",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1029690/header_292x136.jpg?t=1770633150",
+      "desc": "$49.99 แนะนำ 26 กันยายน Mod ภาษาไทย Sniper Elite 5\nโหลดได้ที่ : www.nexusmods.com/sniperelite5/mods/19",
+      "url": "https://www.nexusmods.com/sniperelite5/mods/19",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$49.99"
+    },
+    {
+      "appid": "2169200",
+      "name": "Sniper Elite: Resistance",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2169200/header_292x136.jpg?t=1765448187",
+      "desc": "$49.99 แนะนำ 26 กันยายน Mod ภาษาไทย Sniper Elite Resistance\nโหลดได้ที่ : www.nexusmods.com/snipereliteresistance/mods/20",
+      "url": "https://www.nexusmods.com/snipereliteresistance/mods/20",
+      "type": "แนะนำ26 กันยายน",
+      "price": "$49.99"
+    },
     {
       "appid": "319630",
       "name": "Life is Strange - Episode 1",
