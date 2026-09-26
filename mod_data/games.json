@@ -1,6 +1,15 @@
 {
-  "total_count": 956,
+  "total_count": 957,
   "items": [
+    {
+      "appid": "319630",
+      "name": "Life is Strange - Episode 1",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/319630/header_292x136.jpg?t=1772725755",
+      "desc": "ฟรี แนะนำ 25 กันยายน Mod ภาษาไทย Life Is Strange\nโหลดได้ที่ : www.nexusmods.com/lifeistrange/mods/118",
+      "url": "https://www.nexusmods.com/lifeistrange/mods/118",
+      "type": "แนะนำ25 กันยายน",
+      "price": "ฟรี"
+    },
     {
       "appid": "690640",
       "name": "Trine 4: The Nightmare Prince",
