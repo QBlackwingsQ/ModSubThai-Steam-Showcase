@@ -1,6 +1,51 @@
 {
-  "total_count": 965,
+  "total_count": 970,
   "items": [
+    {
+      "appid": "803330",
+      "name": "Destroy All Humans!",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/803330/header_292x136.jpg?t=1696424223",
+      "desc": "-90% $29.99 $2.99 แนะนำ 27 กันยายน Mod ภาษาไทย Destroy All Humans\nโหลดได้ที่ : monnmod.com",
+      "url": "https://monnmod.com",
+      "type": "แนะนำ27 กันยายน",
+      "price": "$2.99"
+    },
+    {
+      "appid": "441830",
+      "name": "I am Setsuna",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/441830/header_292x136.jpg?t=1776654821",
+      "desc": "-70% $39.99 $11.99 แนะนำ 27 กันยายน Mod ภาษาไทย I AM SETSUNA \nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "แนะนำ27 กันยายน",
+      "price": "$11.99"
+    },
+    {
+      "appid": "2627260",
+      "name": "NINJA GAIDEN 4",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2627260/header_292x136.jpg?t=1772643576",
+      "desc": "-50% $69.99 $34.99 แนะนำ 27 กันยายน Mod ภาษาไทย Ninja Gaiden 4 \nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ27 กันยายน",
+      "price": "$34.99"
+    },
+    {
+      "appid": "2444750",
+      "name": "Shape of Dreams",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2444750/cb79c21477092b71ba4f8558bbcead5f6b234837/header_292x136_alt_assets_5.jpg?t=1789985975",
+      "desc": "ถ่ายทอดสด -30% $24.99 $17.49 แนะนำ 27 กันยายน Mod ภาษาไทย Shape of Dreams\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ27 กันยายน",
+      "price": "$17.49"
+    },
+    {
+      "appid": "205100",
+      "name": "Dishonored",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/205100/08e23dc25023aac81f2b40e35785e01de64dd171/header_292x136.jpg?t=1789050056",
+      "desc": "$9.99 แนะนำ 27 กันยายน Mod ภาษาไทย Dishonored\nโหลดได้ที่ : www.nexusmods.com/dishonored/mods/193",
+      "url": "https://www.nexusmods.com/dishonored/mods/193",
+      "type": "แนะนำ27 กันยายน",
+      "price": "$9.99"
+    },
     {
       "appid": "1608290",
       "name": "GNOSIA",
