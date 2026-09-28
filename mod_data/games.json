@@ -1,6 +1,114 @@
 {
-  "total_count": 970,
+  "total_count": 981,
   "items": [
+    {
+      "appid": "2789460",
+      "name": "Ale Abbey - Monastery Brewery Tycoon",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2789460/3e6d4096982ceead0b20086f59a7425677b0116f/header_292x136.jpg?t=1758121887",
+      "desc": "-40% $14.99 $8.99 แนะนำ 28 กันยายน Mod ภาษาไทย Ale Abbey - Monastery Brewery Tycoon\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$8.99"
+    },
+    {
+      "appid": "392160",
+      "name": "X4: Foundations",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/392160/header_292x136.jpg?t=1783002135",
+      "desc": "$49.99 แนะนำ 28 กันยายน Mod ภาษาไทย X4: Foundations\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$49.99"
+    },
+    {
+      "appid": "3222640",
+      "name": "Wild West Pioneers",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3222640/e2d0ec030fef4f18e734ef91ad68f1b147bffb65/header_292x136.jpg?t=1790343414",
+      "desc": "ถ่ายทอดสด -25% $19.99 $14.99 แนะนำ 28 กันยายน Mod ภาษาไทย Wild West Pioneers \nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$14.99"
+    },
+    {
+      "appid": "1358700",
+      "name": "STRANGER OF PARADISE FINAL FANTASY ORIGIN",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1358700/header_292x136.jpg?t=1775030600",
+      "desc": "-70% $39.99 $11.99 แนะนำ 28 กันยายน Mod ภาษาไทย Stranger of Paradise: Final Fantasy Origin\nโหลดได้ที่ : www.nexusmods.com/strangerofparadisefinalfantasyorigin/mods/26",
+      "url": "https://www.nexusmods.com/strangerofparadisefinalfantasyorigin/mods/26",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$11.99"
+    },
+    {
+      "appid": "2712590",
+      "name": "Dragon Shelter",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2712590/1946b71344161efc2a1e9941f9cd1d39ab5bf8c2/header_292x136.jpg?t=1790354685",
+      "desc": "ถ่ายทอดสด -25% $19.99 $14.99 แนะนำ 28 กันยายน Mod ภาษาไทย Dragon Shelter\nโหลดได้ที่ : modsfire.com/UttUd5M15j15O52",
+      "url": "https://modsfire.com/UttUd5M15j15O52",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$14.99"
+    },
+    {
+      "appid": "2902170",
+      "name": "Kernel Hearts",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2902170/09df5ddeda45059fede495764d25af1f82db5595/header_292x136.jpg?t=1789832327",
+      "desc": "ถ่ายทอดสด -10% $19.99 $17.99 แนะนำ 28 กันยายน Mod ภาษาไทย Kernel Hearts\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$17.99"
+    },
+    {
+      "appid": "2523720",
+      "name": "Gears of War: Reloaded",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2523720/2ba5d8203b18c38fb2d10b14e92a285a850f08ab/header_292x136.jpg?t=1757024702",
+      "desc": "$39.99 แนะนำ 28 กันยายน Mod ภาษาไทย Gears of War: Reloaded \nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$39.99"
+    },
+    {
+      "appid": "2820820",
+      "name": "Jotunnslayer: Hordes of Hel",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2820820/header_292x136.jpg?t=1789633603",
+      "desc": "-40% $14.99 $8.99 แนะนำ 28 กันยายน Mod ภาษาไทย Jotunnslayer Hordes of Hel\nโหลดได้ที่ : monnmod.com",
+      "url": "https://monnmod.com",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$8.99"
+    },
+    {
+      "appid": "2642570",
+      "name": "Pinball Storm: Lokanta",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2642570/header_292x136.jpg?t=1789986354",
+      "desc": "-86% $5.99 $0.83 แนะนำ 28 กันยายน Mod ภาษาไทย Pinball Storm Lokanta\nโหลดไดที่ : monnmod.com",
+      "url": "https://monnmod.com",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$0.83"
+    },
+    {
+      "appid": "2427410",
+      "name": "S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2427410/cbfdace69b303cb01148406c4bea37bb2c5d6cef/header_292x136.jpg?t=1771270054",
+      "desc": "$19.99 แนะนำ 28 กันยายน Mod ภาษาไทย S.T.A.L.K.E.R.: Shadow of Chornobyl - Enhanced Edition\nโหลดได้ที่ : www.nexusmods.com/stalkershadowofchernobyl/mods/1126",
+      "url": "https://www.nexusmods.com/stalkershadowofchernobyl/mods/1126",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "2427420",
+      "name": "S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2427420/cc29f2e9bdc14922b5e43f5b34058e0f902bb4a9/header_292x136.jpg?t=1747757980",
+      "desc": "$19.99 แนะนำ 28 กันยายน Mod ภาษาไทย S.T.A.L.K.E.R.: Clear Sky - Enhanced Edition\nโหลดได้ที่ : www.nexusmods.com/stalkerclearsky/mods/542",
+      "url": "https://www.nexusmods.com/stalkerclearsky/mods/542",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "2427430",
+      "name": "S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2427430/24ab390192735d4e56efc64f9135353457ac981c/header_292x136.jpg?t=1747757839",
+      "desc": "$19.99 แนะนำ 28 กันยายน Mod ภาษาไทย S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition\nโหลดได้ที่ : www.nexusmods.com/stalkercallofpripyat/mods/360",
+      "url": "https://www.nexusmods.com/stalkercallofpripyat/mods/360",
+      "type": "แนะนำ28 กันยายน",
+      "price": "$19.99"
+    },
     {
       "appid": "803330",
       "name": "Destroy All Humans!",
