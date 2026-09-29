@@ -1,6 +1,69 @@
 {
-  "total_count": 981,
+  "total_count": 988,
   "items": [
+    {
+      "appid": "3020",
+      "name": "Call of Juarez",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3020/header_292x136.jpg?t=1729249870",
+      "desc": "$9.99 แนะนำ 29 กันยายน Mod ภาษาไทย Call of Juarez\nโหลดได้ที่ : www.nexusmods.com/callofjuarez/mods/12",
+      "url": "https://www.nexusmods.com/callofjuarez/mods/12",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$9.99"
+    },
+    {
+      "appid": "21980",
+      "name": "Call of Juarez: Bound in Blood",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21980/header_292x136.jpg?t=1685519805",
+      "desc": "$9.99 แนะนำ 29 กันยายน Mod ภาษาไทย Call of Juarez Bound in Blood\nโหลดได้ที่ : www.nexusmods.com/callofjuarezboundinblood/mods/29",
+      "url": "https://www.nexusmods.com/callofjuarezboundinblood/mods/29",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$9.99"
+    },
+    {
+      "appid": "204450",
+      "name": "Call of Juarez: Gunslinger",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204450/header_292x136.jpg?t=1728907994",
+      "desc": "$14.99 แนะนำ 29 กันยายน Mod ภาษาไทย Call of Juarez Gunslinger\nโหลดได้ที่ : www.nexusmods.com/callofjuarezgunslinger/mods/21",
+      "url": "https://www.nexusmods.com/callofjuarezgunslinger/mods/21",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$14.99"
+    },
+    {
+      "appid": "1768470",
+      "name": "The Heroes around Me",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1768470/header_292x136.jpg?t=1745997574",
+      "desc": "$6.99 แนะนำ 29 กันยายน Mod ภาษาไทย The Heroes around Me\nโหลดได้ที่ : www.nexusmods.com/theheroesaroundme/mods/1",
+      "url": "https://www.nexusmods.com/theheroesaroundme/mods/1",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$6.99"
+    },
+    {
+      "appid": "622220",
+      "name": "Fate/EXTELLA LINK",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/622220/header_292x136.jpg?t=1782434000",
+      "desc": "$49.99 แนะนำ 29 กันยายน Mod ภาษาไทย Fate/EXTELLA LINK\nโหลดได้ : thaimod.pages.dev",
+      "url": "https://thaimod.page",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$49.99"
+    },
+    {
+      "appid": "2432110",
+      "name": "WHITE ALBUM: Memories like Falling Snow",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2432110/header_292x136.jpg?t=1782695129",
+      "desc": "$24.99 แนะนำ 29 กันยายน Mod ภาษาไทย WHITE ALBUM: Memories like Falling Snow\nโหลดได้ที่ :  thaimod.pages.dev",
+      "url": "https://thaimod.page",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$24.99"
+    },
+    {
+      "appid": "2455640",
+      "name": "Romancing SaGa 2: Revenge of the Seven",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2455640/header_292x136.jpg?t=1777013886",
+      "desc": "-60% $49.99 $19.99 แนะนำ 29 กันยายน Mod ภาษาไทย Romancing SaGa 2 Revenge of the Seven\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ29 กันยายน",
+      "price": "$19.99"
+    },
     {
       "appid": "2789460",
       "name": "Ale Abbey - Monastery Brewery Tycoon",
