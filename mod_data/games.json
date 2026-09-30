@@ -1,6 +1,60 @@
 {
-  "total_count": 988,
+  "total_count": 994,
   "items": [
+    {
+      "appid": "313690",
+      "name": "LEGO® Batman™ 3: Beyond Gotham",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/313690/header_292x136.jpg?t=1780597097",
+      "desc": "$19.99 แนะนำ 30 กันยายน Mod ภาษาไทย LEGO® Batman™ 3: Beyond Gotham\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ30 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "213330",
+      "name": "LEGO® Batman™ 2: DC Super Heroes",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/213330/header_292x136.jpg?t=1780596984",
+      "desc": "$19.99 แนะนำ 30 กันยายน Mod ภาษาไทย LEGO® Batman™ 2: DC Super Heroes\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ30 กันยายน",
+      "price": "$19.99"
+    },
+    {
+      "appid": "1038810",
+      "name": "GOD WARS The Complete Legend",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1038810/header_292x136.jpg?t=1700019554",
+      "desc": "-80% $29.99 $5.99 แนะนำ 30 กันยายน Mod ภาษาไทย GOD WARS The Complete Legend\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ30 กันยายน",
+      "price": "$5.99"
+    },
+    {
+      "appid": "1122340",
+      "name": "Chef Life: A Restaurant Simulator",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1122340/header_292x136.jpg?t=1764149285",
+      "desc": "-85% $39.99 $5.99 แนะนำ 30 กันยายน Mod ภาษาไทย Chef Life: A Restaurant Simulator\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "แนะนำ30 กันยายน",
+      "price": "$5.99"
+    },
+    {
+      "appid": "3493540",
+      "name": "Transport Fever 3",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3493540/1f5fdc24cdad2256cc18b65c21f5afbb8a5c56ee/header_292x136_alt_assets_0.jpg?t=1790697610",
+      "desc": "ถ่ายทอดสด $49.99 แนะนำ 30 กันยายน Mod ภาษาไทย Transport Fever 3\nโหลดได้ที่ : patreon.com/EASYMOD",
+      "url": "https://patreon.com/EASYMOD",
+      "type": "แนะนำ30 กันยายน",
+      "price": "$49.99"
+    },
+    {
+      "appid": "3014080",
+      "name": "The Hundred Line -Last Defense Academy-",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3014080/header_292x136.jpg?t=1775101949",
+      "desc": "-30% $69.99 $48.99 แนะนำ 30 กันยายน Mod ภาษาไทย The Hundred Line -Last Defense Academy\nโหลดได้ที่ : www.nexusmods.com/thehundredlinelastdefenseacademy/mods/20",
+      "url": "https://www.nexusmods.com/thehundredlinelastdefenseacademy/mods/20",
+      "type": "แนะนำ30 กันยายน",
+      "price": "$48.99"
+    },
     {
       "appid": "3020",
       "name": "Call of Juarez",
