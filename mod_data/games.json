@@ -1,6 +1,105 @@
 {
-  "total_count": 995,
+  "total_count": 1006,
   "items": [
+    {
+      "appid": "1097840",
+      "name": "Gears 5",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/header_292x136.jpg?t=1780003997",
+      "desc": "$29.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย GEARS 5\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$29.99"
+    },
+    {
+      "appid": "996770",
+      "name": "Moving Out",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996770/header_292x136.jpg?t=1781014487",
+      "desc": "-90% $24.99 $2.49 แนะนำ 1 ตุลาคม Mod ภาษาไทย Moving Out\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$2.49"
+    },
+    {
+      "appid": "1634150",
+      "name": "Behind the Frame: The Finest Scenery",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634150/63c451e4b30c1dcbc28a1fa6c2d499b8e1abbbad/header_292x136.jpg?t=1786043104",
+      "desc": "-50% $12.99 $6.49 แนะนำ 1 ตุลาคม Mod ภาษาไทย Behind the Frame: The Finest Scenery\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$6.49"
+    },
+    {
+      "appid": "201810",
+      "name": "Wolfenstein: The New Order",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201810/header_292x136.jpg?t=1750784496",
+      "desc": "-75% $19.99 $4.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย Wolfenstein: The New Order\nโหลดได้ที่ : www.nexusmods.com/wolfensteintheneworder/mods/21",
+      "url": "https://www.nexusmods.com/wolfensteintheneworder/mods/21",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$4.99"
+    },
+    {
+      "appid": "612880",
+      "name": "Wolfenstein II: The New Colossus",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/612880/header_292x136.jpg?t=1750784115",
+      "desc": "-85% $39.99 $5.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย Wolfenstein II: The New Colossus\nโหลดได้ที่ : www.nexusmods.com/wolfenstein2thenewcolossus/mods/13",
+      "url": "https://www.nexusmods.com/wolfenstein2thenewcolossus/mods/13",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$5.99"
+    },
+    {
+      "appid": "13600",
+      "name": "Prince of Persia®: The Sands of Time",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13600/header_292x136.jpg?t=1720535333",
+      "desc": "-80% $9.99 $1.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย Prince of Persia: The Sands of Time\nโหลดได้ที่ : www.nexusmods.com/princeofpersiathesandsoftime/mods/28",
+      "url": "https://www.nexusmods.com/princeofpersiathesandsoftime/mods/28",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$1.99"
+    },
+    {
+      "appid": "6020",
+      "name": "STAR WARS™ Jedi Knight - Jedi Academy™",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6020/header_292x136.jpg?t=1741814908",
+      "desc": "$9.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย STAR WARS™ Jedi Knight - Jedi Academy™\nโหลดได้ที่ : sites.google.com/view/zudrangma",
+      "url": "https://google.com/view/zudrangma",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$9.99"
+    },
+    {
+      "appid": "1012880",
+      "name": "60 Seconds! Reatomized",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1012880/header_292x136.jpg?t=1781615016",
+      "desc": "-50% $9.99 $4.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย 60 Seconds! Reatomized \nโหลดได้ที่ : www.nexusmods.com/60secondsreatomized/mods/3",
+      "url": "https://www.nexusmods.com/60secondsreatomized/mods/3",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$4.99"
+    },
+    {
+      "appid": "3841510",
+      "name": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3841510/3e4981c87cb8674a9668424e3560d1144d736ed5/header_292x136.jpg?t=1790817204",
+      "desc": "$39.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย DYNASTY WARRIORS 3: Complete Edition Remastered \nโหลดได้ที่ : www.nexusmods.com/dynastywarriors3completeeditionremastered/mods/6",
+      "url": "https://www.nexusmods.com/dynastywarriors3completeeditionremastered/mods/6",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$39.99"
+    },
+    {
+      "appid": "21000",
+      "name": "LEGO® Batman™: The Videogame",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21000/header_292x136.jpg?t=1780596843",
+      "desc": "-85% $19.99 $2.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย LEGO® Batman™: The Videogame\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$2.99"
+    },
+    {
+      "appid": "3717340",
+      "name": "Yakuza Kiwami 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717340/894621031b664c828e8114c42934a098e38d182b/header_292x136.jpg?t=1781258352",
+      "desc": "-50% $19.99 $9.99 แนะนำ 1 ตุลาคม Mod ภาษาไทย Yakuza Kiwami 2\nโหลดได้ที่ : patreon.com/EASYMOD",
+      "url": "https://patreon.com/EASYMOD",
+      "type": "แนะนำ1 ตุลาคม",
+      "price": "$9.99"
+    },
     {
       "appid": "274520",
       "name": "Darkwood",
