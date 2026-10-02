@@ -71,63 +71,27 @@ def parse_steam_recommendations(html_data):
             "desc": full_text,
             "url": mod_url,
             "type": rec_type,
-            "price": "" # เว้นไว้ให้ฟังก์ชันดึงราคา THB จัดการต่อ
+            "price": ""
         })
     return parsed_items
 
-def fetch_thb_prices(items):
-    """ฟังก์ชันยิงดึงราคาโซนไทย (THB / ฿) โดยตรงจาก Steam Store API"""
-    print(f"\n--- เริ่มต้นอัปเดตราคาเงินบาท (THB) ให้ตรงกับร้านค้าไทย ทั้งหมด {len(items)} เกม ---")
-    appids = [str(item['appid']).strip() for item in items if item.get('appid')]
-    
-    # แบ่งกลุ่มยิงทีละ 25 เกมเพื่อป้องกัน Steam บล็อก
-    chunk_size = 25
-    prices_map = {}
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-    }
-
-    for i in range(0, len(appids), chunk_size):
-        chunk = appids[i:i + chunk_size]
-        url = "https://store.steampowered.com/api/appdetails"
-        params = {
-            "appids": ",".join(chunk),
-            "cc": "th",         # บังคับสกุลเงินไทย (THB)
-            "l": "thai",
-            "filters": "price_overview"
-        }
-
-        try:
-            res = requests.get(url, params=params, headers=headers, timeout=15)
-            if res.status_code == 200:
-                data = res.json()
-                for appid in chunk:
-                    app_info = data.get(str(appid), {})
-                    if app_info.get("success"):
-                        overview = app_info.get("data", {}).get("price_overview")
-                        if not overview:
-                            prices_map[appid] = "เล่นฟรี"
-                        else:
-                            discount = overview.get("discount_percent", 0)
-                            final_formatted = overview.get("final_formatted", "")
-                            if discount > 0:
-                                prices_map[appid] = f"-{discount}% {final_formatted}"
-                            else:
-                                prices_map[appid] = final_formatted
-            print(f"ดึงราคาเงินบาทสำเร็จแล้ว: {min(i + chunk_size, len(appids))}/{len(appids)} เกม")
-        except Exception as e:
-            print(f"ขัดข้องในการดึงราคาช่วง {i}: {e}")
-
-        time.sleep(0.6)
-
-    # อัปเดตราคาเงินบาทลงใน items
-    for item in items:
-        aid = str(item.get("appid", "")).strip()
-        if aid in prices_map and prices_map[aid]:
-            item["price"] = prices_map[aid]
-
-    print("--- ดึงราคาเงินบาท (THB) ครบถ้วนทุกเกมแล้ว! ---\n")
+def fetch_single_thb_price(appid, session):
+    """เรียกราคาโซนไทยรายเกมโดยส่ง cc=th เพื่อบังคับสกุลเงิน THB"""
+    url = f"https://store.steampowered.com/api/appdetails?appids={appid}&cc=th&l=thai&filters=price_overview"
+    try:
+        res = session.get(url, timeout=5)
+        if res.status_code == 200:
+            data = res.json().get(str(appid), {})
+            if data.get("success"):
+                overview = data.get("data", {}).get("price_overview")
+                if not overview:
+                    return "เล่นฟรี"
+                discount = overview.get("discount_percent", 0)
+                final_price = overview.get("final_formatted", "")
+                return f"-{discount}% {final_price}" if discount > 0 else final_price
+    except Exception:
+        pass
+    return None
 
 def load_local_json():
     if os.path.exists(DATA_FILE):
@@ -137,21 +101,13 @@ def load_local_json():
     return {"total_count": 0, "items": []}
 
 def auto_check_and_sync():
-    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam Curator...")
+    print("1. เริ่มดึงข้อมูลรายการม็อดจาก Curator...")
     url = "https://store.steampowered.com/curator/38366376-ModSubThai/ajaxgetfilteredrecommendations"
-    
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/javascript, */*; q=0.01",
-        "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://store.steampowered.com/curator/38366376-ModSubThai/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Accept": "application/json"
     }
-    cookies = {
-        "birthtime": "-2208988799",
-        "mature_content": "1",
-        "wants_mature_content": "1"
-    }
-
+    
     local_data = load_local_json()
     local_items = local_data.get("items", [])
     items_dict = {str(item.get("appid", "")).strip(): item for item in local_items if item.get("appid")}
@@ -161,46 +117,58 @@ def auto_check_and_sync():
 
     while offset < remote_total:
         params = {"start": offset, "count": 50, "tag": 0, "sort": "recent", "types": 0}
-        print(f"กำลังกวาดข้อมูลม็อดจาก Curator: ตำแหน่ง {offset} ถึง {offset + 50} จาก {remote_total}...")
-        
         try:
-            res = requests.get(url, params=params, headers=headers, cookies=cookies, timeout=20)
+            res = requests.get(url, params=params, headers=headers, timeout=20)
             if res.status_code != 200: break
-            
             data = res.json()
             remote_total = data.get("total_count", remote_total)
             page_items = parse_steam_recommendations(data.get("results_html", ""))
-            
             if not page_items: break
 
             for item in page_items:
-                appid = str(item.get("appid", "")).strip()
-                if not appid: continue
-                
-                if appid in items_dict:
-                    # อัปเดตข้อมูลม็อดโดยยังเก็บข้อมูลเดิมไว้
-                    items_dict[appid]["name"] = item["name"]
-                    items_dict[appid]["url"] = item["url"]
-                    items_dict[appid]["img"] = item["img"]
-                    items_dict[appid]["type"] = item["type"]
+                aid = str(item.get("appid", "")).strip()
+                if not aid: continue
+                if aid in items_dict:
+                    items_dict[aid]["name"] = item["name"]
+                    items_dict[aid]["url"] = item["url"]
+                    items_dict[aid]["img"] = item["img"]
+                    items_dict[aid]["type"] = item["type"]
                 else:
-                    items_dict[appid] = item
+                    items_dict[aid] = item
 
             offset += 50
-            time.sleep(0.5)
+            time.sleep(0.3)
         except Exception as e:
-            print(f"เกิดข้อผิดพลาดที่ offset {offset}: {e}")
+            print(f"ขัดข้องที่ offset {offset}: {e}")
             break
 
     all_items = list(items_dict.values())
-    
-    # ดึงราคาโซนไทย (THB) ให้กับทุกเกมที่มี
-    fetch_thb_prices(all_items)
+    print(f"รวมข้อมูลทั้งหมด {len(all_items)} รายการ")
 
-    print(f"เสร็จสิ้น! บันทึกข้อมูลทั้งหมด {len(all_items)} รายการลงไฟล์ games.json")
+    # 2. ตรวจสอบและแปลงเฉพาะรายการที่ยังเป็นสกุลเงินดอลลาร์ ($) หรือยังไม่มีราคา
+    print("\n2. ตรวจสอบและดึงราคาโซนไทย (THB) ให้กับรายการที่ยังเป็นดอลลาร์...")
+    session = requests.Session()
+    session.headers.update(headers)
+    
+    updated_count = 0
+    for idx, item in enumerate(all_items):
+        current_price = item.get("price", "")
+        # ตรวจสอบว่ามีสัญลักษณ์ $ หรือเป็นค่าว่างหรือไม่
+        if "$" in current_price or not current_price:
+            aid = str(item.get("appid", "")).strip()
+            thb_price = fetch_single_thb_price(aid, session)
+            if thb_price:
+                item["price"] = thb_price
+                updated_count += 1
+                print(f"[{idx+1}/{len(all_items)}] {item.get('name')}: {thb_price}")
+            time.sleep(0.15)
+
+    print(f"\nอัปเดตราคาเงินบาทสำเร็จ {updated_count} รายการ")
+
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump({"total_count": len(all_items), "items": all_items}, f, ensure_ascii=False, indent=2)
+    print("บันทึกไฟล์ games.json เรียบร้อยแล้ว")
 
 if __name__ == "__main__":
     auto_check_and_sync()
