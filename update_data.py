@@ -61,23 +61,73 @@ def parse_steam_recommendations(html_data):
         else:
             mod_url = "#"
 
-        # ดึงราคาและส่วนลด
-        price = ""
-        discount_pct = row.find(class_=re.compile(r'discount_pct', re.I))
-        final_price = row.find(class_=re.compile(r'(discount_final_price|game_purchase_price)', re.I))
-        
-        if final_price:
-            price_text = final_price.get_text(strip=True)
-            if discount_pct and discount_pct.get_text(strip=True):
-                price = f"{discount_pct.get_text(strip=True)} {price_text}"
-            else:
-                price = price_text
-
         type_elem = row.find(class_=re.compile(r'recommendation_type', re.I))
         rec_type = type_elem.get_text(strip=True) if type_elem else "แนะนำ"
 
-        parsed_items.append({"appid": appid, "name": game_name, "img": img_url, "desc": full_text, "url": mod_url, "type": rec_type, "price": price})
+        parsed_items.append({
+            "appid": appid,
+            "name": game_name,
+            "img": img_url,
+            "desc": full_text,
+            "url": mod_url,
+            "type": rec_type,
+            "price": "" # เว้นไว้ให้ฟังก์ชันดึงราคา THB จัดการต่อ
+        })
     return parsed_items
+
+def fetch_thb_prices(items):
+    """ฟังก์ชันยิงดึงราคาโซนไทย (THB / ฿) โดยตรงจาก Steam Store API"""
+    print(f"\n--- เริ่มต้นอัปเดตราคาเงินบาท (THB) ให้ตรงกับร้านค้าไทย ทั้งหมด {len(items)} เกม ---")
+    appids = [str(item['appid']).strip() for item in items if item.get('appid')]
+    
+    # แบ่งกลุ่มยิงทีละ 25 เกมเพื่อป้องกัน Steam บล็อก
+    chunk_size = 25
+    prices_map = {}
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    }
+
+    for i in range(0, len(appids), chunk_size):
+        chunk = appids[i:i + chunk_size]
+        url = "https://store.steampowered.com/api/appdetails"
+        params = {
+            "appids": ",".join(chunk),
+            "cc": "th",         # บังคับสกุลเงินไทย (THB)
+            "l": "thai",
+            "filters": "price_overview"
+        }
+
+        try:
+            res = requests.get(url, params=params, headers=headers, timeout=15)
+            if res.status_code == 200:
+                data = res.json()
+                for appid in chunk:
+                    app_info = data.get(str(appid), {})
+                    if app_info.get("success"):
+                        overview = app_info.get("data", {}).get("price_overview")
+                        if not overview:
+                            prices_map[appid] = "เล่นฟรี"
+                        else:
+                            discount = overview.get("discount_percent", 0)
+                            final_formatted = overview.get("final_formatted", "")
+                            if discount > 0:
+                                prices_map[appid] = f"-{discount}% {final_formatted}"
+                            else:
+                                prices_map[appid] = final_formatted
+            print(f"ดึงราคาเงินบาทสำเร็จแล้ว: {min(i + chunk_size, len(appids))}/{len(appids)} เกม")
+        except Exception as e:
+            print(f"ขัดข้องในการดึงราคาช่วง {i}: {e}")
+
+        time.sleep(0.6)
+
+    # อัปเดตราคาเงินบาทลงใน items
+    for item in items:
+        aid = str(item.get("appid", "")).strip()
+        if aid in prices_map and prices_map[aid]:
+            item["price"] = prices_map[aid]
+
+    print("--- ดึงราคาเงินบาท (THB) ครบถ้วนทุกเกมแล้ว! ---\n")
 
 def load_local_json():
     if os.path.exists(DATA_FILE):
@@ -87,29 +137,20 @@ def load_local_json():
     return {"total_count": 0, "items": []}
 
 def auto_check_and_sync():
-    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam curator (บังคับสกุลเงินบาท THB)...")
+    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam Curator...")
     url = "https://store.steampowered.com/curator/38366376-ModSubThai/ajaxgetfilteredrecommendations"
     
-    # ใช้ requests.Session เพื่อจำลองเซสชันประเทศไทยแบบสมบูรณ์
-    session = requests.Session()
-    session.headers.update({
+    headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "application/json, text/javascript, */*; q=0.01",
         "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://store.steampowered.com/curator/38366376-ModSubThai/?cc=th&l=thai",
-        "Accept-Language": "th-TH,th;q=0.9"
-    })
-    
-    # คุกกี้ชุดสมบูรณ์ที่ Steam ใช้ตัดสินใจเรื่องสกุลเงินและร้านค้าไทย
-    session.cookies.update({
+        "Referer": "https://store.steampowered.com/curator/38366376-ModSubThai/"
+    }
+    cookies = {
         "birthtime": "-2208988799",
         "mature_content": "1",
-        "wants_mature_content": "1",
-        "Steam_Language": "thai",
-        "timezoneOffset": "25200,0",
-        "country": "TH",
-        "steamCountry": "TH%7C00000000000000000000000000000000"
-    })
+        "wants_mature_content": "1"
+    }
 
     local_data = load_local_json()
     local_items = local_data.get("items", [])
@@ -119,52 +160,44 @@ def auto_check_and_sync():
     remote_total = 9999
 
     while offset < remote_total:
-        # ส่ง cc=th และ l=thai ใน Query String ทุกครั้ง
-        params = {
-            "start": offset,
-            "count": 50,
-            "tag": 0,
-            "sort": "recent",
-            "types": 0,
-            "cc": "th",
-            "l": "thai"
-        }
-        print(f"กำลังดึงข้อมูลตำแหน่งที่ {offset} ถึง {offset + 50} จากทั้งหมด {remote_total}...")
+        params = {"start": offset, "count": 50, "tag": 0, "sort": "recent", "types": 0}
+        print(f"กำลังกวาดข้อมูลม็อดจาก Curator: ตำแหน่ง {offset} ถึง {offset + 50} จาก {remote_total}...")
         
         try:
-            res = session.get(url, params=params, timeout=20)
-            if res.status_code != 200:
-                print(f"เซิร์ฟเวอร์ตอบกลับสถานะ {res.status_code}, หยุดการดึง")
-                break
+            res = requests.get(url, params=params, headers=headers, cookies=cookies, timeout=20)
+            if res.status_code != 200: break
             
             data = res.json()
             remote_total = data.get("total_count", remote_total)
             page_items = parse_steam_recommendations(data.get("results_html", ""))
             
-            if not page_items:
-                break
+            if not page_items: break
 
             for item in page_items:
                 appid = str(item.get("appid", "")).strip()
                 if not appid: continue
                 
                 if appid in items_dict:
-                    if item.get("price"):
-                        items_dict[appid]["price"] = item["price"]
-                    if item.get("name") and not items_dict[appid].get("name"):
-                        items_dict[appid]["name"] = item["name"]
+                    # อัปเดตข้อมูลม็อดโดยยังเก็บข้อมูลเดิมไว้
+                    items_dict[appid]["name"] = item["name"]
+                    items_dict[appid]["url"] = item["url"]
+                    items_dict[appid]["img"] = item["img"]
+                    items_dict[appid]["type"] = item["type"]
                 else:
                     items_dict[appid] = item
 
             offset += 50
-            time.sleep(0.8)
+            time.sleep(0.5)
         except Exception as e:
-            print(f"เกิดข้อผิดพลาดในการดึงข้อมูลที่ offset {offset}: {e}")
+            print(f"เกิดข้อผิดพลาดที่ offset {offset}: {e}")
             break
 
     all_items = list(items_dict.values())
-    print(f"\nดึงข้อมูลสำเร็จเรียบร้อย! รวมเกมทั้งหมด {len(all_items)} รายการ")
     
+    # ดึงราคาโซนไทย (THB) ให้กับทุกเกมที่มี
+    fetch_thb_prices(all_items)
+
+    print(f"เสร็จสิ้น! บันทึกข้อมูลทั้งหมด {len(all_items)} รายการลงไฟล์ games.json")
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump({"total_count": len(all_items), "items": all_items}, f, ensure_ascii=False, indent=2)
