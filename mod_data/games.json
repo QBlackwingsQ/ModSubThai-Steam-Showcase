@@ -1,6 +1,60 @@
 {
-  "total_count": 1006,
+  "total_count": 1012,
   "items": [
+    {
+      "appid": "968790",
+      "name": "DYNASTY WARRIORS 7: Xtreme Legends Definitive Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/968790/header_292x136.jpg?t=1775536797",
+      "desc": "$19.99 Recommended October 2 Mod ภาษาไทย DYNASTY WARRIORS 7: Xtreme Legends Definitive Edition\nโหลดได้ที่ : www.mediafire.com/file/z7adkzfpksv0n3d/DW7XL_THAI_MOD_by_AI_LUV_Translate.zip",
+      "url": "https://www.mediafire.com/file/z7adkzfpksv0n3d/DW7XL_THAI_MOD_by_AI_LUV_Translate.zip",
+      "type": "RecommendedOctober 2",
+      "price": "฿607.00"
+    },
+    {
+      "appid": "3867170",
+      "name": "Sengoku Rance",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3867170/c2491e0b613e3d0d5dc507ac136a15ff5eb38596/header_292x136.jpg?t=1790913603",
+      "desc": "-20% $24.99 $19.99 Recommended October 2 Mod ภาษาไทย Sengoku Rance \nโหลดได้ที่ : nodnuattranslator.vercel.app",
+      "url": "https://nodnuattranslator.vercel.app",
+      "type": "RecommendedOctober 2",
+      "price": "-20% ฿207.20"
+    },
+    {
+      "appid": "225260",
+      "name": "Brutal Legend",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/225260/header_292x136.jpg?t=1787713082",
+      "desc": "-80% $14.99 $2.99 Recommended October 2 Mod ภาษาไทย Brutal Legend\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedOctober 2",
+      "price": "-80% ฿63.00"
+    },
+    {
+      "appid": "3709430",
+      "name": "Witch's Apocalyptic Journey",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3709430/2f476401eae01a8b9b514dbef16d38c06d3dd1ea/header_292x136.jpg?t=1789468857",
+      "desc": "-20% $8.99 $7.19 Recommended October 2 Mod ภาษาไทย Witch's Apocalyptic Journey\nโหลดได้ที่ : www.nexusmods.com/witchsapocalypticjourney/mods/1",
+      "url": "https://www.nexusmods.com/witchsapocalypticjourney/mods/1",
+      "type": "RecommendedOctober 2",
+      "price": "-20% ฿159.20"
+    },
+    {
+      "appid": "2288340",
+      "name": "ACE COMBAT 8: WINGS OF THEVE",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header_292x136.jpg?t=1790908088",
+      "desc": "Live $69.99 Recommended October 2 Mod ภาษาไทย ACE COMBAT 8: WINGS OF THEVE \nโหลดได้ที่ : www.nexusmods.com/acecombat8wingsoftheve/mods/13",
+      "url": "https://www.nexusmods.com/acecombat8wingsoftheve/mods/13",
+      "type": "RecommendedOctober 2",
+      "price": "฿1,990.00"
+    },
+    {
+      "appid": "476600",
+      "name": "Call of Duty®: WWII",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/476600/header_292x136.jpg?t=1780963893",
+      "desc": "$59.99 Recommended October 2 Mod ภาษาไทย Call of Duty: WWII\nโหลดได้ที่ : patreon.com/EASYMOD",
+      "url": "https://patreon.com/EASYMOD",
+      "type": "RecommendedOctober 2",
+      "price": "฿2,099.00"
+    },
     {
       "appid": "1097840",
       "name": "Gears 5",
@@ -508,7 +562,7 @@
     {
       "appid": "612470",
       "name": "Bio Inc. Redemption",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/612470/header_292x136.jpg?t=1788438440",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/612470/header_292x136.jpg?t=1790968800",
       "desc": "-80% $12.99 $2.59 Recommended September 25 Mod ภาษาไทย Bio Inc. Redemption\nโหลดได้ที่ : www.nexusmods.com/bioincredemption/mods/2",
       "url": "https://www.nexusmods.com/bioincredemption/mods/2",
       "type": "RecommendedSeptember 25",
@@ -958,7 +1012,7 @@
     {
       "appid": "3180070",
       "name": "No, I'm not a Human",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3180070/fadebc14211b17b5a6603926612ead9294cad9ce/header_292x136.jpg?t=1782490040",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3180070/fadebc14211b17b5a6603926612ead9294cad9ce/header_292x136.jpg?t=1790958601",
       "desc": "-20% $14.99 $11.99 Recommended September 13 Mod ภาษาไทย No, I'm not a Human\nโหลดได้ที่ : www.nexusmods.com/noimnotahuman/mods/20",
       "url": "https://www.nexusmods.com/noimnotahuman/mods/20",
       "type": "RecommendedSeptember 13",
@@ -1754,7 +1808,7 @@
       "desc": "-80% $29.99 $5.99 Recommended August 28 Mod ภาษาไทย Mafia III: Definitive Edition\nโหลดได้ที่ : www.nexusmods.com/mafia3definitiveedition/mods/72",
       "url": "https://www.nexusmods.com/mafia3definitiveedition/mods/72",
       "type": "RecommendedAugust 28",
-      "price": "-80% ฿144.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "10500",
@@ -1763,7 +1817,7 @@
       "desc": "-75% $19.99 $4.99 Recommended August 28 Mod ภาษาไทย Empire: Total War\nโหลดได้ที่ : patreon.com/EASYMOD",
       "url": "https://patreon.com/EASYMOD",
       "type": "RecommendedAugust 28",
-      "price": "-75% ฿74.75"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "413420",
@@ -1772,7 +1826,7 @@
       "desc": "-60% $19.99 $7.99 Recommended August 27 Mod ภาษาไทย Danganronpa 2: Goodbye Despair\nโหลดได้ที่ : www.nexusmods.com/mods/1?game_id=9866",
       "url": "https://www.nexusmods.com/mods/1?game_id=9866",
       "type": "RecommendedAugust 27",
-      "price": "-60% ฿147.60"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3211430",
@@ -1781,7 +1835,7 @@
       "desc": "$49.99 Recommended August 27 Mod ภาษาไทย BRIGANDINE ABYSS\nโหลดได้ที่ : steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592939664045841664",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592939664045841664",
       "type": "RecommendedAugust 27",
-      "price": "฿835.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2026000",
@@ -1790,7 +1844,7 @@
       "desc": "-60% $14.99 $5.99 Recommended August 26 Mod ภาษาไทย Our Adventurer Guild\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 26",
-      "price": "-60% ฿126.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1810820",
@@ -1799,7 +1853,7 @@
       "desc": "-65% $39.99 $13.99 Recommended August 26 Mod ภาษาไทย Etrian Odyssey III HD\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 26",
-      "price": "-65% ฿311.50"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1390410",
@@ -1948,7 +2002,7 @@
     {
       "appid": "588430",
       "name": "Fallout Shelter",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588430/35ef5f7b145a4ea6711ecef80fd9ee15eed5c642/header_292x136_alt_assets_49.jpg?t=1790885862",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588430/35ef5f7b145a4ea6711ecef80fd9ee15eed5c642/header_292x136_alt_assets_49.jpg?t=1790961740",
       "desc": "Free To Play Recommended August 23 Mod ภาษาไทย Fallout Shelter\nโหลดได้ที่ : www.nexusmods.com/falloutshelter/mods/211 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/falloutshelter/mods/211",
       "type": "RecommendedAugust 23",
@@ -3406,7 +3460,7 @@
     {
       "appid": "1989270",
       "name": "Slay the Princess — The Pristine Cut",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1989270/74a54248cfec29144de5e867a333c30e6d62801d/header_292x136.jpg?t=1775751748",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1989270/74a54248cfec29144de5e867a333c30e6d62801d/header_292x136.jpg?t=1790949052",
       "desc": "-50% $17.99 $8.99 Recommended July 18 Mod ภาษาไทย Slay the Princess\nโหลดได้ที่ : www.patreon.com/posts/155916894 Watch the full review [youtu.be]",
       "url": "https://www.patreon.com/posts/155916894",
       "type": "RecommendedJuly 18",
@@ -3821,7 +3875,7 @@
       "appid": "1669000",
       "name": "Age of Wonders 4",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669000/4745edcf9c1c78e26f9be46e5ba7910e64637a66/header_292x136_alt_assets_13.jpg?t=1790870322",
-      "desc": "-50% $49.99 $24.99 Recommended July 6 Mod ภาษาไทย Age of Wonders 4\nโหลดได้ที่ : https://modthai-en0va.com",
+      "desc": "Live -50% $49.99 $24.99 Recommended July 6 Mod ภาษาไทย Age of Wonders 4\nโหลดได้ที่ : https://modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedJuly 6",
       "price": "ฟรี / Mod"
@@ -4063,7 +4117,7 @@
     {
       "appid": "3768760",
       "name": "007 First Light",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_292x136_alt_assets_4.jpg?t=1790856611",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_292x136_alt_assets_4.jpg?t=1790955737",
       "desc": "Live -30% $69.99 $48.99 Recommended June 20 Mod ภาษาไทยเกม 007 First Light\nโหลดได้ที่ : www.nexusmods.com/007firstlight/mods/23",
       "url": "https://www.nexusmods.com/007firstlight/mods/23",
       "type": "RecommendedJune 20",
@@ -4657,7 +4711,7 @@
     {
       "appid": "2331280",
       "name": "Medieval Crafter: Blacksmith",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2331280/header_292x136.jpg?t=1785489378",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2331280/header_292x136.jpg?t=1790943645",
       "desc": "-40% $11.99 $7.19 Recommended December 17, 2025 Mod ภาษาไทย Medieval Crafter: Blacksmith\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedDecember 17, 2025",
@@ -5791,7 +5845,7 @@
     {
       "appid": "1850510",
       "name": "TRIANGLE STRATEGY",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850510/header_292x136.jpg?t=1775028430",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850510/header_292x136.jpg?t=1790952967",
       "desc": "-60% $59.99 $23.99 Recommended October 26, 2024 Mod ภาษาไทย Triangle Strategy\nโหลดได้ที่ : https://shorturl.at/brIMZ\nแตกไฟล์ใน Steam Game > steamapps > common > TRIANGLE STRATEGY > TRIANGLE_STRATEGY > Content > Paks",
       "url": "https://shorturl.at/brIMZ",
       "type": "RecommendedOctober 26, 2024",
