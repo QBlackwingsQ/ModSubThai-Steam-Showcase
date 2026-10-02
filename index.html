@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ModSubThai - Steam Showcase (THB)</title>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
             background-color: #0d121d;
             color: #94a3b8;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
         .game-card {
             background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
@@ -26,7 +25,6 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
-    <!-- Header Section -->
     <header class="bg-slate-900/90 backdrop-blur border-b border-slate-800 sticky top-0 z-30 px-6 py-4">
         <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
             <div class="flex items-center gap-3">
@@ -39,7 +37,6 @@
                 </div>
             </div>
 
-            <!-- Controls: ค้นหา & ปุ่มรีเฟรช -->
             <div class="flex items-center gap-3 flex-wrap">
                 <div class="relative">
                     <input type="text" id="searchInput" oninput="filterGames()" placeholder="ค้นหาชื่อเกม..." 
@@ -48,7 +45,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                     </svg>
                 </div>
-                <button onclick="fetchPrices(true)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 text-xs px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 font-medium shadow-sm">
+                <button onclick="fetchPricesBatch(true)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 text-xs px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 font-medium shadow-sm">
                     <svg id="refreshIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
                     </svg>
@@ -58,13 +55,10 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="max-w-7xl w-full mx-auto px-6 py-8 flex-1">
-        
-        <!-- Status Bar -->
         <div class="flex items-center justify-between mb-6 flex-wrap gap-2 text-xs">
             <div class="flex items-center gap-2">
-                <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span id="statusIndicator" class="inline-block w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
                 <span id="loadStatus" class="text-slate-400">กำลังตรวจสอบข้อมูลราคา...</span>
             </div>
             <div class="text-slate-400">
@@ -72,19 +66,14 @@
             </div>
         </div>
 
-        <!-- Grid Container -->
-        <div id="gamesGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <!-- Game Cards จะถูก Render ลงตรงนี้ -->
-        </div>
+        <div id="gamesGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
     </main>
 
     <footer class="bg-slate-950 border-t border-slate-900 py-6 text-center text-xs text-slate-500">
         ModSubThai Steam Showcase • ข้อมูลราคาดึงตรงจาก Steam Store API (Thailand Region)
     </footer>
 
-    <!-- Script Logic -->
     <script>
-        // รายชื่อเกมและ AppID จาก Steam (พี่สามารถเพิ่ม-ลดได้ตามต้องการ)
         const GAME_LIST = [
             { id: 582010, title: "Monster Hunter: World", modUrl: "#" },
             { id: 1091500, title: "Cyberpunk 2077", modUrl: "#" },
@@ -96,15 +85,11 @@
             { id: 1245620, title: "ELDEN RING", modUrl: "#" }
         ];
 
-        let cachedPrices = {};
-
-        // โหลดข้อมูลเมื่อเปิดหน้าเว็บ
         document.addEventListener("DOMContentLoaded", () => {
             renderBaseCards();
-            fetchPrices();
+            fetchPricesBatch();
         });
 
-        // 1. วาดโครงกล่องการ์ดไว้ล่วงหน้า
         function renderBaseCards() {
             const grid = document.getElementById("gamesGrid");
             document.getElementById("gameCount").innerText = GAME_LIST.length;
@@ -143,79 +128,138 @@
             `).join("");
         }
 
-        // 2. ดึงราคาจาก Steam API โซนไทย (THB)
-        async function fetchPrices(forceRefresh = false) {
+        // ฟังก์ชันช่วย fetch พร้อมตั้งเวลา Timeout ไม่ให้ค้าง
+        async function fetchWithTimeout(resource, options = {}) {
+            const { timeout = 5000 } = options;
+            const controller = new AbortController();
+            const id = setTimeout(() => controller.abort(), timeout);
+            const response = await fetch(resource, {
+                ...options,
+                signal: controller.signal
+            });
+            clearTimeout(id);
+            return response;
+        }
+
+        // ดึงราคาแบบ Batch รวมกันรอบเดียว
+        async function fetchPricesBatch(forceRefresh = false) {
             const statusEl = document.getElementById("loadStatus");
+            const indicatorEl = document.getElementById("statusIndicator");
             const refreshIcon = document.getElementById("refreshIcon");
-            
+
             refreshIcon.classList.add("animate-spin");
+            indicatorEl.className = "inline-block w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse";
             statusEl.innerText = "กำลังดึงราคาโซนไทย (THB)...";
 
-            // ดึงข้อมูลทีละ AppID (ส่ง cc=th เพื่อบังคับราคาไทย)
-            for (let i = 0; i < GAME_LIST.length; i++) {
-                const game = GAME_LIST[i];
-                
-                // ตรวจสอบแคชใน LocalStorage ก่อน (แคชไว้ 30 นาที เพื่อป้องกัน Steam Rate Limit)
-                const cacheKey = `steam_th_${game.id}`;
+            const missingAppIds = [];
+            const cacheKey = "steam_prices_th";
+            let cachedData = {};
+
+            try {
                 const saved = localStorage.getItem(cacheKey);
+                if (saved) cachedData = JSON.parse(saved);
+            } catch (e) {
+                cachedData = {};
+            }
 
-                if (saved && !forceRefresh) {
-                    const parsedCache = JSON.parse(saved);
-                    if (Date.now() - parsedCache.time < 30 * 60 * 1000) {
-                        renderPrice(game.id, parsedCache.data);
-                        continue;
-                    }
+            const now = Date.now();
+            GAME_LIST.forEach(game => {
+                const item = cachedData[game.id];
+                if (!forceRefresh && item && (now - item.time < 30 * 60 * 1000)) {
+                    renderPrice(game.id, item.data);
+                } else {
+                    missingAppIds.push(game.id);
                 }
+            });
 
-                // เรียก Steam API ผ่าน AllOrigins Proxy (แก้ CORS)
-                const targetUrl = `https://store.steampowered.com/api/appdetails?appids=${game.id}&cc=th&l=thai&filters=price_overview`;
-                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`;
+            if (missingAppIds.length === 0) {
+                finishLoading();
+                return;
+            }
 
+            const appidsParam = missingAppIds.join(",");
+            const targetUrl = `https://store.steampowered.com/api/appdetails?appids=${appidsParam}&cc=th&l=thai&filters=price_overview`;
+
+            // รายการ Proxy สำหรับสลับใช้เมื่อตัวใดตัวหนึ่งล่มหรือค้าง
+            const proxies = [
+                (url) => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+                (url) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
+            ];
+
+            let fetchSuccess = false;
+
+            for (const getProxyUrl of proxies) {
                 try {
-                    const res = await fetch(proxyUrl);
-                    const json = await res.json();
-                    const appDetails = JSON.parse(json.contents);
+                    const proxyEndpoint = getProxyUrl(targetUrl);
+                    const res = await fetchWithTimeout(proxyEndpoint, { timeout: 6000 });
+                    if (!res.ok) continue;
 
-                    if (appDetails && appDetails[game.id] && appDetails[game.id].success) {
-                        const priceOverview = appDetails[game.id].data.price_overview;
-                        
-                        let priceData = null;
-                        if (!priceOverview) {
-                            priceData = { isFree: true };
-                        } else {
-                            priceData = {
-                                isFree: false,
-                                currency: priceOverview.currency,
-                                initial: priceOverview.initial_formatted,
-                                final: priceOverview.final_formatted,
-                                discount: priceOverview.discount_percent
-                            };
-                        }
+                    let rawData;
+                    if (proxyEndpoint.includes("allorigins")) {
+                        const json = await res.json();
+                        rawData = JSON.parse(json.contents);
+                    } else {
+                        rawData = await res.json();
+                    }
 
-                        // บันทึกลงแคช
-                        localStorage.setItem(cacheKey, JSON.stringify({ time: Date.now(), data: priceData }));
-                        renderPrice(game.id, priceData);
+                    if (rawData && typeof rawData === "object") {
+                        missingAppIds.forEach(id => {
+                            const appInfo = rawData[id];
+                            let priceData = null;
+
+                            if (appInfo && appInfo.success) {
+                                const overview = appInfo.data.price_overview;
+                                if (!overview) {
+                                    priceData = { isFree: true };
+                                } else {
+                                    priceData = {
+                                        isFree: false,
+                                        currency: overview.currency,
+                                        initial: overview.initial_formatted,
+                                        final: overview.final_formatted,
+                                        discount: overview.discount_percent
+                                    };
+                                }
+                            }
+
+                            cachedData[id] = { time: now, data: priceData };
+                            renderPrice(id, priceData);
+                        });
+
+                        localStorage.setItem(cacheKey, JSON.stringify(cachedData));
+                        fetchSuccess = true;
+                        break;
                     }
                 } catch (err) {
-                    console.error(`ไม่สามารถโหลดราคาเกม ID: ${game.id}`, err);
-                    renderPrice(game.id, null);
+                    console.warn("Proxy ล้มเหลว กำลังลองวิธีสำรอง...", err);
                 }
+            }
 
-                // หน่วงเวลาเล็กน้อยเพื่อป้องกันการยิง API ถี่เกินไป
-                await new Promise(r => setTimeout(r, 200));
+            if (!fetchSuccess) {
+                // ถ้า Proxy ทุกตัวไม่ตอบสนอง ให้เปลี่ยนสถานะไม่ให้ค้างคำว่ากำลังโหลด
+                missingAppIds.forEach(id => renderPrice(id, null));
+                indicatorEl.className = "inline-block w-2.5 h-2.5 rounded-full bg-rose-500";
+                statusEl.innerText = "ไม่สามารถเชื่อมต่อ Steam ได้ชั่วคราว (คลิกดูราคาที่ปุ่มร้านค้า)";
+            } else {
+                finishLoading();
             }
 
             refreshIcon.classList.remove("animate-spin");
+        }
+
+        function finishLoading() {
+            const statusEl = document.getElementById("loadStatus");
+            const indicatorEl = document.getElementById("statusIndicator");
+            indicatorEl.className = "inline-block w-2.5 h-2.5 rounded-full bg-emerald-500";
             statusEl.innerText = "อัปเดตราคาไทยล่าสุดเรียบร้อยแล้วค่ะ";
         }
 
-        // 3. แสดงราคาสวยงามในกล่องของการ์ด
         function renderPrice(appId, price) {
             const box = document.getElementById(`price-box-${appId}`);
             if (!box) return;
 
             if (!price) {
-                box.innerHTML = `<span class="text-xs text-slate-500">ไม่พบราคา</span>`;
+                box.innerHTML = `<span class="text-xs text-slate-400">เช็คราคาที่ร้านค้า</span>`;
                 return;
             }
 
@@ -228,7 +272,6 @@
                 return;
             }
 
-            // ถ้ามีส่วนลด
             if (price.discount > 0) {
                 box.innerHTML = `
                     <div class="flex items-center gap-1.5">
@@ -242,30 +285,26 @@
                     </div>
                 `;
             } else {
-                // ราคาปกติโซนไทย
-                box.innerHTML = `
-                    <span class="text-sm font-bold text-white">${price.final}</span>
-                `;
+                box.innerHTML = `<span class="text-sm font-bold text-white">${price.final}</span>`;
             }
         }
 
-        // 4. ระบบค้นหาแบบเรียลไทม์
         function filterGames() {
             const query = document.getElementById("searchInput").value.trim().toLowerCase();
             const cards = document.querySelectorAll(".game-card");
-            let visibleCount = 0;
+            let count = 0;
 
             cards.forEach(card => {
                 const title = card.getAttribute("data-title");
                 if (title.includes(query)) {
                     card.style.display = "flex";
-                    visibleCount++;
+                    count++;
                 } else {
                     card.style.display = "none";
                 }
             });
 
-            document.getElementById("gameCount").innerText = visibleCount;
+            document.getElementById("gameCount").innerText = count;
         }
     </script>
 </body>
