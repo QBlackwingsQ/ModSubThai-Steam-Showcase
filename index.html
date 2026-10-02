@@ -133,6 +133,35 @@
             });
         }
 
+        // ฟังก์ชันช่วยจัดรูปแบบแสดงผลเป็นเงินบาทไทย (THB)
+        function formatThaiPrice(price) {
+            if (price === undefined || price === null || price === '') {
+                return '<span style="font-size:0.8em; color:#56708a;">ฟรี / Mod</span>';
+            }
+
+            const strPrice = String(price).trim();
+
+            if (strPrice === '0' || strPrice.toLowerCase() === 'free' || strPrice.toLowerCase() === 'ฟรี') {
+                return '<span class="price-badge" style="color: #a4d007;">ฟรี</span>';
+            }
+
+            // สกัดเฉพาะตัวเลขและจุดทศนิยม
+            const cleanNumericStr = strPrice.replace(/[^0-9.]/g, '');
+            const numericPrice = parseFloat(cleanNumericStr);
+
+            if (!isNaN(numericPrice)) {
+                const formatted = new Intl.NumberFormat('th-TH', {
+                    style: 'currency',
+                    currency: 'THB',
+                    minimumFractionDigits: 2
+                }).format(numericPrice);
+                return `<span class="price-badge">${formatted}</span>`;
+            }
+
+            // กรณีมีสัญลักษณ์อื่นหรือแก้ไขไม่ได้ ให้เติม ฿ นำหน้า
+            return `<span class="price-badge">${strPrice.startsWith('฿') ? strPrice : '฿' + strPrice}</span>`;
+        }
+
         function loadMoreGames() {
             if (currentIndex >= filteredGames.length) {
                 loader.innerHTML = '✨ แสดงครบทุกเกมแล้ว';
@@ -145,10 +174,11 @@
             nextBatch.forEach(game => {
                 const card = document.createElement('div');
                 card.className = 'game-card';
-                const priceHtml = game.price ? `<span class="price-badge">${game.price}</span>` : `<span style="font-size:0.8em; color:#56708a;">ฟรี / Mod</span>`;
+                
+                // เรียกใช้ตัวจัดรูปแบบเงินบาท
+                const priceHtml = formatThaiPrice(game.price);
                 const displayUrl = game.url.length > 40 ? game.url.substring(0, 37) + '...' : game.url;
                 const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)" title="คลิกเพื่อคัดลอก App ID">📋 ${game.appid}</button>` : '';
-                
                 const steamUrl = game.appid ? `https://store.steampowered.com/app/${game.appid}/` : '#';
                 
                 card.innerHTML = `
