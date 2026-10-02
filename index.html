@@ -13,7 +13,6 @@
         .header-subtitle { font-size: 0.95em; color: #8f98a0; display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
         .badge { background: #212e3f; border: 1px solid #32445a; color: #66c0f4; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
         
-        /* สไตล์กล่องแจ้งเตือนและแอนิเมชันหมุนๆ */
         .sync-alert {
             max-width: 580px; margin: 0 auto 20px auto; background: #172433; border: 1px solid #283a4e;
             padding: 12px 15px; border-radius: 8px; font-size: 0.95em; display: flex; justify-content: center;
@@ -25,7 +24,6 @@
         .spinner { width: 16px; height: 16px; border: 2px solid #223042; border-top: 2px solid #66c0f4; border-radius: 50%; animation: spin 0.8s linear infinite; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        /* กล่องค้นหาและปุ่มกากบาท */
         .search-wrapper { max-width: 580px; margin: 0 auto; position: relative; display: flex; align-items: center; }
         .search-input { width: 100%; padding: 12px 45px; font-size: 0.98em; color: #ffffff; background: #141c26; border: 1px solid #32445a; border-radius: 28px; outline: none; transition: all 0.25s ease; }
         .search-input:focus { border-color: #66c0f4; box-shadow: 0 0 18px rgba(102, 192, 244, 0.35); }
@@ -95,7 +93,8 @@
         let filteredGames = [];
         let currentIndex = 0;
         const batchSize = 16;
-        
+        let usdExchangeRate = 36.0;
+
         const grid = document.getElementById('games-grid');
         const loader = document.getElementById('loader');
         const totalBadge = document.getElementById('total-badge');
@@ -103,26 +102,16 @@
         const clearBtn = document.getElementById('search-clear-btn');
         const autoSyncAlert = document.getElementById('auto-sync-alert');
 
-        fetch('mod_data/games.json')
-            .then(res => res.json())
-            .then(data => {
-                allGames = data.items || [];
-                filteredGames = allGames;
-                totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
-                
-                setTimeout(() => {
-                    autoSyncAlert.classList.remove('loading');
-                    autoSyncAlert.classList.add('success');
-                    autoSyncAlert.innerHTML = `✨ ข้อมูลเป็นปัจจุบันแล้ว (ไม่พบรายการใหม่)`;
-                    loadMoreGames();
-                }, 800);
-            })
-            .catch(() => {
-                autoSyncAlert.classList.remove('loading');
-                autoSyncAlert.style.color = '#ff6b6b';
-                autoSyncAlert.innerHTML = '⚠️ ขัดข้อง: ไม่สามารถเชื่อมต่อฐานข้อมูลได้';
-                loader.innerHTML = '⚠️ ไม่มีข้อมูลแสดงผล';
-            });
+        // ฟังก์ชันดึงเรทค่าเงินสำรอง กรณีเจอรายการที่เป็น USD
+        async function fetchExchangeRate() {
+            try {
+                const res = await fetch('https://open.er-api.com/v6/latest/USD');
+                const data = await res.json();
+                if (data && data.rates && data.rates.THB) {
+                    usdExchangeRate = data.rates.THB;
+                }
+            } catch (e) {}
+        }
 
         function copyAppId(appid, element) {
             navigator.clipboard.writeText(appid).then(() => {
@@ -133,33 +122,39 @@
             });
         }
 
-        // ฟังก์ชันช่วยจัดรูปแบบแสดงผลเป็นเงินบาทไทย (THB)
+        // จัดรูปแบบราคาเป็นเงินบาท (THB)
         function formatThaiPrice(price) {
             if (price === undefined || price === null || price === '') {
                 return '<span style="font-size:0.8em; color:#56708a;">ฟรี / Mod</span>';
             }
 
             const strPrice = String(price).trim();
-
             if (strPrice === '0' || strPrice.toLowerCase() === 'free' || strPrice.toLowerCase() === 'ฟรี') {
                 return '<span class="price-badge" style="color: #a4d007;">ฟรี</span>';
             }
 
-            // สกัดเฉพาะตัวเลขและจุดทศนิยม
-            const cleanNumericStr = strPrice.replace(/[^0-9.]/g, '');
-            const numericPrice = parseFloat(cleanNumericStr);
+            // ถ้ามี ฿ มาอยู่แล้ว ให้ใช้ได้ทันที
+            if (strPrice.includes('฿') || strPrice.toLowerCase().includes('thb')) {
+                return `<span class="price-badge">${strPrice}</span>`;
+            }
 
-            if (!isNaN(numericPrice)) {
+            // จัดการกรณีเป็นตัวเลขหรือติดสัญลักษณ์ $
+            const cleanStr = strPrice.replace(/[^0-9.]/g, '');
+            let numericVal = parseFloat(cleanStr);
+
+            if (!isNaN(numericVal)) {
+                if (strPrice.includes('$')) {
+                    numericVal = numericVal * usdExchangeRate;
+                }
                 const formatted = new Intl.NumberFormat('th-TH', {
                     style: 'currency',
                     currency: 'THB',
                     minimumFractionDigits: 2
-                }).format(numericPrice);
+                }).format(numericVal);
                 return `<span class="price-badge">${formatted}</span>`;
             }
 
-            // กรณีมีสัญลักษณ์อื่นหรือแก้ไขไม่ได้ ให้เติม ฿ นำหน้า
-            return `<span class="price-badge">${strPrice.startsWith('฿') ? strPrice : '฿' + strPrice}</span>`;
+            return `<span class="price-badge">฿${strPrice}</span>`;
         }
 
         function loadMoreGames() {
@@ -175,7 +170,6 @@
                 const card = document.createElement('div');
                 card.className = 'game-card';
                 
-                // เรียกใช้ตัวจัดรูปแบบเงินบาท
                 const priceHtml = formatThaiPrice(game.price);
                 const displayUrl = game.url.length > 40 ? game.url.substring(0, 37) + '...' : game.url;
                 const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)" title="คลิกเพื่อคัดลอก App ID">📋 ${game.appid}</button>` : '';
@@ -214,8 +208,6 @@
         // ระบบค้นหาและปุ่มเคลียร์ข้อความ
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase().replace(/[-_.,'" ]/g, '');
-            
-            // โชว์หรือซ่อนปุ่มกากบาทตามการพิมพ์
             clearBtn.style.display = e.target.value ? 'block' : 'none';
 
             if (!query) {
@@ -232,7 +224,6 @@
             loadMoreGames();
         });
 
-        // เวลากดปุ่มกากบาท ให้เคลียร์ค่าแล้วโหลดข้อมูลใหม่ทั้งหมด
         clearBtn.addEventListener('click', () => {
             searchInput.value = '';
             clearBtn.style.display = 'none';
@@ -246,6 +237,33 @@
         window.addEventListener('scroll', () => {
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) loadMoreGames();
         });
+
+        // เริ่มโหลดข้อมูล
+        async function init() {
+            await fetchExchangeRate();
+            fetch('mod_data/games.json')
+                .then(res => res.json())
+                .then(data => {
+                    allGames = data.items || [];
+                    filteredGames = allGames;
+                    totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
+                    
+                    setTimeout(() => {
+                        autoSyncAlert.classList.remove('loading');
+                        autoSyncAlert.classList.add('success');
+                        autoSyncAlert.innerHTML = `✨ ข้อมูลเป็นปัจจุบันแล้ว (ไม่พบรายการใหม่)`;
+                        loadMoreGames();
+                    }, 800);
+                })
+                .catch(() => {
+                    autoSyncAlert.classList.remove('loading');
+                    autoSyncAlert.style.color = '#ff6b6b';
+                    autoSyncAlert.innerHTML = '⚠️ ขัดข้อง: ไม่สามารถเชื่อมต่อฐานข้อมูลได้';
+                    loader.innerHTML = '⚠️ ไม่มีข้อมูลแสดงผล';
+                });
+        }
+
+        init();
     </script>
 </body>
 </html>
