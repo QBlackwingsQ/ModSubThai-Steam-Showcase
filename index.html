@@ -3,267 +3,270 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ModSubThai - Steam Showcase</title>
+    <title>ModSubThai - Steam Showcase (THB)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', sans-serif; background: radial-gradient(circle at top, #1b2838 0%, #0d121a 100%); color: #c7d5e0; min-height: 100vh; padding-bottom: 60px; }
-        .header-container { text-align: center; padding: 35px 20px 20px; background: linear-gradient(180deg, rgba(23,26,33,0.95) 0%, rgba(23,26,33,0) 100%); }
-        .header-title { font-size: 2.2em; font-weight: 800; color: #ffffff; margin-bottom: 6px; }
-        .header-title span { color: #66c0f4; text-shadow: 0 0 15px rgba(102, 192, 244, 0.4); }
-        .header-subtitle { font-size: 0.95em; color: #8f98a0; display: flex; justify-content: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
-        .badge { background: #212e3f; border: 1px solid #32445a; color: #66c0f4; padding: 4px 12px; border-radius: 20px; font-weight: 600; }
-        
-        .sync-alert {
-            max-width: 580px; margin: 0 auto 20px auto; background: #172433; border: 1px solid #283a4e;
-            padding: 12px 15px; border-radius: 8px; font-size: 0.95em; display: flex; justify-content: center;
-            align-items: center; gap: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); transition: all 0.3s ease;
+        body {
+            background-color: #0d121d;
+            color: #94a3b8;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
         }
-        .sync-alert.loading { color: #8f98a0; }
-        .sync-alert.success { color: #a4d007; }
-        
-        .spinner { width: 16px; height: 16px; border: 2px solid #223042; border-top: 2px solid #66c0f4; border-radius: 50%; animation: spin 0.8s linear infinite; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-
-        .search-wrapper { max-width: 580px; margin: 0 auto; position: relative; display: flex; align-items: center; }
-        .search-input { width: 100%; padding: 12px 45px; font-size: 0.98em; color: #ffffff; background: #141c26; border: 1px solid #32445a; border-radius: 28px; outline: none; transition: all 0.25s ease; }
-        .search-input:focus { border-color: #66c0f4; box-shadow: 0 0 18px rgba(102, 192, 244, 0.35); }
-        .search-icon { position: absolute; left: 16px; color: #627b97; }
-        .search-clear-btn { position: absolute; right: 14px; background: none; border: none; color: #8f98a0; font-size: 1.1em; cursor: pointer; display: none; padding: 4px; }
-        .search-clear-btn:hover { color: #ffffff; }
-
-        .container { max-width: 1440px; margin: 0 auto; padding: 0 25px; }
-        .games-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 25px; }
-        @media (max-width: 1200px) { .games-grid { grid-template-columns: repeat(3, 1fr); } }
-        @media (max-width: 850px) { .games-grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (max-width: 550px) { .games-grid { grid-template-columns: 1fr; } }
-
-        .game-card { background: #182230; border: 1px solid #253549; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: transform 0.25s ease, border-color 0.25s ease; }
-        .game-card:hover { transform: translateY(-6px); border-color: #66c0f4; }
-        .image-box { width: 100%; height: 160px; background: #000; overflow: hidden; position: relative; display: block; text-decoration: none; cursor: pointer; }
-        .game-cover { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; display: block; }
-        .image-box:hover .game-cover { transform: scale(1.06); }
-        
-        .card-content { padding: 16px; display: flex; flex-direction: column; flex-grow: 1; gap: 10px; }
-        .meta-row { display: flex; justify-content: space-between; }
-        .tag-recommend-bottom { color: #66c0f4; font-size: 0.82em; font-weight: 600; }
-        .appid-btn { background: #131c26; border: 1px solid #283a4e; color: #8bb7db; padding: 3px 8px; border-radius: 5px; font-size: 0.76em; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; transition: all 0.2s ease; user-select: none; }
-        .appid-btn:hover { background: #1c2c3d; border-color: #66c0f4; color: #ffffff; transform: translateY(-1px); }
-        .appid-btn.copied { background: rgba(16, 185, 129, 0.2) !important; border-color: #10b981 !important; color: #34d399 !important; }
-        .game-name { color: #ffffff; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.7em; }
-        .mod-url-box { background: rgba(0,0,0,0.3); border: 1px dashed #32445a; padding: 8px; border-radius: 4px; font-size: 0.82em; word-break: break-all; }
-        .mod-url-box a { color: #66c0f4; text-decoration: none; }
-        .card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; border-top: 1px solid #223042; padding-top: 10px; }
-        .btn-mod { background: linear-gradient(90deg, #47bfff 0%, #1a9fff 100%); color: #fff; text-decoration: none; font-size: 0.84em; font-weight: 600; padding: 7px 14px; border-radius: 4px; transition: opacity 0.2s ease, transform 0.2s ease; display: inline-flex; align-items: center; gap: 5px; }
-        .btn-mod:hover { opacity: 0.9; transform: scale(1.02); box-shadow: 0 0 10px rgba(102, 192, 244, 0.4); }
-        .price-badge { background: #000; color: #a4d007; font-size: 0.85em; font-weight: 700; padding: 4px 8px; border-radius: 3px; }
-
-        .loader-wrapper { text-align: center; padding: 35px; color: #627b97; display: flex; justify-content: center; align-items: center; gap: 12px; }
-        .spinner-large { width: 22px; height: 22px; border: 3px solid #223042; border-top: 3px solid #66c0f4; border-radius: 50%; animation: spin 0.8s linear infinite; }
+        .game-card {
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+            transition: all 0.25s ease-in-out;
+        }
+        .game-card:hover {
+            transform: translateY(-4px);
+            border-color: #38bdf8;
+            box-shadow: 0 12px 24px -10px rgba(56, 189, 248, 0.25);
+        }
     </style>
 </head>
-<body>
-    <div class="header-container">
-        <h1 class="header-title">🎮 ModSubThai <span>Steam Showcase</span></h1>
-        <div class="header-subtitle">
-            <span>ศูนย์รวมมอดภาษาไทยบน Steam</span>
-            <span class="badge" id="total-badge">กำลังโหลด...</span>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-slate-900/90 backdrop-blur border-b border-slate-800 sticky top-0 z-30 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-blue-500/20">
+                    TH
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-white tracking-wide">ModSubThai <span class="text-blue-400">Showcase</span></h1>
+                    <p class="text-xs text-slate-400">อัปเดตราคาหน้าร้าน Steam โซนไทย (THB) 🇹🇭</p>
+                </div>
+            </div>
+
+            <!-- Controls: ค้นหา & ปุ่มรีเฟรช -->
+            <div class="flex items-center gap-3 flex-wrap">
+                <div class="relative">
+                    <input type="text" id="searchInput" oninput="filterGames()" placeholder="ค้นหาชื่อเกม..." 
+                           class="bg-slate-950 border border-slate-700 text-white text-xs rounded-xl pl-8 pr-4 py-2 w-48 sm:w-64 focus:outline-none focus:border-blue-500 transition">
+                    <svg class="w-4 h-4 text-slate-500 absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                </div>
+                <button onclick="fetchPrices(true)" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 text-xs px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 font-medium shadow-sm">
+                    <svg id="refreshIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                    รีเฟรชราคา
+                </button>
+            </div>
         </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl w-full mx-auto px-6 py-8 flex-1">
         
-        <div id="auto-sync-alert" class="sync-alert loading">
-            <div class="spinner"></div>
-            <span>กำลังตรวจสอบข้อมูลใหม่...</span>
+        <!-- Status Bar -->
+        <div class="flex items-center justify-between mb-6 flex-wrap gap-2 text-xs">
+            <div class="flex items-center gap-2">
+                <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span id="loadStatus" class="text-slate-400">กำลังตรวจสอบข้อมูลราคา...</span>
+            </div>
+            <div class="text-slate-400">
+                รวมทั้งหมด <span id="gameCount" class="text-white font-bold">0</span> เกม
+            </div>
         </div>
 
-        <div class="search-wrapper">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="search-input" class="search-input" placeholder="ค้นหาด้วยชื่อเกม หรือ App ID...">
-            <button id="search-clear-btn" class="search-clear-btn" title="ล้างการค้นหา">✕</button>
+        <!-- Grid Container -->
+        <div id="gamesGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Game Cards จะถูก Render ลงตรงนี้ -->
         </div>
-    </div>
+    </main>
 
-    <div class="container">
-        <div class="games-grid" id="games-grid"></div>
-        <div id="loader" class="loader-wrapper">
-            <div class="spinner-large"></div> กำลังดึงข้อมูล...
-        </div>
-    </div>
+    <footer class="bg-slate-950 border-t border-slate-900 py-6 text-center text-xs text-slate-500">
+        ModSubThai Steam Showcase • ข้อมูลราคาดึงตรงจาก Steam Store API (Thailand Region)
+    </footer>
 
+    <!-- Script Logic -->
     <script>
-        let allGames = [];
-        let filteredGames = [];
-        let currentIndex = 0;
-        const batchSize = 16;
-        let usdExchangeRate = 36.0;
+        // รายชื่อเกมและ AppID จาก Steam (พี่สามารถเพิ่ม-ลดได้ตามต้องการ)
+        const GAME_LIST = [
+            { id: 582010, title: "Monster Hunter: World", modUrl: "#" },
+            { id: 1091500, title: "Cyberpunk 2077", modUrl: "#" },
+            { id: 292030, title: "The Witcher 3: Wild Hunt", modUrl: "#" },
+            { id: 1151640, title: "Horizon Zero Dawn", modUrl: "#" },
+            { id: 814380, title: "Sekiro: Shadows Die Twice", modUrl: "#" },
+            { id: 1817070, title: "Marvel’s Spider-Man Remastered", modUrl: "#" },
+            { id: 413150, title: "Stardew Valley", modUrl: "#" },
+            { id: 1245620, title: "ELDEN RING", modUrl: "#" }
+        ];
 
-        const grid = document.getElementById('games-grid');
-        const loader = document.getElementById('loader');
-        const totalBadge = document.getElementById('total-badge');
-        const searchInput = document.getElementById('search-input');
-        const clearBtn = document.getElementById('search-clear-btn');
-        const autoSyncAlert = document.getElementById('auto-sync-alert');
+        let cachedPrices = {};
 
-        // ฟังก์ชันดึงเรทค่าเงินสำรอง กรณีเจอรายการที่เป็น USD
-        async function fetchExchangeRate() {
-            try {
-                const res = await fetch('https://open.er-api.com/v6/latest/USD');
-                const data = await res.json();
-                if (data && data.rates && data.rates.THB) {
-                    usdExchangeRate = data.rates.THB;
+        // โหลดข้อมูลเมื่อเปิดหน้าเว็บ
+        document.addEventListener("DOMContentLoaded", () => {
+            renderBaseCards();
+            fetchPrices();
+        });
+
+        // 1. วาดโครงกล่องการ์ดไว้ล่วงหน้า
+        function renderBaseCards() {
+            const grid = document.getElementById("gamesGrid");
+            document.getElementById("gameCount").innerText = GAME_LIST.length;
+
+            grid.innerHTML = GAME_LIST.map(game => `
+                <div id="card-${game.id}" class="game-card rounded-2xl overflow-hidden flex flex-col justify-between" data-title="${game.title.toLowerCase()}">
+                    <div>
+                        <div class="relative overflow-hidden aspect-[460/215] bg-slate-950">
+                            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/${game.id}/header.jpg" 
+                                 alt="${game.title}" 
+                                 class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                                 loading="lazy">
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-sm font-semibold text-white truncate" title="${game.title}">${game.title}</h3>
+                            <p class="text-[11px] text-slate-500 font-mono mt-0.5">AppID: ${game.id}</p>
+                        </div>
+                    </div>
+
+                    <div class="p-4 pt-0 border-t border-slate-800/80 mt-2">
+                        <div id="price-box-${game.id}" class="flex items-center justify-between py-2 min-h-[44px]">
+                            <span class="text-xs text-slate-500 animate-pulse">กำลังโหลดราคา...</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mt-2">
+                            <a href="https://store.steampowered.com/app/${game.id}" target="_blank" 
+                               class="text-center py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-xs font-medium transition border border-slate-700">
+                                ร้านค้า Steam
+                            </a>
+                            <a href="${game.modUrl}" 
+                               class="text-center py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-medium transition shadow-md shadow-blue-600/20">
+                                ดาวน์โหลดม็อด
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `).join("");
+        }
+
+        // 2. ดึงราคาจาก Steam API โซนไทย (THB)
+        async function fetchPrices(forceRefresh = false) {
+            const statusEl = document.getElementById("loadStatus");
+            const refreshIcon = document.getElementById("refreshIcon");
+            
+            refreshIcon.classList.add("animate-spin");
+            statusEl.innerText = "กำลังดึงราคาโซนไทย (THB)...";
+
+            // ดึงข้อมูลทีละ AppID (ส่ง cc=th เพื่อบังคับราคาไทย)
+            for (let i = 0; i < GAME_LIST.length; i++) {
+                const game = GAME_LIST[i];
+                
+                // ตรวจสอบแคชใน LocalStorage ก่อน (แคชไว้ 30 นาที เพื่อป้องกัน Steam Rate Limit)
+                const cacheKey = `steam_th_${game.id}`;
+                const saved = localStorage.getItem(cacheKey);
+
+                if (saved && !forceRefresh) {
+                    const parsedCache = JSON.parse(saved);
+                    if (Date.now() - parsedCache.time < 30 * 60 * 1000) {
+                        renderPrice(game.id, parsedCache.data);
+                        continue;
+                    }
                 }
-            } catch (e) {}
-        }
 
-        function copyAppId(appid, element) {
-            navigator.clipboard.writeText(appid).then(() => {
-                const originalHtml = element.innerHTML;
-                element.classList.add('copied');
-                element.innerHTML = '✓ คัดลอกแล้ว!';
-                setTimeout(() => { element.classList.remove('copied'); element.innerHTML = originalHtml; }, 1500);
-            });
-        }
+                // เรียก Steam API ผ่าน AllOrigins Proxy (แก้ CORS)
+                const targetUrl = `https://store.steampowered.com/api/appdetails?appids=${game.id}&cc=th&l=thai&filters=price_overview`;
+                const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`;
 
-        // จัดรูปแบบราคาเป็นเงินบาท (THB)
-        function formatThaiPrice(price) {
-            if (price === undefined || price === null || price === '') {
-                return '<span style="font-size:0.8em; color:#56708a;">ฟรี / Mod</span>';
-            }
+                try {
+                    const res = await fetch(proxyUrl);
+                    const json = await res.json();
+                    const appDetails = JSON.parse(json.contents);
 
-            const strPrice = String(price).trim();
-            if (strPrice === '0' || strPrice.toLowerCase() === 'free' || strPrice.toLowerCase() === 'ฟรี') {
-                return '<span class="price-badge" style="color: #a4d007;">ฟรี</span>';
-            }
+                    if (appDetails && appDetails[game.id] && appDetails[game.id].success) {
+                        const priceOverview = appDetails[game.id].data.price_overview;
+                        
+                        let priceData = null;
+                        if (!priceOverview) {
+                            priceData = { isFree: true };
+                        } else {
+                            priceData = {
+                                isFree: false,
+                                currency: priceOverview.currency,
+                                initial: priceOverview.initial_formatted,
+                                final: priceOverview.final_formatted,
+                                discount: priceOverview.discount_percent
+                            };
+                        }
 
-            // ถ้ามี ฿ มาอยู่แล้ว ให้ใช้ได้ทันที
-            if (strPrice.includes('฿') || strPrice.toLowerCase().includes('thb')) {
-                return `<span class="price-badge">${strPrice}</span>`;
-            }
-
-            // จัดการกรณีเป็นตัวเลขหรือติดสัญลักษณ์ $
-            const cleanStr = strPrice.replace(/[^0-9.]/g, '');
-            let numericVal = parseFloat(cleanStr);
-
-            if (!isNaN(numericVal)) {
-                if (strPrice.includes('$')) {
-                    numericVal = numericVal * usdExchangeRate;
+                        // บันทึกลงแคช
+                        localStorage.setItem(cacheKey, JSON.stringify({ time: Date.now(), data: priceData }));
+                        renderPrice(game.id, priceData);
+                    }
+                } catch (err) {
+                    console.error(`ไม่สามารถโหลดราคาเกม ID: ${game.id}`, err);
+                    renderPrice(game.id, null);
                 }
-                const formatted = new Intl.NumberFormat('th-TH', {
-                    style: 'currency',
-                    currency: 'THB',
-                    minimumFractionDigits: 2
-                }).format(numericVal);
-                return `<span class="price-badge">${formatted}</span>`;
+
+                // หน่วงเวลาเล็กน้อยเพื่อป้องกันการยิง API ถี่เกินไป
+                await new Promise(r => setTimeout(r, 200));
             }
 
-            return `<span class="price-badge">฿${strPrice}</span>`;
+            refreshIcon.classList.remove("animate-spin");
+            statusEl.innerText = "อัปเดตราคาไทยล่าสุดเรียบร้อยแล้วค่ะ";
         }
 
-        function loadMoreGames() {
-            if (currentIndex >= filteredGames.length) {
-                loader.innerHTML = '✨ แสดงครบทุกเกมแล้ว';
+        // 3. แสดงราคาสวยงามในกล่องของการ์ด
+        function renderPrice(appId, price) {
+            const box = document.getElementById(`price-box-${appId}`);
+            if (!box) return;
+
+            if (!price) {
+                box.innerHTML = `<span class="text-xs text-slate-500">ไม่พบราคา</span>`;
                 return;
             }
 
-            loader.innerHTML = '<div class="spinner-large"></div> กำลังโหลด...';
-            const nextBatch = filteredGames.slice(currentIndex, currentIndex + batchSize);
-            
-            nextBatch.forEach(game => {
-                const card = document.createElement('div');
-                card.className = 'game-card';
-                
-                const priceHtml = formatThaiPrice(game.price);
-                const displayUrl = game.url.length > 40 ? game.url.substring(0, 37) + '...' : game.url;
-                const appIdBtn = game.appid ? `<button class="appid-btn" onclick="copyAppId('${game.appid}', this)" title="คลิกเพื่อคัดลอก App ID">📋 ${game.appid}</button>` : '';
-                const steamUrl = game.appid ? `https://store.steampowered.com/app/${game.appid}/` : '#';
-                
-                card.innerHTML = `
-                    <a class="image-box" href="${steamUrl}" target="_blank" title="คลิกเพื่อไปที่หน้าร้านค้า Steam">
-                        <img class="game-cover" src="${game.img}" alt="${game.name}" loading="lazy" onerror="this.onerror=null; this.src='https://cdn.cloudflare.steamstatic.com/steam/apps/${game.appid}/header.jpg';">
-                    </a>
-                    <div class="card-content">
-                        <div>
-                            <div class="meta-row">
-                                <div class="tag-recommend-bottom">👍 ${game.type}</div>
-                                ${appIdBtn}
-                            </div>
-                            <div class="game-name" title="${game.name}">${game.name}</div>
-                            <div class="mod-url-box" title="${game.url}">
-                                🔗 <strong>ดาวน์โหลดที่:</strong><br>
-                                <a href="${game.url}" target="_blank">${displayUrl}</a>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn-mod" href="${game.url}" target="_blank">📥 โหลด Mod ไทย</a>
-                            ${priceHtml}
+            if (price.isFree) {
+                box.innerHTML = `
+                    <span class="inline-block px-2 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold rounded-md">
+                        เล่นฟรี (Free)
+                    </span>
+                `;
+                return;
+            }
+
+            // ถ้ามีส่วนลด
+            if (price.discount > 0) {
+                box.innerHTML = `
+                    <div class="flex items-center gap-1.5">
+                        <span class="bg-emerald-500 text-slate-950 font-black text-xs px-1.5 py-0.5 rounded">
+                            -${price.discount}%
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="text-[11px] text-slate-500 line-through leading-none">${price.initial}</span>
+                            <span class="text-sm font-bold text-emerald-400 leading-tight">${price.final}</span>
                         </div>
                     </div>
                 `;
-                grid.appendChild(card);
+            } else {
+                // ราคาปกติโซนไทย
+                box.innerHTML = `
+                    <span class="text-sm font-bold text-white">${price.final}</span>
+                `;
+            }
+        }
+
+        // 4. ระบบค้นหาแบบเรียลไทม์
+        function filterGames() {
+            const query = document.getElementById("searchInput").value.trim().toLowerCase();
+            const cards = document.querySelectorAll(".game-card");
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                const title = card.getAttribute("data-title");
+                if (title.includes(query)) {
+                    card.style.display = "flex";
+                    visibleCount++;
+                } else {
+                    card.style.display = "none";
+                }
             });
 
-            currentIndex += batchSize;
-            if (currentIndex >= filteredGames.length) loader.innerHTML = '✨ แสดงครบทุกเกมแล้ว';
-            else loader.innerHTML = 'เลื่อนลงเพื่อดูเพิ่มเติม...';
+            document.getElementById("gameCount").innerText = visibleCount;
         }
-
-        // ระบบค้นหาและปุ่มเคลียร์ข้อความ
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase().replace(/[-_.,'" ]/g, '');
-            clearBtn.style.display = e.target.value ? 'block' : 'none';
-
-            if (!query) {
-                filteredGames = allGames;
-            } else {
-                filteredGames = allGames.filter(g => 
-                    g.name.toLowerCase().replace(/[-_.,'" ]/g, '').includes(query) || 
-                    (g.appid && g.appid.includes(query))
-                );
-            }
-            grid.innerHTML = '';
-            currentIndex = 0;
-            totalBadge.innerText = query ? `พบ ${filteredGames.length} รายการ` : `ทั้งหมด ${allGames.length} รายการ`;
-            loadMoreGames();
-        });
-
-        clearBtn.addEventListener('click', () => {
-            searchInput.value = '';
-            clearBtn.style.display = 'none';
-            filteredGames = allGames;
-            grid.innerHTML = '';
-            currentIndex = 0;
-            totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
-            loadMoreGames();
-        });
-
-        window.addEventListener('scroll', () => {
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) loadMoreGames();
-        });
-
-        // เริ่มโหลดข้อมูล
-        async function init() {
-            await fetchExchangeRate();
-            fetch('mod_data/games.json')
-                .then(res => res.json())
-                .then(data => {
-                    allGames = data.items || [];
-                    filteredGames = allGames;
-                    totalBadge.innerText = `ทั้งหมด ${allGames.length} รายการ`;
-                    
-                    setTimeout(() => {
-                        autoSyncAlert.classList.remove('loading');
-                        autoSyncAlert.classList.add('success');
-                        autoSyncAlert.innerHTML = `✨ ข้อมูลเป็นปัจจุบันแล้ว (ไม่พบรายการใหม่)`;
-                        loadMoreGames();
-                    }, 800);
-                })
-                .catch(() => {
-                    autoSyncAlert.classList.remove('loading');
-                    autoSyncAlert.style.color = '#ff6b6b';
-                    autoSyncAlert.innerHTML = '⚠️ ขัดข้อง: ไม่สามารถเชื่อมต่อฐานข้อมูลได้';
-                    loader.innerHTML = '⚠️ ไม่มีข้อมูลแสดงผล';
-                });
-        }
-
-        init();
     </script>
 </body>
 </html>
