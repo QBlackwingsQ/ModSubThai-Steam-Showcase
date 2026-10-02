@@ -61,6 +61,7 @@ def parse_steam_recommendations(html_data):
         else:
             mod_url = "#"
 
+        # ดึงราคาและส่วนลด
         price = ""
         discount_pct = row.find(class_=re.compile(r'discount_pct', re.I))
         final_price = row.find(class_=re.compile(r'(discount_final_price|game_purchase_price)', re.I))
@@ -86,40 +87,53 @@ def load_local_json():
     return {"total_count": 0, "items": []}
 
 def auto_check_and_sync():
-    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam curator ทั้งหมด (บังคับโซนไทย THB)...")
+    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam curator (บังคับสกุลเงินบาท THB)...")
     url = "https://store.steampowered.com/curator/38366376-ModSubThai/ajaxgetfilteredrecommendations"
     
-    headers = {
+    # ใช้ requests.Session เพื่อจำลองเซสชันประเทศไทยแบบสมบูรณ์
+    session = requests.Session()
+    session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "application/json, text/javascript, */*; q=0.01",
         "X-Requested-With": "XMLHttpRequest",
-        "Referer": "https://store.steampowered.com/curator/38366376-ModSubThai/",
-        "Accept-Language": "th-TH,th;q=0.9,en;q=0.8"
-    }
-    cookies = {
+        "Referer": "https://store.steampowered.com/curator/38366376-ModSubThai/?cc=th&l=thai",
+        "Accept-Language": "th-TH,th;q=0.9"
+    })
+    
+    # คุกกี้ชุดสมบูรณ์ที่ Steam ใช้ตัดสินใจเรื่องสกุลเงินและร้านค้าไทย
+    session.cookies.update({
         "birthtime": "-2208988799",
         "mature_content": "1",
         "wants_mature_content": "1",
         "Steam_Language": "thai",
+        "timezoneOffset": "25200,0",
+        "country": "TH",
         "steamCountry": "TH%7C00000000000000000000000000000000"
-    }
+    })
 
     local_data = load_local_json()
     local_items = local_data.get("items", [])
-    
-    # รวมข้อมูลที่มีอยู่เดิมไว้ก่อน เกมเก่าจะไม่หายแน่นอน
     items_dict = {str(item.get("appid", "")).strip(): item for item in local_items if item.get("appid")}
 
     offset = 0
-    remote_total = 9999  # ตั้งค่าเริ่มต้นให้สูงไว้ก่อนจนกว่าจะได้รับค่าจริงจาก Steam
+    remote_total = 9999
 
     while offset < remote_total:
-        params = {"start": offset, "count": 50, "tag": 0, "sort": "recent", "types": 0, "cc": "th", "l": "thai"}
+        # ส่ง cc=th และ l=thai ใน Query String ทุกครั้ง
+        params = {
+            "start": offset,
+            "count": 50,
+            "tag": 0,
+            "sort": "recent",
+            "types": 0,
+            "cc": "th",
+            "l": "thai"
+        }
         print(f"กำลังดึงข้อมูลตำแหน่งที่ {offset} ถึง {offset + 50} จากทั้งหมด {remote_total}...")
         
         try:
-            res = requests.get(url, params=params, headers=headers, cookies=cookies, timeout=20)
-            if res.status_code != 200: 
+            res = session.get(url, params=params, timeout=20)
+            if res.status_code != 200:
                 print(f"เซิร์ฟเวอร์ตอบกลับสถานะ {res.status_code}, หยุดการดึง")
                 break
             
@@ -127,15 +141,13 @@ def auto_check_and_sync():
             remote_total = data.get("total_count", remote_total)
             page_items = parse_steam_recommendations(data.get("results_html", ""))
             
-            # ถ้าหน้านั้นไม่มีข้อมูลส่งกลับมาแล้ว ให้หยุดลูป
-            if not page_items: 
+            if not page_items:
                 break
 
             for item in page_items:
                 appid = str(item.get("appid", "")).strip()
                 if not appid: continue
                 
-                # ถ้ามีเกมอยู่แล้วให้อัปเดตราคา/ข้อมูลใหม่เข้าไป ถ้ายังไม่มีให้เพิ่มใหม่
                 if appid in items_dict:
                     if item.get("price"):
                         items_dict[appid]["price"] = item["price"]
@@ -145,13 +157,13 @@ def auto_check_and_sync():
                     items_dict[appid] = item
 
             offset += 50
-            time.sleep(0.8)  # หน่วงเวลาป้องกันโดน Steam ปิดกั้น IP
+            time.sleep(0.8)
         except Exception as e:
             print(f"เกิดข้อผิดพลาดในการดึงข้อมูลที่ offset {offset}: {e}")
             break
 
     all_items = list(items_dict.values())
-    print(f"\nดึงข้อมูลสำเร็จเรียบร้อย! รวมเกมทั้งหมด {len(all_items)} รายการ (รวมทั้งเกมเก่าและเกมใหม่)")
+    print(f"\nดึงข้อมูลสำเร็จเรียบร้อย! รวมเกมทั้งหมด {len(all_items)} รายการ")
     
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(DATA_FILE, "w", encoding="utf-8") as f:
