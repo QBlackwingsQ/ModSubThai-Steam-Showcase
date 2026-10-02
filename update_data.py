@@ -9,7 +9,8 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mod_data")
 DATA_FILE = os.path.join(DATA_DIR, "games.json")
 
 def parse_steam_recommendations(html_data):
-    if not html_data: return []
+    if not html_data: 
+        return []
     soup = BeautifulSoup(html_data, 'html.parser')
     rows = soup.find_all('div', class_=re.compile(r'\brecommendation\b', re.I))
     if not rows:
@@ -18,15 +19,18 @@ def parse_steam_recommendations(html_data):
     parsed_items = []
     seen = set()
     for row in rows:
-        if not row: continue
+        if not row: 
+            continue
         appid_elem = row if row.get('data-ds-appid') else row.find(attrs={'data-ds-appid': True})
         appid = appid_elem.get('data-ds-appid') if appid_elem else ""
         if not appid:
             link = row.find('a', href=re.compile(r'/app/(\d+)'))
             if link:
                 m = re.search(r'/app/(\d+)', link['href'])
-                if m: appid = m.group(1)
-        if not appid or appid in seen: continue
+                if m: 
+                    appid = m.group(1)
+        if not appid or appid in seen: 
+            continue
         seen.add(appid)
 
         img_tag = row.find('img')
@@ -61,25 +65,37 @@ def parse_steam_recommendations(html_data):
         else:
             mod_url = "#"
 
+        # ดึงราคา
         price = ""
         final_price = row.find(class_=re.compile(r'(discount_final_price|game_purchase_price)', re.I))
-        if final_price: price = final_price.get_text(strip=True)
+        if final_price: 
+            price = final_price.get_text(strip=True)
 
         type_elem = row.find(class_=re.compile(r'recommendation_type', re.I))
         rec_type = type_elem.get_text(strip=True) if type_elem else "แนะนำ"
 
-        parsed_items.append({"appid": appid, "name": game_name, "img": img_url, "desc": full_text, "url": mod_url, "type": rec_type, "price": price})
+        parsed_items.append({
+            "appid": appid, 
+            "name": game_name, 
+            "img": img_url, 
+            "desc": full_text, 
+            "url": mod_url, 
+            "type": rec_type, 
+            "price": price
+        })
     return parsed_items
 
 def load_local_json():
     if os.path.exists(DATA_FILE):
         try:
-            with open(DATA_FILE, "r", encoding="utf-8") as f: return json.load(f)
-        except Exception: pass
+            with open(DATA_FILE, "r", encoding="utf-8") as f: 
+                return json.load(f)
+        except Exception: 
+            pass
     return {"total_count": 0, "items": []}
 
-def auto_check_and_sync():
-    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam...")
+def auto_check_and_sync(force_refresh=True):
+    print("เริ่มการทำงาน: ดึงข้อมูลจาก Steam ในสกุลเงินบาท (THB)...")
     url = "https://store.steampowered.com/curator/38366376-ModSubThai/ajaxgetfilteredrecommendations"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -88,48 +104,76 @@ def auto_check_and_sync():
         "Referer": "https://store.steampowered.com/curator/38366376-ModSubThai/",
         "Accept-Language": "th-TH,th;q=0.9,en;q=0.8"
     }
-    cookies = {"birthtime": "-2208988799", "mature_content": "1", "wants_mature_content": "1", "Steam_Language": "thai"}
+    
+    # ส่ง Cookie บังคับโซนไทย
+    cookies = {
+        "birthtime": "-2208988799", 
+        "mature_content": "1", 
+        "wants_mature_content": "1", 
+        "Steam_Language": "thai",
+        "steamCountry": "TH%7C00000000000000000000000000000000"
+    }
 
-    local_data = load_local_json()
+    local_data = {} if force_refresh else load_local_json()
     local_items = local_data.get("items", [])
     known_ids = {str(item.get("appid", "")).strip() for item in local_items}
     
-    new_items = []
+    all_collected_items = []
     offset = 0
     remote_total = local_data.get("total_count", len(local_items))
 
     while True:
-        params = {"start": offset, "count": 50, "tag": 0, "sort": "recent", "types": 0}
-        res = requests.get(url, params=params, headers=headers, cookies=cookies, timeout=10)
-        if res.status_code != 200: break
+        # ระบุ cc=th และ l=thai ใน Query String เพื่อดึงราคาเงินบาทแน่นอน
+        params = {
+            "start": offset, 
+            "count": 50, 
+            "tag": 0, 
+            "sort": "recent", 
+            "types": 0,
+            "cc": "th",
+            "l": "thai"
+        }
+        res = requests.get(url, params=params, headers=headers, cookies=cookies, timeout=12)
+        if res.status_code != 200: 
+            break
         
         data = res.json()
         remote_total = data.get("total_count", remote_total)
         page_items = parse_steam_recommendations(data.get("results_html", ""))
-        if not page_items: break
+        if not page_items: 
+            break
 
         unknown_on_page = []
         for item in page_items:
             appid = str(item.get("appid", "")).strip()
-            if appid and appid not in known_ids:
+            if force_refresh:
+                all_collected_items.append(item)
+            elif appid and appid not in known_ids:
                 known_ids.add(appid)
                 unknown_on_page.append(item)
-        new_items.extend(unknown_on_page)
 
-        # หากไม่มีข้อมูลใหม่ในหน้านี้ แปลว่าดึงครบแล้ว
-        if not unknown_on_page or offset + 50 >= remote_total:
+        if not force_refresh:
+            all_collected_items.extend(unknown_on_page)
+            if not unknown_on_page or offset + 50 >= remote_total:
+                break
+
+        if offset + 50 >= remote_total:
             break
-        offset += 50
-        time.sleep(0.5)
 
-    if new_items:
-        print(f"พบข้อมูลมอดใหม่: {len(new_items)} เกม!")
-        updated_items = new_items + [item for item in local_items if str(item.get("appid", "")).strip() not in {str(it.get("appid", "")).strip() for it in new_items}]
+        offset += 50
+        print(f"กำลังดาวน์โหลดข้อมูล: {len(all_collected_items)}/{remote_total} เกม...")
+        time.sleep(0.4)
+
+    if all_collected_items or force_refresh:
+        final_items = all_collected_items if force_refresh else all_collected_items + [
+            item for item in local_items if str(item.get("appid", "")).strip() not in {str(it.get("appid", "")).strip() for it in all_collected_items}
+        ]
         os.makedirs(DATA_DIR, exist_ok=True)
         with open(DATA_FILE, "w", encoding="utf-8") as f:
-            json.dump({"total_count": remote_total, "items": updated_items}, f, ensure_ascii=False, indent=2)
+            json.dump({"total_count": remote_total, "items": final_items}, f, ensure_ascii=False, indent=2)
+        print(f"✅ สำเร็จ! อัปเดตข้อมูลทั้งหมด {len(final_items)} รายการเป็นราคาเงินบาทเรียบร้อยแล้วค่ะ")
     else:
         print("ข้อมูลเป็นปัจจุบันแล้ว ไม่พบมอดใหม่")
 
 if __name__ == "__main__":
-    auto_check_and_sync()
+    auto_check_and_sync(force_refresh=True)
