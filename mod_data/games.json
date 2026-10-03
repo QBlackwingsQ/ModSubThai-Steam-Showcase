@@ -1,6 +1,15 @@
 {
-  "total_count": 1012,
+  "total_count": 1013,
   "items": [
+    {
+      "appid": "8140",
+      "name": "Tomb Raider: Underworld",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8140/header_292x136.jpg?t=1729009496",
+      "desc": "-89% $8.99 $0.98 Recommended October 2 Mod ภาษาไทย Tomb Raider Underworld\nโหลดได้ที่ : www.nexusmods.com/tombraiderunderworld/mods/96",
+      "url": "https://www.nexusmods.com/tombraiderunderworld/mods/96",
+      "type": "RecommendedOctober 2",
+      "price": "-89% ฿26.29"
+    },
     {
       "appid": "968790",
       "name": "DYNASTY WARRIORS 7: Xtreme Legends Definitive Edition",
@@ -1799,7 +1808,7 @@
       "desc": "$49.99 Recommended August 28 Mod ภาษาไทย STAR WARS: Zero Company\nโหลดได้ที่ : www.nexusmods.com/starwarszerocompany/mods/11",
       "url": "https://www.nexusmods.com/starwarszerocompany/mods/11",
       "type": "RecommendedAugust 28",
-      "price": "฿1,399.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "360430",
@@ -7871,8 +7880,8 @@
       "appid": "292030",
       "name": "The Witcher 3: Wild Hunt — Remastered",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_292x136_alt_assets_1.jpg?t=1790845156",
-      "desc": "-50% $49.99 $24.99 Recommended July 1, 2022 Mod ภาษาไทย The Witcher 3 เสร็จเเล้ว 100% \nอัพเดต Next-Gen\nโหลดที่ : https://www.facebook.com/groups/438079109700802\nต้องตั้งค่าภาษาในเกมเป็น \"ภาษาไทยเต็มรูปแบบ\" Watch the full review [www.youtube.com]",
-      "url": "https://www.facebook.com/groups/438079109700802",
+      "desc": "-50% $49.99 $24.99 Recommended July 1, 2022 Mod ภาษาไทย The Witcher 3 เสร็จเเล้ว 100% \nโหลดได้ที่ : www.nexusmods.com/witcher3/mods/13004 Watch the full review [www.youtube.com]",
+      "url": "https://www.nexusmods.com/witcher3/mods/13004",
       "type": "RecommendedJuly 1, 2022",
       "price": "ฟรี / Mod"
     },
