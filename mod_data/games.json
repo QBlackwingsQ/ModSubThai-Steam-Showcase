@@ -1,6 +1,51 @@
 {
-  "total_count": 1013,
+  "total_count": 1018,
   "items": [
+    {
+      "appid": "1237970",
+      "name": "Titanfall® 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1237970/header_292x136.jpg?t=1779987598",
+      "desc": "-85% $29.99 $4.49 Recommended October 3 Mod ภาษาไทย Titanfall 2\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 3",
+      "price": "-85% ฿119.85"
+    },
+    {
+      "appid": "1182620",
+      "name": "Impostor Factory",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1182620/header_292x136.jpg?t=1726196467",
+      "desc": "-75% $9.99 $2.49 Recommended October 3 Mod ภาษาไทย Impostor Factory\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 3",
+      "price": "-75% ฿55.00"
+    },
+    {
+      "appid": "337340",
+      "name": "Finding Paradise",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/337340/9ccd2472b64493cce208bb178d8c0705e849465a/header_292x136.jpg?t=1780927618",
+      "desc": "-75% $9.99 $2.49 Recommended October 3 Mod ภาษาไทย Finding Paradise\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 3",
+      "price": "-75% ฿55.00"
+    },
+    {
+      "appid": "949230",
+      "name": "Cities: Skylines II",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/header_292x136.jpg?t=1790873944",
+      "desc": "Live -30% $49.99 $34.99 Recommended October 3 Mod ภาษาไทย Cities: Skylines II\nโฆลดได้ที่ : patreon.com/EASYMOD",
+      "url": "https://patreon.com/EASYMOD",
+      "type": "RecommendedOctober 3",
+      "price": "-30% ฿951.30"
+    },
+    {
+      "appid": "684450",
+      "name": "Surviving the Aftermath",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/684450/header_292x136.jpg?t=1726498077",
+      "desc": "-75% $29.99 $7.49 Recommended October 3 Mod ภาษาไทย Surviving the Aftermath\nโหลดได้ที่ : www.nexusmods.com/survivingtheaftermath/mods/10",
+      "url": "https://www.nexusmods.com/survivingtheaftermath/mods/10",
+      "type": "RecommendedOctober 3",
+      "price": "-75% ฿204.75"
+    },
     {
       "appid": "8140",
       "name": "Tomb Raider: Underworld",
@@ -1723,7 +1768,7 @@
     {
       "appid": "2163330",
       "name": "Yet Another Zombie Survivors",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2163330/d14101ee67beb9c952fd8e38ec015777356430a0/header_292x136.jpg?t=1790942122",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2163330/d14101ee67beb9c952fd8e38ec015777356430a0/header_292x136.jpg?t=1791053440",
       "desc": "-40% $14.99 $8.99 Recommended August 30 Mod ภาษาไทย Yet Another Zombie Survivors \nโหลดได้ที่ : www.nexusmods.com/yetanotherzombiesurvivors/mods/5",
       "url": "https://www.nexusmods.com/yetanotherzombiesurvivors/mods/5",
       "type": "RecommendedAugust 30",
@@ -1763,7 +1808,7 @@
       "desc": "-40% $49.99 $29.99 Recommended August 29 Mod ภาษาไทย FINAL FANTASY TACTICS - The Ivalice Chronicles\nโหลดได้ที่ : www.nexusmods.com/finalfantasytacticstheivalicechronicles/mods/122",
       "url": "https://www.nexusmods.com/finalfantasytacticstheivalicechronicles/mods/122",
       "type": "RecommendedAugust 29",
-      "price": "-40% ฿1,014.60"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "383150",
@@ -1772,7 +1817,7 @@
       "desc": "-90% $19.99 $1.99 Recommended August 29 Mod ภาษาไทย Dead Island Definitive Edition\nโหลดได้ที่ : www.nexusmods.com/deadisland/mods/122",
       "url": "https://www.nexusmods.com/deadisland/mods/122",
       "type": "RecommendedAugust 29",
-      "price": "-90% ฿47.43"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "627270",
@@ -1781,7 +1826,7 @@
       "desc": "-90% $49.99 $4.99 Recommended August 29 Mod ภาษาไทย Injustice™ 2\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 29",
-      "price": "-90% ฿57.90"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1868180",
@@ -1790,7 +1835,7 @@
       "desc": "-70% $39.99 $11.99 Recommended August 28 Mod ภาษาไทย Etrian Odyssey HD\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 28",
-      "price": "-70% ฿267.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1868170",
@@ -1799,7 +1844,7 @@
       "desc": "-65% $39.99 $13.99 Recommended August 28 Mod ภาษาไทย Etrian Odyssey II HD\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 28",
-      "price": "-65% ฿311.50"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2075800",
@@ -2201,7 +2246,7 @@
       "appid": "355790",
       "name": "Styx: Shards of Darkness",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/355790/header_292x136.jpg?t=1778174587",
-      "desc": "-93% $19.99 $1.39 Recommended August 20 Mod ภาษาไทย Styx: Shards of Darkness\nโหลดได้ที่ : www.nexusmods.com/styxshardsofdarkness/mods/15",
+      "desc": "$19.99 Recommended August 20 Mod ภาษาไทย Styx: Shards of Darkness\nโหลดได้ที่ : www.nexusmods.com/styxshardsofdarkness/mods/15",
       "url": "https://www.nexusmods.com/styxshardsofdarkness/mods/15",
       "type": "RecommendedAugust 20",
       "price": "ฟรี / Mod"
@@ -5189,7 +5234,7 @@
       "appid": "3070880",
       "name": "Farming & Supermarket Simulator",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070880/70d20c692eb240ffb53cb016583673fb53f255a1/header_292x136.jpg?t=1789058368",
-      "desc": "Live -30% $11.99 $8.39 Recommended May 31, 2025 Mod ภาษาไทย Farming & Supermarket Simulator\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "-30% $11.99 $8.39 Recommended May 31, 2025 Mod ภาษาไทย Farming & Supermarket Simulator\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedMay 31, 2025",
       "price": "ฟรี / Mod"
@@ -5378,7 +5423,7 @@
       "appid": "287700",
       "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/287700/header_292x136.jpg?t=1778872866",
-      "desc": "-40% $29.99 $17.99 Recommended April 30, 2025 Mod ภาษาไทย METAL GEAR SOLID V: THE PHANTOM PAIN\nโหลดได้ที่ : www.nexusmods.com/metalgearsolidvtpp/mods/2178 Watch the full review [youtu.be]",
+      "desc": "-40% $29.99 $17.99 Recommended April 30, 2025 Mod ภาษาไทย METAL GEAR SOLID V: THE PHANTOM PAIN\nโหลดได้ที่ : www.nexusmods.com/metalgearsolidvtpp/mods/2178\nหรือ www.nexusmods.com/metalgearsolidvtpp/mods/2640 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/metalgearsolidvtpp/mods/2178",
       "type": "RecommendedApril 30, 2025",
       "price": "ฟรี / Mod"
@@ -6638,7 +6683,7 @@
       "appid": "1677110",
       "name": "Lightyear Frontier",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1677110/844594bbf4004922873cbe54ca447bd83a2e7293/header_292x136.jpg?t=1790936484",
-      "desc": "-40% $24.99 $14.99 Recommended March 31, 2024 Mod ภาษาไทย Lightyear Frontier\nโหลดได้ที่ : https://www.nexusmods.com/lightyearfrontier/mods/3\nคัดลอกไฟล์ FarMech_TH_P.pak ไปไว้ในโฟลเดอร์ FarMech\\Content\\Paks",
+      "desc": "$29.99 Recommended March 31, 2024 Mod ภาษาไทย Lightyear Frontier\nโหลดได้ที่ : https://www.nexusmods.com/lightyearfrontier/mods/3\nคัดลอกไฟล์ FarMech_TH_P.pak ไปไว้ในโฟลเดอร์ FarMech\\Content\\Paks",
       "url": "https://www.nexusmods.com/lightyearfrontier/mods/3",
       "type": "RecommendedMarch 31, 2024",
       "price": "ฟรี / Mod"
@@ -7916,7 +7961,7 @@
       "appid": "418950",
       "name": "DreadOut: Keepers of The Dark",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/418950/fda36d7ec84bcbd8b692a1d94df5dbcc0d440ff9/header_292x136.jpg?t=1788768012",
-      "desc": "-50% $6.99 $3.49 Recommended June 3, 2022 Mod ภาษาไทย DreadOut: Keepers of The Dark\nโหลดได้ที่ : sites.google.com/view/transladethai",
+      "desc": "Live -50% $6.99 $3.49 Recommended June 3, 2022 Mod ภาษาไทย DreadOut: Keepers of The Dark\nโหลดได้ที่ : sites.google.com/view/transladethai",
       "url": "https://google.com/view/transladethai",
       "type": "RecommendedJune 3, 2022",
       "price": "ฟรี / Mod"
