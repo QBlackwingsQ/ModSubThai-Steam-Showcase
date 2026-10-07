@@ -1,6 +1,15 @@
 {
-  "total_count": 1031,
+  "total_count": 1032,
   "items": [
+    {
+      "appid": "611760",
+      "name": "Don't Escape: 4 Days to Survive",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/611760/header_292x136.jpg?t=1726580887",
+      "desc": "-80% $14.99 $2.99 80% off. $14.99 normally, discounted to $2.99 Recommended October 6 Mod ภาษาไทย Don't Escape: 4 Days to Survive\nโหลดได้ที่ : www.nexusmods.com/dontescape4daystosurvive/mods/4",
+      "url": "https://www.nexusmods.com/dontescape4daystosurvive/mods/4",
+      "type": "RecommendedOctober 6",
+      "price": "-80% ฿63.00"
+    },
     {
       "appid": "209650",
       "name": "Call of Duty®: Advanced Warfare - Gold Edition",
@@ -212,7 +221,7 @@
       "appid": "2288340",
       "name": "ACE COMBAT 8: WINGS OF THEVE",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2288340/13dea8084135fd130605b78189c82e39bf944c35/header_292x136.jpg?t=1791286652",
-      "desc": "Live $69.99 Recommended October 2 Mod ภาษาไทย ACE COMBAT 8: WINGS OF THEVE \nโหลดได้ที่ : www.nexusmods.com/acecombat8wingsoftheve/mods/13",
+      "desc": "$69.99 Recommended October 2 Mod ภาษาไทย ACE COMBAT 8: WINGS OF THEVE \nโหลดได้ที่ : www.nexusmods.com/acecombat8wingsoftheve/mods/13",
       "url": "https://www.nexusmods.com/acecombat8wingsoftheve/mods/13",
       "type": "RecommendedOctober 2",
       "price": "฿1,990.00"
@@ -1732,7 +1741,7 @@
     {
       "appid": "4538960",
       "name": "ZENONIA 1",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4538960/f25c2ff778bf89922cba126556625d47a8a30ffa/header_292x136.jpg?t=1789710911",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4538960/f25c2ff778bf89922cba126556625d47a8a30ffa/header_292x136.jpg?t=1791337760",
       "desc": "-20% $9.99 $7.99 20% off. $9.99 normally, discounted to $7.99 Recommended September 1 Mod ภาษาไทย ZENONIA 1\nโหลดได้ที่ : www.nonplae.com",
       "url": "https://www.nonplae.com",
       "type": "RecommendedSeptember 1",
@@ -1799,7 +1808,7 @@
       "desc": "-30% $4.99 $3.49 30% off. $4.99 normally, discounted to $3.49 Recommended September 1 Mod ภาษาไทย Kabuto Park\nโหลดได้ที่ : www.nexusmods.com/kabutopark/mods/1",
       "url": "https://www.nexusmods.com/kabutopark/mods/1",
       "type": "RecommendedSeptember 1",
-      "price": "-30% ฿80.50"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "325610",
@@ -2002,7 +2011,7 @@
     {
       "appid": "3211430",
       "name": "BRIGANDINE ABYSS",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3211430/f31f9d5047355f830df9dfb1031847fc83cd0e52/header_292x136.jpg?t=1787827228",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3211430/f31f9d5047355f830df9dfb1031847fc83cd0e52/header_292x136.jpg?t=1791343760",
       "desc": "$49.99 Recommended August 27 Mod ภาษาไทย BRIGANDINE ABYSS\nโหลดได้ที่ : steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592939664045841664",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592939664045841664",
       "type": "RecommendedAugust 27",
@@ -4810,7 +4819,7 @@
     {
       "appid": "2489330",
       "name": "Whiskerwood",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2489330/7237c2ee5f5a5c9d05ac9e473d4bcb8573e4bc09/header_292x136.jpg?t=1791278258",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2489330/7237c2ee5f5a5c9d05ac9e473d4bcb8573e4bc09/header_292x136.jpg?t=1791329348",
       "desc": "-50% $29.99 $14.99 50% off. $29.99 normally, discounted to $14.99 Recommended January 17 Mod ภาษาไทย Whiskerwood\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJanuary 17",
