@@ -1,6 +1,24 @@
 {
-  "total_count": 1044,
+  "total_count": 1046,
   "items": [
+    {
+      "appid": "1096530",
+      "name": "Solasta: Crown of the Magister",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1096530/header_292x136.jpg?t=1772029038",
+      "desc": "Live $29.99 Recommended October 9 Mod ภาษาไทย Solasta: Crown of the Magister\nโหลดได้ที่ : www.nexusmods.com/solastacrownofthemagister/mods/291",
+      "url": "https://www.nexusmods.com/solastacrownofthemagister/mods/291",
+      "type": "RecommendedOctober 9",
+      "price": "฿590.00"
+    },
+    {
+      "appid": "3159330",
+      "name": "Assassin’s Creed Shadows",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header_292x136.jpg?t=1789746114",
+      "desc": "$69.99 Recommended October 9 Mod ภาษาไทย Assassin's Creed Shadows \nโหลดได้ที่ : patreon.com/EASYMOD",
+      "url": "https://patreon.com/EASYMOD",
+      "type": "RecommendedOctober 9",
+      "price": "฿1,999.00"
+    },
     {
       "appid": "397220",
       "name": "State of Decay: Year-One Survival Edition Soundtrack",
@@ -1733,7 +1751,7 @@
       "appid": "1771300",
       "name": "Kingdom Come: Deliverance II",
       "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1771300/header_292x136.jpg?t=1777975568",
-      "desc": "Live $59.99 Recommended September 6 Mod ภาษาไทย Kingdom Come Deliverance II\nโหลดได้ที่ : www.nexusmods.com/kingdomcomedeliverance2/mods/2729",
+      "desc": "$59.99 Recommended September 6 Mod ภาษาไทย Kingdom Come Deliverance II\nโหลดได้ที่ : www.nexusmods.com/kingdomcomedeliverance2/mods/2729",
       "url": "https://www.nexusmods.com/kingdomcomedeliverance2/mods/2729",
       "type": "RecommendedSeptember 6",
       "price": "฿1,423.62"
@@ -1790,7 +1808,7 @@
       "desc": "$69.99 Recommended September 4 Mod ภาษาไทย Onimusha: Way of the Sword \nโหลดได้ที่ : www.nexusmods.com/onimushawayofthesword/mods/34\nหรือ www.nexusmods.com/onimushawayofthesword/mods/56 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/onimushawayofthesword/mods/34",
       "type": "RecommendedSeptember 4",
-      "price": "฿1,890.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "333600",
@@ -1799,7 +1817,7 @@
       "desc": "$9.99 Recommended September 4 Mod ภาษาไทย NEKOPARA Vol. 1\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 4",
-      "price": "฿220.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2186680",
@@ -3443,7 +3461,7 @@
       "appid": "3274580",
       "name": "Anno 117: Pax Romana",
       "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/88dbcce1c7630e2d4334fa25e835968e57e0ebfe/header_292x136.jpg?t=1790864543",
-      "desc": "Live $59.99 Recommended July 24 Mod ภาษาไทย Anno 117: Pax Romana\nโหลดได้ที่ : www.facebook.com/groups/746982122079564",
+      "desc": "$59.99 Recommended July 24 Mod ภาษาไทย Anno 117: Pax Romana\nโหลดได้ที่ : www.facebook.com/groups/746982122079564",
       "url": "https://www.facebook.com/groups/746982122079564",
       "type": "RecommendedJuly 24",
       "price": "ฟรี / Mod"
@@ -4163,7 +4181,7 @@
       "appid": "1669000",
       "name": "Age of Wonders 4",
       "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669000/4745edcf9c1c78e26f9be46e5ba7910e64637a66/header_292x136_alt_assets_13.jpg?t=1791308733",
-      "desc": "$49.99 Recommended July 6 Mod ภาษาไทย Age of Wonders 4\nโหลดได้ที่ : https://modthai-en0va.com",
+      "desc": "Live $49.99 Recommended July 6 Mod ภาษาไทย Age of Wonders 4\nโหลดได้ที่ : https://modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedJuly 6",
       "price": "ฟรี / Mod"
@@ -6070,7 +6088,7 @@
     {
       "appid": "1286220",
       "name": "Sea Power : Naval Combat in the Missile Age",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286220/header_292x136.jpg?t=1790696027",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1286220/header_292x136.jpg?t=1791531676",
       "desc": "$49.99 Recommended November 23, 2024 Mod ภาษาไทย Sea power\nโหลดได้ที่ : steamcommunity.com/sharedfiles/filedetails/?id=3365674590",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3365674590",
       "type": "RecommendedNovember 23, 2024",
@@ -9004,7 +9022,7 @@
     {
       "appid": "892970",
       "name": "Valheim",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_292x136_alt_assets_6.jpg?t=1790220314",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_292x136_alt_assets_6.jpg?t=1791544831",
       "desc": "$29.99 Recommended February 26, 2021 ม็อดภาษาไทย Valheim โดย Paehardline\nโหลดได้ที่\nhttps://www.facebook.com/PAEHARDLINE Watch the full review [youtu.be]",
       "url": "https://www.facebook.com/PAEHARDLINE",
       "type": "RecommendedFebruary 26, 2021",
