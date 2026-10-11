@@ -1,6 +1,69 @@
 {
-  "total_count": 1065,
+  "total_count": 1072,
   "items": [
+    {
+      "appid": "42700",
+      "name": "Call of Duty®: Black Ops",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/42700/header_292x136.jpg?t=1780962720",
+      "desc": "$39.99 Recommended October 11 Mod ภาษาไทย Call of Duty: Black Ops\nโหลดได้ที่ :  www.nodnuattranslator.com",
+      "url": "https://www.nodnuattranslator.com",
+      "type": "RecommendedOctober 11",
+      "price": "฿1,380.00"
+    },
+    {
+      "appid": "218640",
+      "name": "Lucius",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/218640/header_292x136.jpg?t=1758742661",
+      "desc": "$9.99 Recommended October 11 Mod ภาษาไทย Lucius \nโหลดได้ที่ : www.nexusmods.com/lucius/mods/2",
+      "url": "https://www.nexusmods.com/lucius/mods/2",
+      "type": "RecommendedOctober 11",
+      "price": "฿219.00"
+    },
+    {
+      "appid": "3010850",
+      "name": "Gears of War: E-Day",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3010850/1abb0c5ef76c14f463dd6e3964adb64f984237d2/header_292x136.jpg?t=1791488050",
+      "desc": "$69.99 Recommended October 11 Mod ภาษาไทย Gears of War E-Day\nโหลดได้ที่ : www.nexusmods.com/gearsofwareday/mods/43",
+      "url": "https://www.nexusmods.com/gearsofwareday/mods/43",
+      "type": "RecommendedOctober 11",
+      "price": "฿1,999.00"
+    },
+    {
+      "appid": "208200",
+      "name": "DOOM 3",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/208200/header_292x136.jpg?t=1664292843",
+      "desc": "$9.99 Recommended October 11 Mod ภาษาไทย Doom 3 \nโหลดได้ที่ : www.nexusmods.com/doom3/mods/1725",
+      "url": "https://www.nexusmods.com/doom3/mods/1725",
+      "type": "RecommendedOctober 11",
+      "price": "฿330.00"
+    },
+    {
+      "appid": "203140",
+      "name": "Hitman: Absolution™",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/203140/header_292x136.jpg?t=1734461136",
+      "desc": "$19.99 Recommended October 11 Mod ภาษาไทย Hitman Absolution\nโหลดได้ที่ : www.nexusmods.com/hitmanabsolution/mods/32",
+      "url": "https://www.nexusmods.com/hitmanabsolution/mods/32",
+      "type": "RecommendedOctober 11",
+      "price": "฿435.99"
+    },
+    {
+      "appid": "532790",
+      "name": "Vampire: The Masquerade® - Bloodlines™ 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/532790/6d111b2adddf94a3689dab8d7642de40b051db42/header_292x136.jpg?t=1789993933",
+      "desc": "$59.99 Recommended October 11 Mod ภาษาไทย Vampire: The Masquerade® - Bloodlines™ 2\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedOctober 11",
+      "price": "฿1,629.00"
+    },
+    {
+      "appid": "372360",
+      "name": "Tales of Symphonia",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/372360/header_292x136.jpg?t=1580311676",
+      "desc": "$19.99 Recommended October 11 Mod ภาษาไทย Tales of Symphonia\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
+      "url": "https://stamp789.github.io/mee-game-kor-pla",
+      "type": "RecommendedOctober 11",
+      "price": "฿369.00"
+    },
     {
       "appid": "2235200",
       "name": "Neon Abyss 2",
@@ -131,10 +194,10 @@
       "appid": "2290000",
       "name": "TerraScape",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2290000/header_292x136.jpg?t=1784796390",
-      "desc": "Live $14.99 Recommended October 10 Mod ภาษาไทย TerraScape\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "Live -50% $14.99 $7.49 50% off. $14.99 normally, discounted to $7.49 Recommended October 10 Mod ภาษาไทย TerraScape\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedOctober 10",
-      "price": "฿315.00"
+      "price": "-50% ฿157.50"
     },
     {
       "appid": "1402110",
@@ -1745,7 +1808,7 @@
       "desc": "$19.99 Recommended September 11 Mod ภาษาไทย Unravel Two \nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 11",
-      "price": "฿549.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1225560",
@@ -1754,7 +1817,7 @@
       "desc": "$19.99 Recommended September 11 Mod ภาษาไทย Unravel \nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 11",
-      "price": "฿549.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2833580",
@@ -1763,7 +1826,7 @@
       "desc": "$39.99 Recommended September 11 Mod ภาษาไทย Bravely Default Flying Fairy HD Remaster\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 11",
-      "price": "฿1,059.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2998920",
@@ -1772,7 +1835,7 @@
       "desc": "$11.99 Recommended September 11 Mod ภาษาไทย Port of Jumanah\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 11",
-      "price": "฿239.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "764790",
@@ -1781,7 +1844,7 @@
       "desc": "$19.99 Recommended September 9 Mod ภาษาไทย The Messenger\nโหลดได้ที่ : github.com/IsAmArt/The-Messenger-Thai-Mod",
       "url": "https://github.com/IsAmArt/The-Messenger-Thai-Mod",
       "type": "RecommendedSeptember 9",
-      "price": "฿400.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3293260",
@@ -1790,7 +1853,7 @@
       "desc": "$12.99 Recommended September 9 Mod ภาษาไทย Waterpark Simulator\nโหลดได้ที่ : www.nexusmods.com/waterparksimulator/mods/100",
       "url": "https://www.nexusmods.com/waterparksimulator/mods/100",
       "type": "RecommendedSeptember 9",
-      "price": "฿180.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1042550",
@@ -1799,7 +1862,7 @@
       "desc": "$49.99 Recommended September 9 Mod ภาษาไทย Digimon Story Cyber Sleuth: Complete Edition\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 9",
-      "price": "฿1,190.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1170570",
@@ -3956,7 +4019,7 @@
       "appid": "3722330",
       "name": "Shift At Midnight",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3722330/759ecea2ffe1ad3819aefdda79e265b8b332bf8f/header_292x136.jpg?t=1789401053",
-      "desc": "Live $9.99 Recommended July 18 Mod ภาษาไทย Shift At Midnight\nโหลดได้ที่ : www.nexusmods.com/shiftatmidnight/mods/1",
+      "desc": "$9.99 Recommended July 18 Mod ภาษาไทย Shift At Midnight\nโหลดได้ที่ : www.nexusmods.com/shiftatmidnight/mods/1",
       "url": "https://www.nexusmods.com/shiftatmidnight/mods/1",
       "type": "RecommendedJuly 18",
       "price": "ฟรี / Mod"
@@ -5108,7 +5171,7 @@
       "appid": "2678830",
       "name": "Halcyon Days at Taoyuan",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2678830/7d100b05f402a79e2e24572e7ea54853d534f747/header_292x136.jpg?t=1787582644",
-      "desc": "-10% $11.99 $10.79 10% off. $11.99 normally, discounted to $10.79 Recommended January 26 Mod ภาษาไทย Halcyon Days at Taoyuan\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "$11.99 Recommended January 26 Mod ภาษาไทย Halcyon Days at Taoyuan\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJanuary 26",
       "price": "ฟรี / Mod"
@@ -6080,7 +6143,7 @@
       "appid": "1543030",
       "name": "Sword and Fairy 7",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1543030/header_292x136.jpg?t=1752806749",
-      "desc": "-60% $29.99 $11.99 60% off. $29.99 normally, discounted to $11.99 Recommended February 14, 2025 Mod ภาษาไทย Sword and Fairy 7\nโหลดได้ที่ : www.nexusmods.com/swordandfairy7/mods/31",
+      "desc": "$29.99 Recommended February 14, 2025 Mod ภาษาไทย Sword and Fairy 7\nโหลดได้ที่ : www.nexusmods.com/swordandfairy7/mods/31",
       "url": "https://www.nexusmods.com/swordandfairy7/mods/31",
       "type": "RecommendedFebruary 14, 2025",
       "price": "ฟรี / Mod"
@@ -8492,7 +8555,7 @@
       "appid": "1794680",
       "name": "Vampire Survivors",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/2ca07b690dde645771125ed9d9206c4c5fde4dd4/header_292x136.jpg?t=1787911678",
-      "desc": "$4.99 Recommended May 12, 2022 Mod ภาษาไทย\nโหลดได้ที่ : https://sites.google.com/view/transladethai\nแตกไฟล์ไว้ใน \\resources\\app\\.webpack\\renderer ลบไฟล์ LastRunBackup.sav และ LastRunBackup.bak.sav เปลี่ยนภาษาใน Options",
+      "desc": "-25% $4.99 $3.74 25% off. $4.99 normally, discounted to $3.74 Recommended May 12, 2022 Mod ภาษาไทย\nโหลดได้ที่ : https://sites.google.com/view/transladethai\nแตกไฟล์ไว้ใน \\resources\\app\\.webpack\\renderer ลบไฟล์ LastRunBackup.sav และ LastRunBackup.bak.sav เปลี่ยนภาษาใน Options",
       "url": "https://sites.google.com/view/transladethai",
       "type": "RecommendedMay 12, 2022",
       "price": "ฟรี / Mod"
