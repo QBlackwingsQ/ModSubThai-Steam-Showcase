@@ -1,6 +1,42 @@
 {
-  "total_count": 1089,
+  "total_count": 1093,
   "items": [
+    {
+      "appid": "2828710",
+      "name": "Valor Mortis",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header_292x136.jpg?t=1791924072",
+      "desc": "Live $39.99 Recommended October 14 Mod ภาษาไทย Valor Mortis\nโหลดได้ที่ : www.nexusmods.com/valormortis/mods/21",
+      "url": "https://www.nexusmods.com/valormortis/mods/21",
+      "type": "RecommendedOctober 14",
+      "price": "฿890.00"
+    },
+    {
+      "appid": "4030290",
+      "name": "Mamon King",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4030290/c056fd9a3f833519ceee832f44db6de1ece49693/header_292x136.jpg?t=1766455149",
+      "desc": "-20% $12.99 $10.39 20% off. $12.99 normally, discounted to $10.39 Recommended October 14 Mod ภาษาไทย Mamon King\nโหลดได้ที่ : www.nexusmods.com/mamonking/mods/1",
+      "url": "https://www.nexusmods.com/mamonking/mods/1",
+      "type": "RecommendedOctober 14",
+      "price": "-20% ฿220.00"
+    },
+    {
+      "appid": "2208920",
+      "name": "Assassin's Creed Valhalla",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/header_292x136.jpg?t=1786637382",
+      "desc": "$59.99 Recommended October 14 Mod ภาษาไทย Assassin's Creed Valhalla \nโหลดได้ที่ : www.nexusmods.com/assassinscreedvalhalla/mods/423",
+      "url": "https://www.nexusmods.com/assassinscreedvalhalla/mods/423",
+      "type": "RecommendedOctober 14",
+      "price": "฿1,600.00"
+    },
+    {
+      "appid": "1382330",
+      "name": "Persona® 5 Strikers",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1382330/header_292x136.jpg?t=1763530465",
+      "desc": "$59.99 Recommended October 14 Mod ภาษาไทย Persona 5 Strikers \nโหลดได้ที่ : www.nexusmods.com/persona5strikers/mods/15",
+      "url": "https://www.nexusmods.com/persona5strikers/mods/15",
+      "type": "RecommendedOctober 14",
+      "price": "฿1,690.00"
+    },
     {
       "appid": "33320",
       "name": "Prince of Persia: The Forgotten Sands™",
@@ -500,10 +536,10 @@
       "appid": "1230530",
       "name": "Atlas Fallen: Reign Of Sand",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1230530/header_292x136.jpg?t=1755090572",
-      "desc": "$39.99 Recommended October 7 Mod ภาษาไทย Atlas Fallen\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "desc": "-75% $39.99 $9.99 75% off. $39.99 normally, discounted to $9.99 Recommended October 7 Mod ภาษาไทย Atlas Fallen\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedOctober 7",
-      "price": "฿990.00"
+      "price": "-75% ฿247.50"
     },
     {
       "appid": "1364780",
@@ -1256,10 +1292,10 @@
       "appid": "612470",
       "name": "Bio Inc. Redemption",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/612470/header_292x136.jpg?t=1790968800",
-      "desc": "$12.99 Recommended September 25 Mod ภาษาไทย Bio Inc. Redemption\nโหลดได้ที่ : www.nexusmods.com/bioincredemption/mods/2",
+      "desc": "-92% $12.99 $1.03 92% off. $12.99 normally, discounted to $1.03 Recommended September 25 Mod ภาษาไทย Bio Inc. Redemption\nโหลดได้ที่ : www.nexusmods.com/bioincredemption/mods/2",
       "url": "https://www.nexusmods.com/bioincredemption/mods/2",
       "type": "RecommendedSeptember 25",
-      "price": "฿219.00"
+      "price": "-92% ฿17.52"
     },
     {
       "appid": "1658290",
@@ -1364,19 +1400,19 @@
       "appid": "644830",
       "name": "The Surge 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/644830/header_292x136.jpg?t=1727794351",
-      "desc": "$29.99 Recommended September 22 Mod ภาษาไทย The Surge 2\nโหลดได้ที่ : www.nexusmods.com/thesurge2/mods/12",
+      "desc": "-90% $29.99 $2.99 90% off. $29.99 normally, discounted to $2.99 Recommended September 22 Mod ภาษาไทย The Surge 2\nโหลดได้ที่ : www.nexusmods.com/thesurge2/mods/12",
       "url": "https://www.nexusmods.com/thesurge2/mods/12",
       "type": "RecommendedSeptember 22",
-      "price": "฿690.00"
+      "price": "-90% ฿69.00"
     },
     {
       "appid": "378540",
       "name": "The Surge",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/378540/header_292x136.jpg?t=1727864911",
-      "desc": "$14.99 Recommended September 22 Mod ภาษาไทย The Surge\nโหลดได้ที่ : www.nexusmods.com/thesurge/mods/12",
+      "desc": "-87% $14.99 $1.94 87% off. $14.99 normally, discounted to $1.94 Recommended September 22 Mod ภาษาไทย The Surge\nโหลดได้ที่ : www.nexusmods.com/thesurge/mods/12",
       "url": "https://www.nexusmods.com/thesurge/mods/12",
       "type": "RecommendedSeptember 22",
-      "price": "฿390.00"
+      "price": "-87% ฿50.70"
     },
     {
       "appid": "312660",
@@ -1772,7 +1808,7 @@
       "desc": "-20% $24.99 $19.99 20% off. $24.99 normally, discounted to $19.99 Recommended September 13 Mod ภาษาไทย Fatal Claw\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 13",
-      "price": "-20% ฿396.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1013140",
@@ -1781,7 +1817,7 @@
       "desc": "$39.99 Recommended September 13 Mod ภาษาไทย Outcast A New Beginning\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 13",
-      "price": "฿719.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2473480",
@@ -1790,16 +1826,16 @@
       "desc": "-60% $24.99 $9.99 60% off. $24.99 normally, discounted to $9.99 Recommended September 13 Mod ภาษาไทย Tails of Iron 2 Whiskers of Winter\nโหลดได้ที่ : drive.google.com/file/d/14OcqP_-qcqH-BEtyIMrdGROpgWn2NKlR/",
       "url": "https://google.com/file/d/14OcqP_-qcqH-BEtyIMrdGROpgWn2NKlR/",
       "type": "RecommendedSeptember 13",
-      "price": "-60% ฿206.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1182900",
       "name": "A Plague Tale: Requiem",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1182900/header_292x136.jpg?t=1784712272",
-      "desc": "$49.99 Recommended September 13 Mod ภาษาไทย A Plague Tale Requiem\nโหลดได้ที่ : www.nexusmods.com/aplaguetalerequiem/mods/52\nหรือ patreon.com/EASYMOD",
+      "desc": "-75% $69.99 $17.49 75% off. $69.99 normally, discounted to $17.49 Recommended September 13 Mod ภาษาไทย A Plague Tale Requiem\nโหลดได้ที่ : www.nexusmods.com/aplaguetalerequiem/mods/52\nหรือ patreon.com/EASYMOD",
       "url": "https://www.nexusmods.com/aplaguetalerequiem/mods/52",
       "type": "RecommendedSeptember 13",
-      "price": "฿1,190.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2271930",
@@ -2255,7 +2291,7 @@
       "appid": "4538960",
       "name": "ZENONIA 1",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4538960/f25c2ff778bf89922cba126556625d47a8a30ffa/header_292x136.jpg?t=1791337760",
-      "desc": "$9.99 Recommended September 1 Mod ภาษาไทย ZENONIA 1\nโหลดได้ที่ : www.nonplae.com",
+      "desc": "-20% $9.99 $7.99 20% off. $9.99 normally, discounted to $7.99 Recommended September 1 Mod ภาษาไทย ZENONIA 1\nโหลดได้ที่ : www.nonplae.com",
       "url": "https://www.nonplae.com",
       "type": "RecommendedSeptember 1",
       "price": "ฟรี / Mod"
@@ -2497,7 +2533,7 @@
     {
       "appid": "360430",
       "name": "Mafia III: Definitive Edition",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/360430/9e9d608e52263b7f49010904db18f07aa19e6ea6/header_292x136_alt_assets_0.jpg?t=1791586691",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/360430/9e9d608e52263b7f49010904db18f07aa19e6ea6/header_292x136_alt_assets_0.jpg?t=1792010321",
       "desc": "-80% $29.99 $5.99 80% off. $29.99 normally, discounted to $5.99 Recommended August 28 Mod ภาษาไทย Mafia III: Definitive Edition\nโหลดได้ที่ : www.nexusmods.com/mafia3definitiveedition/mods/72",
       "url": "https://www.nexusmods.com/mafia3definitiveedition/mods/72",
       "type": "RecommendedAugust 28",
@@ -2804,7 +2840,7 @@
       "appid": "606880",
       "name": "GreedFall",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/606880/header_292x136.jpg?t=1786381206",
-      "desc": "$34.99 Recommended August 21 Mod ภาษาไทย GreedFall\nโหลดได้ที่ : www.nexusmods.com/greedfall/mods/225",
+      "desc": "-90% $34.99 $3.49 90% off. $34.99 normally, discounted to $3.49 Recommended August 21 Mod ภาษาไทย GreedFall\nโหลดได้ที่ : www.nexusmods.com/greedfall/mods/225",
       "url": "https://www.nexusmods.com/greedfall/mods/225",
       "type": "RecommendedAugust 21",
       "price": "ฟรี / Mod"
@@ -3064,7 +3100,7 @@
     {
       "appid": "1153410",
       "name": "JDM: Japanese Drift Master",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1153410/ac9c8b45e84c99bef6b6d26dd1fc82624faadd47/header_292x136.jpg?t=1790322283",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1153410/ac9c8b45e84c99bef6b6d26dd1fc82624faadd47/header_292x136.jpg?t=1791998055",
       "desc": "Live $34.99 Recommended August 15 Mod ภาษาไทย JDM Japanese Drift Master\nโหลดได้ที่ : www.nexusmods.com/jdmjapanesedriftmaster/mods/8\nหรือ www.nexusmods.com/jdmjapanesedriftmaster/mods/20",
       "url": "https://www.nexusmods.com/jdmjapanesedriftmaster/mods/8",
       "type": "RecommendedAugust 15",
@@ -3262,7 +3298,7 @@
     {
       "appid": "1782460",
       "name": "Hell Clock",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1782460/c3310d934da14b8f013bc37f9fb94c114aaed3c3/header_292x136.jpg?t=1791814967",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1782460/c3310d934da14b8f013bc37f9fb94c114aaed3c3/header_292x136.jpg?t=1792000906",
       "desc": "$19.99 Recommended August 12 Mod ภาษาไทย Hell Clock \nโหลดได้ที่ : github.com/YUNGPLAE/Hell-Clock-Thai-Translation",
       "url": "https://github.com/YUNGPLAE/Hell-Clock-Thai-Translation",
       "type": "RecommendedAugust 12",
@@ -3569,7 +3605,7 @@
       "appid": "1065310",
       "name": "Evil West",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1065310/header_292x136.jpg?t=1761845937",
-      "desc": "$49.99 Recommended August 2 Mod ภาษาไทย Evil West\nโหลดได้ที่ : www.nexusmods.com/evilwest/mods/33",
+      "desc": "-80% $49.99 $9.99 80% off. $49.99 normally, discounted to $9.99 Recommended August 2 Mod ภาษาไทย Evil West\nโหลดได้ที่ : www.nexusmods.com/evilwest/mods/33",
       "url": "https://www.nexusmods.com/evilwest/mods/33",
       "type": "RecommendedAugust 2",
       "price": "ฟรี / Mod"
@@ -4028,7 +4064,7 @@
       "appid": "492230",
       "name": "Space Hulk: Tactics (Classic)",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/492230/d0f86f84dbc4b8cf323ac523ef0e15b115f6c9f2/header_292x136.jpg?t=1778836516",
-      "desc": "$14.99 Recommended July 21 Mod ภาษาไทย Space Hulk: Tactics\nโหลดได้ที่ : www.nexusmods.com/spacehulktactics/mods/4",
+      "desc": "-90% $14.99 $1.49 90% off. $14.99 normally, discounted to $1.49 Recommended July 21 Mod ภาษาไทย Space Hulk: Tactics\nโหลดได้ที่ : www.nexusmods.com/spacehulktactics/mods/4",
       "url": "https://www.nexusmods.com/spacehulktactics/mods/4",
       "type": "RecommendedJuly 21",
       "price": "ฟรี / Mod"
@@ -4172,7 +4208,7 @@
       "appid": "3722330",
       "name": "Shift At Midnight",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3722330/759ecea2ffe1ad3819aefdda79e265b8b332bf8f/header_292x136.jpg?t=1789401053",
-      "desc": "Live $9.99 Recommended July 18 Mod ภาษาไทย Shift At Midnight\nโหลดได้ที่ : www.nexusmods.com/shiftatmidnight/mods/1",
+      "desc": "$9.99 Recommended July 18 Mod ภาษาไทย Shift At Midnight\nโหลดได้ที่ : www.nexusmods.com/shiftatmidnight/mods/1",
       "url": "https://www.nexusmods.com/shiftatmidnight/mods/1",
       "type": "RecommendedJuly 18",
       "price": "ฟรี / Mod"
@@ -5153,7 +5189,7 @@
       "appid": "752590",
       "name": "A Plague Tale: Innocence",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/752590/header_292x136.jpg?t=1784712345",
-      "desc": "$39.99 Recommended March 3 Mod ภาษาไทย A Plague Tale: Innocence\nโหลดได้ที่ : https://easymods.dev",
+      "desc": "-75% $69.99 $17.49 75% off. $69.99 normally, discounted to $17.49 Recommended March 3 Mod ภาษาไทย A Plague Tale: Innocence\nโหลดได้ที่ : https://easymods.dev",
       "url": "https://easymods.dev",
       "type": "RecommendedMarch 3",
       "price": "ฟรี / Mod"
@@ -5774,7 +5810,7 @@
       "appid": "668580",
       "name": "Atomic Heart",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/668580/header_292x136.jpg?t=1786632138",
-      "desc": "$59.99 Recommended June 14, 2025 Mod ภาษาไทยเกม Atomic Heart\nโหลดได้ที่ : https://www.info-meawtion.com",
+      "desc": "-80% $59.99 $11.99 80% off. $59.99 normally, discounted to $11.99 Recommended June 14, 2025 Mod ภาษาไทยเกม Atomic Heart\nโหลดได้ที่ : https://www.info-meawtion.com",
       "url": "https://www.info-meawtion.com",
       "type": "RecommendedJune 14, 2025",
       "price": "ฟรี / Mod"
@@ -5801,7 +5837,7 @@
       "appid": "2104890",
       "name": "RoadCraft",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/header_292x136.jpg?t=1789034884",
-      "desc": "$39.99 Recommended June 7, 2025 Mod ภาษาไทย Roadcraft \nโหลดได้ที่ : patreon.com/EASYMOD",
+      "desc": "-50% $39.99 $19.99 50% off. $39.99 normally, discounted to $19.99 Recommended June 7, 2025 Mod ภาษาไทย Roadcraft \nโหลดได้ที่ : patreon.com/EASYMOD",
       "url": "https://patreon.com/EASYMOD",
       "type": "RecommendedJune 7, 2025",
       "price": "ฟรี / Mod"
@@ -7457,7 +7493,7 @@
       "appid": "1119730",
       "name": "Ranch Simulator: Build, Hunt, Farm",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1119730/edbc791f576913bd2b7d3aeeed8bc5dd73614872/header_292x136.jpg?t=1790339525",
-      "desc": "-80% $24.99 $4.99 80% off. $24.99 normally, discounted to $4.99 Recommended January 19, 2024 Mod ภาษาไทย Ranch Simulator\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
+      "desc": "$24.99 Recommended January 19, 2024 Mod ภาษาไทย Ranch Simulator\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
       "url": "https://sites.google.com/view/modthaiyaklongplae",
       "type": "RecommendedJanuary 19, 2024",
       "price": "ฟรี / Mod"
@@ -9482,7 +9518,7 @@
       "appid": "675010",
       "name": "MudRunner",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/675010/header_292x136.jpg?t=1784714181",
-      "desc": "$19.99 Recommended December 27, 2020 ม็อดโดย artdekdok \nhttps://www.nexusmods.com/spintires/mods/19\ncopy \"Artdekdok.thai\" และ \"haetten.ttf\" ไปที่โฟลเดอร์เกม\nเพิ่ม <MediaPath Path=\"Artdekdok.thai\" /> ลงไปบนบรรทัด \"MediaPath\" อื่น กดเซฟ",
+      "desc": "-80% $19.99 $3.99 80% off. $19.99 normally, discounted to $3.99 Recommended December 27, 2020 ม็อดโดย artdekdok \nhttps://www.nexusmods.com/spintires/mods/19\ncopy \"Artdekdok.thai\" และ \"haetten.ttf\" ไปที่โฟลเดอร์เกม\nเพิ่ม <MediaPath Path=\"Artdekdok.thai\" /> ลงไปบนบรรทัด \"MediaPath\" อื่น กดเซฟ",
       "url": "https://www.nexusmods.com/spintires/mods/19",
       "type": "RecommendedDecember 27, 2020",
       "price": "ฟรี / Mod"
