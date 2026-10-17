@@ -1,6 +1,78 @@
 {
-  "total_count": 1124,
+  "total_count": 1132,
   "items": [
+    {
+      "appid": "3639070",
+      "name": "BLACKWOOD",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3639070/86eb06cf8dad642dacb7b5c4944515ff48c4cd3a/header_292x136.jpg?t=1790597941",
+      "desc": "Live $24.99 Recommended October 17 Mod ภาษาไทย BLACKWOOD\nโหลดได้ที่ : 999modthai.netlify.app",
+      "url": "https://999modthai.net",
+      "type": "RecommendedOctober 17",
+      "price": "฿459.00"
+    },
+    {
+      "appid": "4310610",
+      "name": "The Skin Stapler",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4310610/5147848411ce0dfd06d88513572a98e334a3fd74/header_292x136.jpg?t=1786367666",
+      "desc": "Live $14.99 Recommended October 17 Mod ภาษาไทย The Skin Stapler\nโหลดได้ที่ : 999modthai.netlify.app",
+      "url": "https://999modthai.net",
+      "type": "RecommendedOctober 17",
+      "price": "฿295.00"
+    },
+    {
+      "appid": "4450620",
+      "name": "GRAIN ROT",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4450620/697974067797577ee1803c37a44b4217d886502a/header_292x136.jpg?t=1786114521",
+      "desc": "$9.99 Recommended October 17 Mod ภาษาไทย Grain Rot \nโหลดได้ที่ : 999modthai.netlify.app",
+      "url": "https://999modthai.net",
+      "type": "RecommendedOctober 17",
+      "price": "฿139.50"
+    },
+    {
+      "appid": "3164500",
+      "name": "Schedule I",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3164500/header_292x136.jpg?t=1785744977",
+      "desc": "$19.99 Recommended October 17 Mod ภาษาไทย Schedule I\nโหลดได้ที่ : 999modthai.netlify.app",
+      "url": "https://999modthai.net",
+      "type": "RecommendedOctober 17",
+      "price": "฿400.00"
+    },
+    {
+      "appid": "1798020",
+      "name": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1798020/header_292x136.jpg?t=1769126494",
+      "desc": "$39.99 Recommended October 17 Mod ภาษาไทย Mega Man Battle Network Legacy Collection Vol. 2\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 17",
+      "price": "฿1,090.00"
+    },
+    {
+      "appid": "1430220",
+      "name": "BIOMORPH",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1430220/header_292x136.jpg?t=1756078821",
+      "desc": "-35% $19.99 $12.99 35% off. $19.99 normally, discounted to $12.99 Recommended October 17 Mod ภาษาไทย BIOMORPH\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 17",
+      "price": "-35% ฿260.00"
+    },
+    {
+      "appid": "1679210",
+      "name": "The Spirit and the Mouse",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1679210/header_292x136.jpg?t=1775266024",
+      "desc": "$19.99 Recommended October 17 Mod ภาษาไทย The Spirit and the Mouse\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 17",
+      "price": "฿400.00"
+    },
+    {
+      "appid": "1232580",
+      "name": "Knock on the Coffin Lid",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1232580/header_292x136.jpg?t=1789546004",
+      "desc": "$24.99 Recommended October 17 Mod ภาษาไทย Knock on the Coffin Lid\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedOctober 17",
+      "price": "฿319.00"
+    },
     {
       "appid": "953490",
       "name": "CARRION",
@@ -1553,7 +1625,7 @@
       "appid": "313120",
       "name": "Stranded Deep",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/313120/header_292x136.jpg?t=1785441084",
-      "desc": "-60% $19.99 $7.99 60% off. $19.99 normally, discounted to $7.99 Recommended September 25 Mod ภาษาไทย Stranded Deep\nโหลดได้ที่ : www.nexusmods.com/strandeddeep/mods/291",
+      "desc": "Live -60% $19.99 $7.99 60% off. $19.99 normally, discounted to $7.99 Recommended September 25 Mod ภาษาไทย Stranded Deep\nโหลดได้ที่ : www.nexusmods.com/strandeddeep/mods/291",
       "url": "https://www.nexusmods.com/strandeddeep/mods/291",
       "type": "RecommendedSeptember 25",
       "price": "-60% ฿115.60"
@@ -1736,7 +1808,7 @@
       "desc": "$39.99 Recommended September 20 Mod ภาษาไทย Atelier Ryza: Ever Darkness & the Secret Hideout DX\nโหลดได้ที่ : www.nexusmods.com/atelierryza1/mods/10",
       "url": "https://www.nexusmods.com/atelierryza1/mods/10",
       "type": "RecommendedSeptember 20",
-      "price": "฿1,200.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "49520",
@@ -1745,7 +1817,7 @@
       "desc": "$19.99 Recommended September 20 Mod ภาษาไทย Borderlands 2\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 20",
-      "price": "฿369.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1229240",
@@ -1754,7 +1826,7 @@
       "desc": "$24.99 Recommended September 20 Mod ภาษาไทย Chained Echoes \nโหลดได้ที่ : www.nexusmods.com/chainedechoes/mods/17",
       "url": "https://www.nexusmods.com/chainedechoes/mods/17",
       "type": "RecommendedSeptember 20",
-      "price": "฿319.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "990050",
@@ -1763,7 +1835,7 @@
       "desc": "$29.99 Recommended September 19 Mod ภาษาไทย Death end re;Quest\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
       "url": "https://stamp789.github.io/mee-game-kor-pla",
       "type": "RecommendedSeptember 19",
-      "price": "฿590.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3947460",
@@ -1772,7 +1844,7 @@
       "desc": "$11.99 Recommended September 19 Mod ภาษาไทย Creator Chronicles\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 19",
-      "price": "฿239.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1184370",
@@ -1781,7 +1853,7 @@
       "desc": "Live $19.99 Recommended September 19 Mod ภาษาไทย Pathfinder: Wrath of the Righteous - Enhanced Edition\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 19",
-      "price": "฿399.99"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1150640",
@@ -1790,7 +1862,7 @@
       "desc": "$39.99 Recommended September 17 Mod ภาษาไทย  Yu-Gi-Oh! Legacy of the Duelist Link Evolution\nโหลดได้ที่ : www.facebook.com/profile.php?id=61591867472894 Watch the full review [www.youtube.com]",
       "url": "https://www.facebook.com/profile.php?id=61591867472894",
       "type": "RecommendedSeptember 17",
-      "price": "฿1,062.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3472040",
@@ -1799,7 +1871,7 @@
       "desc": "$69.99 Recommended September 17 Mod ภาษาไทย NBA2K 26\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 17",
-      "price": "฿1,790.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "429660",
@@ -2237,7 +2309,7 @@
       "appid": "750130",
       "name": "The Sinking City Remastered",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/750130/4fb51a8ba323000002ce2c7ffb77ed2a27aba835/header_292x136.jpg?t=1787841031",
-      "desc": "$39.99 Recommended September 11 Mod ภาษาไทย The Sinking City Remastered\nโหลดได้ที่ : www.nexusmods.com/thesinkingcity/mods/29",
+      "desc": "-85% $39.99 $5.99 85% off. $39.99 normally, discounted to $5.99 Recommended September 11 Mod ภาษาไทย The Sinking City Remastered\nโหลดได้ที่ : www.nexusmods.com/thesinkingcity/mods/29",
       "url": "https://www.nexusmods.com/thesinkingcity/mods/29",
       "type": "RecommendedSeptember 11",
       "price": "ฟรี / Mod"
@@ -2948,7 +3020,7 @@
       "appid": "2825860",
       "name": "The Sinking City 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2825860/05f1db0ecea4914621f13ebaa81710e505de2c6b/header_292x136.jpg?t=1791289472",
-      "desc": "$49.99 Recommended August 25 Mod ภาษาไทย The Sinking City 2\nโหลดได้ที่ : www.nexusmods.com/thesinkingcity2/mods/28",
+      "desc": "-25% $49.99 $37.49 25% off. $49.99 normally, discounted to $37.49 Recommended August 25 Mod ภาษาไทย The Sinking City 2\nโหลดได้ที่ : www.nexusmods.com/thesinkingcity2/mods/28",
       "url": "https://www.nexusmods.com/thesinkingcity2/mods/28",
       "type": "RecommendedAugust 25",
       "price": "ฟรี / Mod"
@@ -5639,7 +5711,7 @@
       "appid": "2489330",
       "name": "Whiskerwood",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2489330/7237c2ee5f5a5c9d05ac9e473d4bcb8573e4bc09/header_292x136.jpg?t=1791551180",
-      "desc": "$29.99 Recommended January 17 Mod ภาษาไทย Whiskerwood\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "-50% $29.99 $14.99 50% off. $29.99 normally, discounted to $14.99 Recommended January 17 Mod ภาษาไทย Whiskerwood\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJanuary 17",
       "price": "ฟรี / Mod"
@@ -8096,7 +8168,7 @@
       "appid": "1949030",
       "name": "Sherlock Holmes The Awakened",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1949030/header_292x136.jpg?t=1787840980",
-      "desc": "$39.99 Recommended June 4, 2023 Mod ภาษาไทย Sherlock Holmes The Awakened\nโหลดได้ที่ : https://www.nexusmods.com/sherlockholmestheawakened/mods/6\nคัดลอกไฟล์ SHTA_TH-Artdekdok_P ทั้ง 3 ไฟล์ ไปไว้ที่โฟลเดอร์ SH3RE\\Content\\Paks Watch the full review [www.youtube.com]",
+      "desc": "-90% $39.99 $3.99 90% off. $39.99 normally, discounted to $3.99 Recommended June 4, 2023 Mod ภาษาไทย Sherlock Holmes The Awakened\nโหลดได้ที่ : https://www.nexusmods.com/sherlockholmestheawakened/mods/6\nคัดลอกไฟล์ SHTA_TH-Artdekdok_P ทั้ง 3 ไฟล์ ไปไว้ที่โฟลเดอร์ SH3RE\\Content\\Paks Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/sherlockholmestheawakened/mods/6",
       "type": "RecommendedJune 4, 2023",
       "price": "ฟรี / Mod"
@@ -8240,7 +8312,7 @@
       "appid": "894020",
       "name": "Death's Door",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/894020/header_292x136.jpg?t=1788311627",
-      "desc": "-90% $19.99 $1.99 90% off. $19.99 normally, discounted to $1.99 Recommended April 12, 2023 Mod ภาษาไทย Death's Door\nโหลดได้ที่ : https://www.nexusmods.com/deathsdoor/mods/1\n- พี่ซา (#SabiMiyato) ผู้แปล, เอล (#ELL) ผู้พัฒนาม็อด\n- น้องฟร้องค์ (#τѕυиιє), บี 1 (#RushingOn), ว่างๆก็หาเกมมาแปล",
+      "desc": "$19.99 Recommended April 12, 2023 Mod ภาษาไทย Death's Door\nโหลดได้ที่ : https://www.nexusmods.com/deathsdoor/mods/1\n- พี่ซา (#SabiMiyato) ผู้แปล, เอล (#ELL) ผู้พัฒนาม็อด\n- น้องฟร้องค์ (#τѕυиιє), บี 1 (#RushingOn), ว่างๆก็หาเกมมาแปล",
       "url": "https://www.nexusmods.com/deathsdoor/mods/1",
       "type": "RecommendedApril 12, 2023",
       "price": "ฟรี / Mod"
@@ -8906,7 +8978,7 @@
       "appid": "350640",
       "name": "Sherlock Holmes: The Devil's Daughter",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/350640/header_292x136.jpg?t=1758522993",
-      "desc": "$29.99 Recommended June 16, 2022 Mod ภาษาไทย Sherlock Holmes: The Devil's Daughter\nโหลดได้ที่ : https://www.nexusmods.com/sherlockholmesthedevilsdaughter/mods/1\nแปลโดย : sites.google.com/view/artdekdok Watch the full review [www.youtube.com]",
+      "desc": "-90% $29.99 $2.99 90% off. $29.99 normally, discounted to $2.99 Recommended June 16, 2022 Mod ภาษาไทย Sherlock Holmes: The Devil's Daughter\nโหลดได้ที่ : https://www.nexusmods.com/sherlockholmesthedevilsdaughter/mods/1\nแปลโดย : sites.google.com/view/artdekdok Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/sherlockholmesthedevilsdaughter/mods/1",
       "type": "RecommendedJune 16, 2022",
       "price": "ฟรี / Mod"
@@ -8933,7 +9005,7 @@
       "appid": "1084600",
       "name": "My Time at Sandrock",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1084600/header_292x136.jpg?t=1791775899",
-      "desc": "$39.99 Recommended May 26, 2022 Mod ฟ้อนต์ภาษาไทยสำหรับ My Time at Sandrock\nแก้ปัญหาฟ้อนต์ไทยอ่านไม่ออก\nโหลดได้ที่ : www.mediafire.com/file/iq1h3svfp2ns4lq/Sandrock_TH_Font_Fix.exe/file\n กด Browse เลือกโฟลเดอร์เกม แล้วกด Install",
+      "desc": "-70% $39.99 $11.99 70% off. $39.99 normally, discounted to $11.99 Recommended May 26, 2022 Mod ฟ้อนต์ภาษาไทยสำหรับ My Time at Sandrock\nแก้ปัญหาฟ้อนต์ไทยอ่านไม่ออก\nโหลดได้ที่ : www.mediafire.com/file/iq1h3svfp2ns4lq/Sandrock_TH_Font_Fix.exe/file\n กด Browse เลือกโฟลเดอร์เกม แล้วกด Install",
       "url": "https://www.mediafire.com/file/iq1h3svfp2ns4lq/Sandrock_TH_Font_Fix.exe/file",
       "type": "RecommendedMay 26, 2022",
       "price": "ฟรี / Mod"
@@ -9877,7 +9949,7 @@
     {
       "appid": "536270",
       "name": "Ancestors: The Humankind Odyssey",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/536270/header_292x136.jpg?t=1765224027",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/536270/header_292x136.jpg?t=1792254622",
       "desc": "$39.99 Recommended October 16, 2020 ม็อดแปลภาษาไทย\nโหลดได้ที่ https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1?fbclid=IwAR0I1mxRSPca4-a9rGRTR_o_Fjb2rshzlGO_J1K2JHdzHJ_i1T1GANaWIKE\nผู้แปล https://www.facebook.com/artdekdok/",
       "url": "https://www.nexusmods.com/ancestorsthehumankindodyssey/mods/1?fbclid=IwAR0I1mxRSPca4-a9rGRTR_o_Fjb2rshzlGO_J1K2JHdzHJ_i1T1GANaWIKE",
       "type": "RecommendedOctober 16, 2020",
