@@ -1,6 +1,60 @@
 {
-  "total_count": 1113,
+  "total_count": 1119,
   "items": [
+    {
+      "appid": "3496000",
+      "name": "Ship, Inc.",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3496000/d1feb892b127dda2e907f14635d636cc0d3d87c4/header_292x136.jpg?t=1791447592",
+      "desc": "$9.99 Recommended October 17 Mod ภาษาไทย Ship, Inc.\nโหลดได้ที่ : sites.google.com/view/plaehailen",
+      "url": "https://google.com/view/plaehailen",
+      "type": "RecommendedOctober 17",
+      "price": "฿220.00"
+    },
+    {
+      "appid": "1798010",
+      "name": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1798010/header_292x136.jpg?t=1769126434",
+      "desc": "$39.99 Recommended October 17 Mod ภาษาไทย Mega Man Battle Network Legacy Collection Vol. 1\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 17",
+      "price": "฿1,090.00"
+    },
+    {
+      "appid": "403640",
+      "name": "Dishonored 2",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/403640/header_292x136.jpg?t=1750785918",
+      "desc": "$29.99 Recommended October 17 Mod ภาษาไทย Dishonored 2\nโหลดได้ที่ : www.nexusmods.com/dishonored2/mods/212",
+      "url": "https://www.nexusmods.com/dishonored2/mods/212",
+      "type": "RecommendedOctober 17",
+      "price": "฿990.00"
+    },
+    {
+      "appid": "10090",
+      "name": "Call of Duty: World at War",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10090/header_292x136.jpg?t=1780962495",
+      "desc": "$19.99 Recommended October 17 Mod ภาษาไทย Call of Duty: World at War\nโหลดได้ที่ : www.nexusmods.com/callofdutyworldatwar/mods/137",
+      "url": "https://www.nexusmods.com/callofdutyworldatwar/mods/137",
+      "type": "RecommendedOctober 17",
+      "price": "฿699.00"
+    },
+    {
+      "appid": "42680",
+      "name": "Call of Duty®: Modern Warfare® 3 (2011)",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/header_292x136.jpg?t=1788479870",
+      "desc": "$39.99 Recommended October 17 Mod ภาษาไทย Call of Duty: Modern Warfare 3 (2011)\nโหลดได้ที่ : www.nexusmods.com/callofdutymodernwarfare3/mods/44",
+      "url": "https://www.nexusmods.com/callofdutymodernwarfare3/mods/44",
+      "type": "RecommendedOctober 17",
+      "price": "฿1,399.00"
+    },
+    {
+      "appid": "965580",
+      "name": "Root",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/965580/header_292x136.jpg?t=1767902987",
+      "desc": "$14.99 Recommended October 17 Mod ภาษาไทย Root\nโหลดได้ที่ : 100วันพันบอร์ด.com",
+      "url": "https://store.steampowered.com/app/965580/",
+      "type": "RecommendedOctober 17",
+      "price": "฿239.00"
+    },
     {
       "appid": "300380",
       "name": "Road Redemption",
@@ -95,7 +149,7 @@
       "appid": "4231820",
       "name": "Castlevania: Belmont's Curse",
       "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/6b65aec2c398006aea8b76e1463cc34d0e4ba68b/header_292x136.jpg?t=1792036946",
-      "desc": "$29.99 Recommended October 15 Mod ภาษาไทย Castlevania Belmont's Curse\nโหลดได้ที่ : www.nexusmods.com/castlevaniabelmontscurse/mods/2",
+      "desc": "$29.99 Recommended October 15 Mod ภาษาไทย Castlevania Belmont's Curse\nโหลดได้ที่ : www.nexusmods.com/castlevaniabelmontscurse/mods/2\nหรือ www.nexusmods.com/castlevaniabelmontscurse/mods/43",
       "url": "https://www.nexusmods.com/castlevaniabelmontscurse/mods/2",
       "type": "RecommendedOctober 15",
       "price": "฿845.00"
@@ -1754,7 +1808,7 @@
       "desc": "$29.99 Recommended September 16 Mod ภาษาไทย The Darkness II\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 16",
-      "price": "฿559.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1658280",
@@ -1763,7 +1817,7 @@
       "desc": "$49.99 Recommended September 16 Mod ภาษาไทย Eiyuden Chronicle Hundred Heroes \nโหลดได้ที่ : www.nexusmods.com/eiyudenchronicle/mods/30",
       "url": "https://www.nexusmods.com/eiyudenchronicle/mods/30",
       "type": "RecommendedSeptember 16",
-      "price": "฿1,204.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "32430",
@@ -1772,7 +1826,7 @@
       "desc": "$19.99 Recommended September 16 Mod ภาษาไทย STAR WARS™ - The Force Unleashed™ Ultimate Sith Edition\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 16",
-      "price": "฿400.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1962430",
@@ -1781,7 +1835,7 @@
       "desc": "$59.99 Recommended September 16 Mod ภาษาไทย Monochrome Mobius: Rights and Wrongs Forgotten\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 16",
-      "price": "฿699.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "235600",
@@ -1790,7 +1844,7 @@
       "desc": "$19.99 Recommended September 16 Mod ภาษาไทย Tom Clancy's Splinter Cell Blacklist \nโหลดได้ที่ : www.nexusmods.com/splintercellblacklist/mods/85\nหรือ www.nexusmods.com/splintercellblacklist/mods/86",
       "url": "https://www.nexusmods.com/splintercellblacklist/mods/85",
       "type": "RecommendedSeptember 16",
-      "price": "฿569.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1442520",
@@ -1799,7 +1853,7 @@
       "desc": "$14.99 Recommended September 16 Mod ภาษาไทย Akatori\nโหลดได้ที่ : mrt-game-studio.itch.io/akatori-mod-thai",
       "url": "https://itch.io/akatori-mod-thai",
       "type": "RecommendedSeptember 16",
-      "price": "฿295.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "889510",
@@ -4792,7 +4846,7 @@
     {
       "appid": "206440",
       "name": "To the Moon",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206440/header_292x136.jpg?t=1780927584",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/206440/header_292x136.jpg?t=1792212569",
       "desc": "$9.99 Recommended July 6 Mod ภาษาไทย To the Moon\nโหลดได้ที่ : www.nexusmods.com/tothemoon/mods/2\nหรือ mrt-game-studio.itch.io",
       "url": "https://www.nexusmods.com/tothemoon/mods/2",
       "type": "RecommendedJuly 6",
