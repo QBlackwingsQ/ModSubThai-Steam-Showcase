@@ -1,6 +1,33 @@
 {
-  "total_count": 1139,
+  "total_count": 1142,
   "items": [
+    {
+      "appid": "2160070",
+      "name": "Forge of the Fae",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2160070/f0fe2098ff6cb1557a83085e8c4cee5e746482d4/header_292x136.jpg?t=1792061695",
+      "desc": "Recommended October 19 Mod ภาษาไทย Forge of the Fae\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 19",
+      "price": "ฟรี / Mod"
+    },
+    {
+      "appid": "2492670",
+      "name": "METAL GEAR SOLID 4: Guns of the Patriots - Master Collection Version",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2492670/458033bb7aad4e6b8a61af0f7798d23db2683864/header_292x136.jpg?t=1788263343",
+      "desc": "$29.99 Recommended October 19 Mod ภาษาไทย METAL GEAR SOLID 4: Guns of the Patriots\nโหลดได้ที่ : www.nexusmods.com/metalgearsolid4mc/mods/105",
+      "url": "https://www.nexusmods.com/metalgearsolid4mc/mods/105",
+      "type": "RecommendedOctober 19",
+      "price": "฿850.00"
+    },
+    {
+      "appid": "3195440",
+      "name": "Welcome to Elderfield",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/cf061a8da09f92889df2498ecf5226ceac8f2fa6/header_292x136.jpg?t=1789053771",
+      "desc": "Live $17.99 Recommended October 19 Mod ภาษาไทย Welcome to Elderfield\nโหลดได้ที่ : www.nexusmods.com/welcometoelderfield/mods/57 Watch the full review [youtu.be]",
+      "url": "https://www.nexusmods.com/welcometoelderfield/mods/57",
+      "type": "RecommendedOctober 19",
+      "price": "฿345.00"
+    },
     {
       "appid": "2600",
       "name": "Vampire: The Masquerade - Bloodlines",
@@ -40,7 +67,7 @@
     {
       "appid": "3470960",
       "name": "Tales of Eternia Remastered",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/d66b38dc92c325a41f5dec3ecc8dfa1404563b47/header_292x136.jpg?t=1792128138",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3470960/d66b38dc92c325a41f5dec3ecc8dfa1404563b47/header_292x136.jpg?t=1792404827",
       "desc": "Live $29.99 Recommended October 18 Mod ภาษาไทย Tales of Eternia Remastered\nโหลดได้ที่ : mrt-game-studio.itch.io\nหรือ stamp789.github.io/mee-game-kor-pla",
       "url": "https://itch.io",
       "type": "RecommendedOctober 18",
@@ -1781,7 +1808,7 @@
       "desc": "$7.99 Recommended September 22 Mod ภาษาไทย Sniper Elite\nโหลดได้ที่ : www.nexusmods.com/sniperelite/mods/5",
       "url": "https://www.nexusmods.com/sniperelite/mods/5",
       "type": "RecommendedSeptember 22",
-      "price": "฿189.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "238090",
@@ -1790,7 +1817,7 @@
       "desc": "$29.99 Recommended September 22 Mod ภาษาไทย Sniper Elite 3\nโหลดได้ที่ : www.nexusmods.com/sniperelite3/mods/9",
       "url": "https://www.nexusmods.com/sniperelite3/mods/9",
       "type": "RecommendedSeptember 22",
-      "price": "฿590.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "63380",
@@ -1858,7 +1885,7 @@
     {
       "appid": "3365050",
       "name": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365050/88463ca3fdb8b19cfd4eed0aef01645f8a47e80d/header_292x136.jpg?t=1781064354",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365050/88463ca3fdb8b19cfd4eed0aef01645f8a47e80d/header_292x136.jpg?t=1792392343",
       "desc": "$39.99 Recommended September 20 Mod ภาษาไทย Atelier Ryza 3: Alchemist of the End & the Secret Key DX\nโหลดได้ที่ : www.nexusmods.com/atelierryza3/mods/8\nหรือ www.nexusmods.com/atelierryza3/mods/9",
       "url": "https://www.nexusmods.com/atelierryza3/mods/8",
       "type": "RecommendedSeptember 20",
@@ -1867,7 +1894,7 @@
     {
       "appid": "3365030",
       "name": "Atelier Ryza: Ever Darkness & the Secret Hideout DX",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365030/c4c218966e29841ba6d54babac01503740e4b63c/header_292x136.jpg?t=1781064259",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365030/c4c218966e29841ba6d54babac01503740e4b63c/header_292x136.jpg?t=1792391892",
       "desc": "$39.99 Recommended September 20 Mod ภาษาไทย Atelier Ryza: Ever Darkness & the Secret Hideout DX\nโหลดได้ที่ : www.nexusmods.com/atelierryza1/mods/10",
       "url": "https://www.nexusmods.com/atelierryza1/mods/10",
       "type": "RecommendedSeptember 20",
@@ -2308,7 +2335,7 @@
     {
       "appid": "4113940",
       "name": "Sovereign Tower",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/1ddf28e27d7c8dcc7474171358ef64cc90eabc71/header_292x136.jpg?t=1788795914",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4113940/1ddf28e27d7c8dcc7474171358ef64cc90eabc71/header_292x136.jpg?t=1792401439",
       "desc": "-20% $19.99 $15.99 20% off. $19.99 normally, discounted to $15.99 Recommended September 11 Mod ภาษาไทย Sovereign Tower\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 11",
@@ -2317,7 +2344,7 @@
     {
       "appid": "3365040",
       "name": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365040/f96e173ecb35deb446b96cb1d3ca0bd85503fb02/header_292x136.jpg?t=1781064305",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365040/f96e173ecb35deb446b96cb1d3ca0bd85503fb02/header_292x136.jpg?t=1792392276",
       "desc": "$39.99 Recommended September 11 Mod ภาษาไทย Atelier Ryza 2\nโหลดได้ที่ : www.nexusmods.com/atelierryza2lostlegendsthesecretfairydx/mods/2\nหรือ www.nexusmods.com/atelierryza2lostlegendsthesecretfairydx/mods/5",
       "url": "https://www.nexusmods.com/atelierryza2lostlegendsthesecretfairydx/mods/2",
       "type": "RecommendedSeptember 11",
@@ -4756,7 +4783,7 @@
     {
       "appid": "881020",
       "name": "Granblue Fantasy: Relink",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/header_292x136.jpg?t=1791858660",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881020/header_292x136.jpg?t=1792403376",
       "desc": "$39.99 Recommended July 12 Mod ภาษาไทย Granblue Fantasy: Relink\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedJuly 12",
@@ -6925,7 +6952,7 @@
     {
       "appid": "2408820",
       "name": "Luma Island",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408820/e65ffd9fbf0e49f9db54b74f795db641ae6a4aa7/header_292x136.jpg?t=1786439749",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2408820/e65ffd9fbf0e49f9db54b74f795db641ae6a4aa7/header_292x136.jpg?t=1792398040",
       "desc": "$19.99 Recommended November 23, 2024 Mod ภาษาไทย Luma Island\nโหลดได้ที่ : www.nexusmods.com/lumaisland/mods/1\nแตกไฟล์ไปที่ Steam\\steamapps\\common\\Luma Island",
       "url": "https://www.nexusmods.com/lumaisland/mods/1",
       "type": "RecommendedNovember 23, 2024",
