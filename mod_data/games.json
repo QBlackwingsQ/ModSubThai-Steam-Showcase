@@ -1,6 +1,15 @@
 {
-  "total_count": 1148,
+  "total_count": 1149,
   "items": [
+    {
+      "appid": "394510",
+      "name": "HELLDIVERS™ Dive Harder Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/394510/header_292x136.jpg?t=1750950223",
+      "desc": "$19.99 Recommended October 20 Mod ภาษาไทย HELLDIVERS™ Dive Harder Edition\nโหลดได้ที่ : www.nexusmods.com/helldivers/mods/8",
+      "url": "https://www.nexusmods.com/helldivers/mods/8",
+      "type": "RecommendedOctober 20",
+      "price": "฿400.00"
+    },
     {
       "appid": "6850",
       "name": "Hitman 2: Silent Assassin",
@@ -149,7 +158,7 @@
       "appid": "3639070",
       "name": "BLACKWOOD",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3639070/86eb06cf8dad642dacb7b5c4944515ff48c4cd3a/header_292x136.jpg?t=1790597941",
-      "desc": "$24.99 Recommended October 17 Mod ภาษาไทย BLACKWOOD\nโหลดได้ที่ : 999modthai.netlify.app",
+      "desc": "Live $24.99 Recommended October 17 Mod ภาษาไทย BLACKWOOD\nโหลดได้ที่ : 999modthai.netlify.app",
       "url": "https://999modthai.net",
       "type": "RecommendedOctober 17",
       "price": "฿459.00"
@@ -1345,7 +1354,7 @@
     {
       "appid": "3841510",
       "name": "DYNASTY WARRIORS 3: Complete Edition Remastered",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3841510/3e4981c87cb8674a9668424e3560d1144d736ed5/header_292x136.jpg?t=1790817204",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3841510/3e4981c87cb8674a9668424e3560d1144d736ed5/header_292x136.jpg?t=1792486666",
       "desc": "$39.99 Recommended October 1 Mod ภาษาไทย DYNASTY WARRIORS 3: Complete Edition Remastered \nโหลดได้ที่ : www.nexusmods.com/dynastywarriors3completeeditionremastered/mods/6",
       "url": "https://www.nexusmods.com/dynastywarriors3completeeditionremastered/mods/6",
       "type": "RecommendedOctober 1",
@@ -1799,7 +1808,7 @@
       "desc": "$19.99 Recommended September 24 Mod ภาษาไทย Planescape Torment Enhanced Edition\nโหลดได้ที่ : monnmod.com",
       "url": "https://monnmod.com",
       "type": "RecommendedSeptember 24",
-      "price": "฿400.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "567640",
@@ -2029,7 +2038,7 @@
     {
       "appid": "553850",
       "name": "HELLDIVERS™ 2",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header_292x136.jpg?t=1792146147",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header_292x136.jpg?t=1792487611",
       "desc": "$39.99 Recommended September 17 Mod ภาษาไทย HELLDIVERS 2\nโหลดได้ที่ : www.nexusmods.com/helldivers2/mods/16248",
       "url": "https://www.nexusmods.com/helldivers2/mods/16248",
       "type": "RecommendedSeptember 17",
@@ -2776,7 +2785,7 @@
     {
       "appid": "4538960",
       "name": "ZENONIA 1",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4538960/f25c2ff778bf89922cba126556625d47a8a30ffa/header_292x136.jpg?t=1791337760",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4538960/f25c2ff778bf89922cba126556625d47a8a30ffa/header_292x136.jpg?t=1792465477",
       "desc": "-20% $9.99 $7.99 20% off. $9.99 normally, discounted to $7.99 Recommended September 1 Mod ภาษาไทย ZENONIA 1\nโหลดได้ที่ : www.nonplae.com",
       "url": "https://www.nonplae.com",
       "type": "RecommendedSeptember 1",
@@ -3460,7 +3469,7 @@
     {
       "appid": "1202130",
       "name": "Starship Troopers: Terran Command",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1202130/b4ca580246e8fb56649578a349b941ac645eb7d5/header_292x136.jpg?t=1779812017",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1202130/b4ca580246e8fb56649578a349b941ac645eb7d5/header_292x136.jpg?t=1792488369",
       "desc": "$29.99 Recommended August 20 Mod ภาษาไทย Starship Troopers: Terran Command\nโหลดได้ที่ : www.nexusmods.com/starshiptroopersterrancommand/mods/11",
       "url": "https://www.nexusmods.com/starshiptroopersterrancommand/mods/11",
       "type": "RecommendedAugust 20",
@@ -7015,7 +7024,7 @@
     {
       "appid": "2646460",
       "name": "Soulmask",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2646460/8580b9d3a4f484c8e865a51c89c8307521716151/header_292x136_alt_assets_29.jpg?t=1792245198",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2646460/8580b9d3a4f484c8e865a51c89c8307521716151/header_292x136_alt_assets_29.jpg?t=1792490556",
       "desc": "$29.99 Recommended November 15, 2024 Mod ภาษาไทย Soulmask\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedNovember 15, 2024",
@@ -9193,7 +9202,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/a4bbb92c2bbe1f93adf38225b9321a64868099e6/header_292x136_alt_assets_14.jpg?t=1791480874",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/header_292x136.jpg?t=1791480874",
       "desc": "$49.99 Recommended May 19, 2022 Mod ภาษาไทย stellaris\nโหลดได้ที่ : steamcommunity.com/workshop/filedetails/?l=thai&id=2330892068 \ngithub.com/pongmadee/Stellaris-Thai-Translation-MOD Watch the full review [www.youtube.com]",
       "url": "https://steamcommunity.com/workshop/filedetails/?l=thai&id=2330892068",
       "type": "RecommendedMay 19, 2022",
