@@ -1,6 +1,33 @@
 {
-  "total_count": 1160,
+  "total_count": 1163,
   "items": [
+    {
+      "appid": "1145360",
+      "name": "Hades",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/header_292x136.jpg?t=1758127023",
+      "desc": "$24.99 Recommended October 21 Mod ภาษาไทย Hades\nโหลดได้ที่ : www.nexusmods.com/hades/mods/247",
+      "url": "https://www.nexusmods.com/hades/mods/247",
+      "type": "RecommendedOctober 21",
+      "price": "฿495.00"
+    },
+    {
+      "appid": "614570",
+      "name": "Dishonored®: Death of the Outsider™",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/614570/header_292x136.jpg?t=1750785506",
+      "desc": "$29.99 Recommended October 21 Mod ภาษาไทย Dishonored®: Death of the Outsider™\nโหลดได้ที่ : www.nexusmods.com/dishonoreddeathoftheoutsider/mods/61",
+      "url": "https://www.nexusmods.com/dishonoreddeathoftheoutsider/mods/61",
+      "type": "RecommendedOctober 21",
+      "price": "฿990.00"
+    },
+    {
+      "appid": "1836860",
+      "name": "Neptunia x SENRAN KAGURA: Ninja Wars",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1836860/header_292x136.jpg?t=1776732382",
+      "desc": "$49.99 Recommended October 21 Mod ภาษาไทย Neptunia x SENRAN KAGURA: Ninja Wars\nโหลดได้ที่ : stamp789.github.io",
+      "url": "https://stamp789.github.io",
+      "type": "RecommendedOctober 21",
+      "price": "฿579.00"
+    },
     {
       "appid": "3909960",
       "name": "Dementium: The Ward",
@@ -221,7 +248,7 @@
       "appid": "3398110",
       "name": "The Walking Trade",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3398110/2244b05e1dcca28000c8bda123be64b333b0e2ad/header_292x136.jpg?t=1792070016",
-      "desc": "$11.99 Recommended October 18 Mod ภาษาไทย The Walking Trade\nโหลดได้ที่ : www.nexusmods.com/thewalkingtrade/mods/33",
+      "desc": "Live $11.99 Recommended October 18 Mod ภาษาไทย The Walking Trade\nโหลดได้ที่ : www.nexusmods.com/thewalkingtrade/mods/33",
       "url": "https://www.nexusmods.com/thewalkingtrade/mods/33",
       "type": "RecommendedOctober 18",
       "price": "฿230.00"
@@ -598,7 +625,7 @@
     {
       "appid": "2828710",
       "name": "Valor Mortis",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header_292x136.jpg?t=1791924072",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2828710/e729c7f909db5c52ea780923d9b258517162866a/header_292x136.jpg?t=1792598519",
       "desc": "Live $39.99 Recommended October 14 Mod ภาษาไทย Valor Mortis\nโหลดได้ที่ : www.nexusmods.com/valormortis/mods/21",
       "url": "https://www.nexusmods.com/valormortis/mods/21",
       "type": "RecommendedOctober 14",
@@ -1781,7 +1808,7 @@
       "desc": "$9.99 Recommended September 26 Mod ภาษาไทย Sniper Elite 2 Remastered\nโหลดได้ที่ : www.nexusmods.com/sniperelitev2/mods/11",
       "url": "https://www.nexusmods.com/sniperelitev2/mods/11",
       "type": "RecommendedSeptember 26",
-      "price": "฿220.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1715130",
@@ -1790,7 +1817,7 @@
       "desc": "$29.99 Recommended September 26 Mod ภาษาไทย Crysis Remastered\nโหลดได้ที่ : www.nexusmods.com/crysisremastered/mods/43",
       "url": "https://www.nexusmods.com/crysisremastered/mods/43",
       "type": "RecommendedSeptember 26",
-      "price": "฿689.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2096610",
@@ -1799,7 +1826,7 @@
       "desc": "$29.99 Recommended September 26 Mod ภาษาไทย Crysis Remastered 3\nโหลดได้ที่ : www.nexusmods.com/crysis3/mods/24",
       "url": "https://www.nexusmods.com/crysis3/mods/24",
       "type": "RecommendedSeptember 26",
-      "price": "฿689.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "233270",
@@ -1957,7 +1984,7 @@
     {
       "appid": "2290180",
       "name": "Riders Republic",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2290180/c384df0cbfeba26c167fab3d30961f3850b17b3d/header_292x136.jpg?t=1791385214",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2290180/4c5899335e3e331310498bdbc75fe995c225795a/header_292x136_alt_assets_5.jpg?t=1791385214",
       "desc": "Live $39.99 Recommended September 22 Mod ภาษาไทย Riders Republic \nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 22",
@@ -4136,7 +4163,7 @@
       "appid": "1866180",
       "name": "Hooked on You: A Dead by Daylight Dating Sim™",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1866180/header_292x136.jpg?t=1682551072",
-      "desc": "$9.99 Recommended August 5 Mod ภาษาไทย Hooked on You: A Dead by Daylight Dating Sim \nโหลดได้ที่ : www.nexusmods.com/deadbydaylight/mods/75",
+      "desc": "-60% $9.99 $3.99 60% off. $9.99 normally, discounted to $3.99 Recommended August 5 Mod ภาษาไทย Hooked on You: A Dead by Daylight Dating Sim \nโหลดได้ที่ : www.nexusmods.com/deadbydaylight/mods/75",
       "url": "https://www.nexusmods.com/deadbydaylight/mods/75",
       "type": "RecommendedAugust 5",
       "price": "ฟรี / Mod"
@@ -4873,7 +4900,7 @@
     {
       "appid": "666150",
       "name": "Prehistoric Kingdom",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/666150/0ee19480f30b74c8173a510d44f9815b9aa00979/header_292x136.jpg?t=1789159599",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/666150/0ee19480f30b74c8173a510d44f9815b9aa00979/header_292x136.jpg?t=1792601341",
       "desc": "$29.99 Recommended July 18 Mod ภาษาไทย Prehistoric Kingdom\nโหลดได้ที่ : www.nexusmods.com/prehistorickingdom/mods/12",
       "url": "https://www.nexusmods.com/prehistorickingdom/mods/12",
       "type": "RecommendedJuly 18",
@@ -5125,7 +5152,7 @@
     {
       "appid": "1501750",
       "name": "Lords of the Fallen",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1501750/c793d85dc133f22112c7283b79dd89e2c0aa58a4/header_292x136.jpg?t=1786951564",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1501750/c793d85dc133f22112c7283b79dd89e2c0aa58a4/header_292x136.jpg?t=1792592985",
       "desc": "$29.99 Recommended July 9 Mod ภาษาไทย Lords of the Fallen\nโหลดได้ที่ : www.nexusmods.com/lordsofthefallen2023/mods/109",
       "url": "https://www.nexusmods.com/lordsofthefallen2023/mods/109",
       "type": "RecommendedJuly 9",
@@ -7285,7 +7312,7 @@
     {
       "appid": "527230",
       "name": "For The King",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527230/166aff558fda0f7e13df1970c7e825805c6e52b0/header_292x136_alt_assets_14.jpg?t=1762445651",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/527230/166aff558fda0f7e13df1970c7e825805c6e52b0/header_292x136_alt_assets_14.jpg?t=1792601077",
       "desc": "$19.99 Recommended September 7, 2024 Mod ภาษาไทย For The King\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
       "url": "https://sites.google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 7, 2024",
@@ -7691,7 +7718,7 @@
       "appid": "2206350",
       "name": "Farm Manager World",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2206350/dde59c61b1a779eb457369c084b9f149ebf83743/header_292x136.jpg?t=1786018137",
-      "desc": "Live $19.99 Recommended May 10, 2024 Mod ภาษาไทย Farm Manager World\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
+      "desc": "$19.99 Recommended May 10, 2024 Mod ภาษาไทย Farm Manager World\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
       "url": "https://sites.google.com/view/modthaiyaklongplae",
       "type": "RecommendedMay 10, 2024",
       "price": "ฟรี / Mod"
@@ -9301,7 +9328,7 @@
     {
       "appid": "281990",
       "name": "Stellaris",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/header_292x136.jpg?t=1791480874",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/281990/header_292x136.jpg?t=1792590966",
       "desc": "$49.99 Recommended May 19, 2022 Mod ภาษาไทย stellaris\nโหลดได้ที่ : steamcommunity.com/workshop/filedetails/?l=thai&id=2330892068 \ngithub.com/pongmadee/Stellaris-Thai-Translation-MOD Watch the full review [www.youtube.com]",
       "url": "https://steamcommunity.com/workshop/filedetails/?l=thai&id=2330892068",
       "type": "RecommendedMay 19, 2022",
@@ -9491,7 +9518,7 @@
       "appid": "532210",
       "name": "Life is Strange 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/532210/header_292x136.jpg?t=1771868183",
-      "desc": "Recommended March 21, 2022 Mod ภาษาไทย Life Is Strang 2 Episode 1+2+3\nลากไฟล์ LIS2 ไปไว้ในที่ว่างในโฟล์เดอร์เกม\nโหลดที่ www.nexusmods.com/lifeisstrange2/mods/3 Watch the full review [www.youtube.com]",
+      "desc": "Free Recommended March 21, 2022 Mod ภาษาไทย Life Is Strang 2 Episode 1+2+3\nลากไฟล์ LIS2 ไปไว้ในที่ว่างในโฟล์เดอร์เกม\nโหลดที่ www.nexusmods.com/lifeisstrange2/mods/3 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/lifeisstrange2/mods/3",
       "type": "RecommendedMarch 21, 2022",
       "price": "ฟรี / Mod"
@@ -9869,8 +9896,8 @@
       "appid": "377840",
       "name": "FINAL FANTASY IX",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/377840/header_292x136.jpg?t=1775119109",
-      "desc": "$20.99 Recommended July 31, 2021 Mod ภาษาไทยสำหรับ Final Fantasy IX\nโหลดได้ที่ www.facebook.com/TranslatorGamer\nหรือ www.facebook.com/profile.php?id=61587579740707 Watch the full review [www.youtube.com]",
-      "url": "https://www.facebook.com/TranslatorGamer",
+      "desc": "$20.99 Recommended July 31, 2021 Mod ภาษาไทยสำหรับ Final Fantasy IX\nโหลดได้ที่ mrt-game-studio.itch.io Watch the full review [www.youtube.com]",
+      "url": "https://itch.io",
       "type": "RecommendedJuly 31, 2021",
       "price": "ฟรี / Mod"
     },
