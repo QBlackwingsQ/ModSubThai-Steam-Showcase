@@ -1,6 +1,78 @@
 {
-  "total_count": 1163,
+  "total_count": 1171,
   "items": [
+    {
+      "appid": "1388590",
+      "name": "Yakuza 6: The Song of Life",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1388590/header_292x136.jpg?t=1781263976",
+      "desc": "$19.99 Recommended October 22 Mod ภาษาไทย Yakuza 6: The Song of Life\nโหลดได้ที่ : yakuzathai.com",
+      "url": "https://yakuzathai.com",
+      "type": "RecommendedOctober 22",
+      "price": "฿560.00"
+    },
+    {
+      "appid": "1105510",
+      "name": "Yakuza 5 Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1105510/header_292x136.jpg?t=1781264288",
+      "desc": "$19.99 Recommended October 22 Mod ภาษาไทย Yakuza 5\nโหลดได้ที่ : www.nexusmods.com/yakuza5remastered/mods/329",
+      "url": "https://www.nexusmods.com/yakuza5remastered/mods/329",
+      "type": "RecommendedOctober 22",
+      "price": "฿560.00"
+    },
+    {
+      "appid": "1105500",
+      "name": "Yakuza 4 Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1105500/header_292x136.jpg?t=1781264394",
+      "desc": "$19.99 Recommended October 22 Mod ภาษาไทย Yakuza 4\nโหลดได้ที่ : www.nexusmods.com/yakuza4remastered/mods/233",
+      "url": "https://www.nexusmods.com/yakuza4remastered/mods/233",
+      "type": "RecommendedOctober 22",
+      "price": "฿560.00"
+    },
+    {
+      "appid": "1088710",
+      "name": "Yakuza 3 Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1088710/header_292x136.jpg?t=1781264511",
+      "desc": "Recommended October 22 Mod ภาษาไทย Yakuza 3 Remastered\nโหลดได้ที่ : www.nexusmods.com/yakuza3remastered/mods/273",
+      "url": "https://www.nexusmods.com/yakuza3remastered/mods/273",
+      "type": "RecommendedOctober 22",
+      "price": "ฟรี / Mod"
+    },
+    {
+      "appid": "2988580",
+      "name": "Yakuza 0 Director's Cut",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2988580/aaceda0f5c16fce191e63f7342d07323e86a1156/header_292x136.jpg?t=1783041339",
+      "desc": "$49.99 Recommended October 22 Mod ภาษาไทย Yakuza 0 Director's Cut\nโหลดได้ที่ : www.nexusmods.com/yakuza0directorscut/mods/40",
+      "url": "https://www.nexusmods.com/yakuza0directorscut/mods/40",
+      "type": "RecommendedOctober 22",
+      "price": "฿1,390.00"
+    },
+    {
+      "appid": "678950",
+      "name": "DRAGON BALL FighterZ",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/678950/header_292x136.jpg?t=1776898545",
+      "desc": "$59.99 Recommended October 22 Mod ภาษาไทย Dragon Ball Fighter Z\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 22",
+      "price": "฿1,390.00"
+    },
+    {
+      "appid": "625960",
+      "name": "Stoneshard",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/625960/25aa7037cf8dd1df245fa189b69b03eaed5fd135/header_292x136.jpg?t=1790180600",
+      "desc": "-30% $24.99 $17.49 30% off. $24.99 normally, discounted to $17.49 Recommended October 22 Mod ภาษาไทย Stoneshard \nโหลดได้ที่ : www.nexusmods.com/stoneshard/mods/412",
+      "url": "https://www.nexusmods.com/stoneshard/mods/412",
+      "type": "RecommendedOctober 22",
+      "price": "-30% ฿209.30"
+    },
+    {
+      "appid": "29900",
+      "name": "Dark Sector",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/29900/header_292x136.jpg?t=1732992837",
+      "desc": "$9.99 Recommended October 22 Mod ภาษาไทย Dark Sector\nโหลดได้ที่ : www.nexusmods.com/darksector/mods/3",
+      "url": "https://www.nexusmods.com/darksector/mods/3",
+      "type": "RecommendedOctober 22",
+      "price": "฿219.00"
+    },
     {
       "appid": "1145360",
       "name": "Hades",
@@ -1499,8 +1571,8 @@
       "appid": "3717340",
       "name": "Yakuza Kiwami 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3717340/894621031b664c828e8114c42934a098e38d182b/header_292x136.jpg?t=1781258352",
-      "desc": "$19.99 Recommended October 1 Mod ภาษาไทย Yakuza Kiwami 2\nโหลดได้ที่ : patreon.com/EASYMOD",
-      "url": "https://patreon.com/EASYMOD",
+      "desc": "$19.99 Recommended October 1 Mod ภาษาไทย Yakuza Kiwami 2\nโหลดได้ที่ : www.nexusmods.com/yakuzakiwami2025/mods/32",
+      "url": "https://www.nexusmods.com/yakuzakiwami2025/mods/32",
       "type": "RecommendedOctober 1",
       "price": "฿669.00"
     },
@@ -1736,7 +1808,7 @@
       "desc": "$19.99 Recommended September 28 Mod ภาษาไทย S.T.A.L.K.E.R.: Call of Prypiat - Enhanced Edition\nโหลดได้ที่ : www.nexusmods.com/stalkercallofpripyat/mods/360",
       "url": "https://www.nexusmods.com/stalkercallofpripyat/mods/360",
       "type": "RecommendedSeptember 28",
-      "price": "฿549.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "803330",
@@ -1745,7 +1817,7 @@
       "desc": "$29.99 Recommended September 27 Mod ภาษาไทย Destroy All Humans\nโหลดได้ที่ : monnmod.com",
       "url": "https://monnmod.com",
       "type": "RecommendedSeptember 27",
-      "price": "฿559.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "441830",
@@ -1754,7 +1826,7 @@
       "desc": "$39.99 Recommended September 27 Mod ภาษาไทย I AM SETSUNA \nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
       "url": "https://stamp789.github.io/mee-game-kor-pla",
       "type": "RecommendedSeptember 27",
-      "price": "฿729.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2627260",
@@ -1763,7 +1835,7 @@
       "desc": "$69.99 Recommended September 27 Mod ภาษาไทย Ninja Gaiden 4 \nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 27",
-      "price": "฿2,299.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2444750",
@@ -1772,7 +1844,7 @@
       "desc": "$24.99 Recommended September 27 Mod ภาษาไทย Shape of Dreams\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 27",
-      "price": "฿495.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "205100",
@@ -1781,7 +1853,7 @@
       "desc": "$9.99 Recommended September 27 Mod ภาษาไทย Dishonored\nโหลดได้ที่ : www.nexusmods.com/dishonored/mods/193",
       "url": "https://www.nexusmods.com/dishonored/mods/193",
       "type": "RecommendedSeptember 27",
-      "price": "฿350.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1608290",
@@ -1790,7 +1862,7 @@
       "desc": "$24.99 Recommended September 26 Mod ภาษาไทย Gnosia\nโหลดได้ที่ : mega.nz/file/og8D3DQJ#QqwAKuQe3uwdRv-vWh0j7k5_HIurACX2MCjZzHKLM3Y",
       "url": "https://store.steampowered.com/app/1608290/",
       "type": "RecommendedSeptember 26",
-      "price": "฿319.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "339230",
@@ -1799,7 +1871,7 @@
       "desc": "$19.99 Recommended September 26 Mod ภาษาไทย Zombi\nโหลดได้ที่ : www.nexusmods.com/zombi/mods/5",
       "url": "https://www.nexusmods.com/zombi/mods/5",
       "type": "RecommendedSeptember 26",
-      "price": "฿540.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "728740",
@@ -1949,7 +2021,7 @@
       "appid": "4358690",
       "name": "Graveyard Keeper 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4358690/d63c37d6289ef7c48d89c0521fb82ac51d7f5ce8/header_292x136.jpg?t=1792159836",
-      "desc": "Live $24.99 Recommended September 24 Mod ภาษาไทย Graveyard Keeper 2\nโหลดได้ที่ : www.nexusmods.com/graveyardkeeper2/mods/53",
+      "desc": "$24.99 Recommended September 24 Mod ภาษาไทย Graveyard Keeper 2\nโหลดได้ที่ : www.nexusmods.com/graveyardkeeper2/mods/53",
       "url": "https://www.nexusmods.com/graveyardkeeper2/mods/53",
       "type": "RecommendedSeptember 24",
       "price": "ฟรี / Mod"
@@ -1984,7 +2056,7 @@
     {
       "appid": "2290180",
       "name": "Riders Republic",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2290180/4c5899335e3e331310498bdbc75fe995c225795a/header_292x136_alt_assets_5.jpg?t=1791385214",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2290180/4c5899335e3e331310498bdbc75fe995c225795a/header_292x136_alt_assets_5.jpg?t=1792680897",
       "desc": "Live $39.99 Recommended September 22 Mod ภาษาไทย Riders Republic \nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 22",
@@ -2659,7 +2731,7 @@
     {
       "appid": "3293260",
       "name": "Waterpark Simulator",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3293260/d777414ab68027db0399200587fd78d409cc9602/header_292x136_alt_assets_5.jpg?t=1792442141",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3293260/250af388a80c1cb76cd2f5f5480770306bc12c66/header_292x136_alt_assets_7.jpg?t=1792687617",
       "desc": "$12.99 Recommended September 9 Mod ภาษาไทย Waterpark Simulator\nโหลดได้ที่ : www.nexusmods.com/waterparksimulator/mods/100",
       "url": "https://www.nexusmods.com/waterparksimulator/mods/100",
       "type": "RecommendedSeptember 9",
@@ -2695,7 +2767,7 @@
     {
       "appid": "2218750",
       "name": "Halls of Torment",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2218750/header_292x136.jpg?t=1792655367",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2218750/6d80d571b3b6704680eef8c2d9ea01f9e13cc573/header_292x136_alt_assets_2.jpg?t=1792677093",
       "desc": "-25% $6.66 $4.99 25% off. $6.66 normally, discounted to $4.99 Recommended September 8 Mod ภาษาไทย Halls of Torment\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedSeptember 8",
@@ -3352,7 +3424,7 @@
     {
       "appid": "588430",
       "name": "Fallout Shelter",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588430/c672068e9934f33c743d4b2fd33814f08adb52e6/header_292x136.jpg?t=1790961740",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588430/c672068e9934f33c743d4b2fd33814f08adb52e6/header_292x136.jpg?t=1792675580",
       "desc": "Free To Play Recommended August 23 Mod ภาษาไทย Fallout Shelter\nโหลดได้ที่ : www.nexusmods.com/falloutshelter/mods/211 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/falloutshelter/mods/211",
       "type": "RecommendedAugust 23",
@@ -3379,7 +3451,7 @@
     {
       "appid": "1839950",
       "name": "Terminator: Dark Fate - Defiance",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1839950/7e4d380f508888fb60deb426f3fd6ae2cba884cf/header_292x136_alt_assets_2.jpg?t=1790259740",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1839950/2f6d4f97ccefd64342beb960e4751c068a121ec8/header_292x136.jpg?t=1790259740",
       "desc": "$39.99 Recommended August 22 Mod ภาษาไทย Terminator Dark Fate Defiance\nโหลดได้ที่ : www.nexusmods.com/terminatordarkfatedefiance/mods/86",
       "url": "https://www.nexusmods.com/terminatordarkfatedefiance/mods/86",
       "type": "RecommendedAugust 22",
@@ -3919,7 +3991,7 @@
     {
       "appid": "1782460",
       "name": "Hell Clock",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1782460/ad535db40678e4c07263cd6378194d2f3924a36b/header_292x136_alt_assets_0.jpg?t=1792521183",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1782460/ad535db40678e4c07263cd6378194d2f3924a36b/header_292x136_alt_assets_0.jpg?t=1792677583",
       "desc": "-45% $19.99 $10.99 45% off. $19.99 normally, discounted to $10.99 Recommended August 12 Mod ภาษาไทย Hell Clock \nโหลดได้ที่ : github.com/YUNGPLAE/Hell-Clock-Thai-Translation",
       "url": "https://github.com/YUNGPLAE/Hell-Clock-Thai-Translation",
       "type": "RecommendedAugust 12",
@@ -5279,8 +5351,8 @@
       "appid": "3717330",
       "name": "Yakuza Kiwami",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3717330/07bf98df23eb154febbf878a79ff02b915b6cc43/header_292x136.jpg?t=1784876186",
-      "desc": "$1.99 Recommended July 5 Mod ภาษาไทย Yakuza Kiwami 1\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798965853658887681",
-      "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798965853658887681",
+      "desc": "$1.99 Recommended July 5 Mod ภาษาไทย Yakuza Kiwami 1\nโหลดได้ที่ : www.nexusmods.com/yakuzakiwami2025/mods/31",
+      "url": "https://www.nexusmods.com/yakuzakiwami2025/mods/31",
       "type": "RecommendedJuly 5",
       "price": "ฟรี / Mod"
     },
@@ -5333,8 +5405,8 @@
       "appid": "3937550",
       "name": "Yakuza Kiwami 3 & Dark Ties",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3937550/a90df0d7be6d8f1dd5d8eceb796840ff522d002a/header_292x136.jpg?t=1781257873",
-      "desc": "$59.99 Recommended July 5 Mod ภาษาไทย Yakuza Kiwami 3 & Dark Ties\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798967628136788387\nหรือ bignutchanon.github.io/yakuza-wiki",
-      "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798967628136788387",
+      "desc": "$59.99 Recommended July 5 Mod ภาษาไทย Yakuza Kiwami 3 & Dark Ties\nโหลดได้ที่ : www.nexusmods.com/yakuzakiwami3/mods/372",
+      "url": "https://www.nexusmods.com/yakuzakiwami3/mods/372",
       "type": "RecommendedJuly 5",
       "price": "ฟรี / Mod"
     },
@@ -6070,7 +6142,7 @@
     {
       "appid": "968870",
       "name": "Close To The Sun",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/968870/68c9b9586b9ccf71098ffa9190098d5e10f61c36/header_292x136.jpg?t=1781181218",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/968870/68c9b9586b9ccf71098ffa9190098d5e10f61c36/header_292x136.jpg?t=1792685948",
       "desc": "$19.99 Recommended December 17, 2025 Mod ภาษาไทย Close To The Sun\nโหลดได้ที่ : sites.google.com/view/mistertime",
       "url": "https://google.com/view/mistertime",
       "type": "RecommendedDecember 17, 2025",
@@ -6160,7 +6232,7 @@
     {
       "appid": "2592160",
       "name": "Dispatch",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2592160/header_292x136.jpg?t=1787155146",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2592160/header_292x136.jpg?t=1792683942",
       "desc": "-20% $29.99 $23.99 20% off. $29.99 normally, discounted to $23.99 Recommended November 15, 2025 Mod ภาษาไทย Dispatch\nโหลดได้ที่ : www.nexusmods.com/dispatch/mods/1",
       "url": "https://www.nexusmods.com/dispatch/mods/1",
       "type": "RecommendedNovember 15, 2025",
@@ -6332,8 +6404,8 @@
       "appid": "1805480",
       "name": "Like a Dragon: Ishin!",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1805480/header_292x136.jpg?t=1781263604",
-      "desc": "$39.99 Recommended August 23, 2025 Mod ภาษาไทยเกม Like a Dragon: Ishin!\nโหลดได้ที่ : info-meawtion.com/app/Like-a-Dragon-Ishin\nหรือ yakuzathai.com/game/ishin",
-      "url": "https://info-meawtion.com/app/Like-a-Dragon-Ishin",
+      "desc": "$39.99 Recommended August 23, 2025 Mod ภาษาไทยเกม Like a Dragon: Ishin!\nโหลดได้ที่ : www.nexusmods.com/likeadragonishin/mods/87",
+      "url": "https://www.nexusmods.com/likeadragonishin/mods/87",
       "type": "RecommendedAugust 23, 2025",
       "price": "ฟรี / Mod"
     },
@@ -6403,7 +6475,7 @@
     {
       "appid": "3527290",
       "name": "PEAK",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header_292x136.jpg?t=1790591892",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header_292x136.jpg?t=1792684718",
       "desc": "$7.99 Recommended July 26, 2025 Mod ภาษาไทย PEAK\nโหลดได้ที่ : mamathod.carrd.co",
       "url": "https://carrd.co",
       "type": "RecommendedJuly 26, 2025",
@@ -6448,7 +6520,7 @@
     {
       "appid": "203160",
       "name": "Tomb Raider Game of the Year",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header_292x136.jpg?t=1765220424",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header_292x136.jpg?t=1792674634",
       "desc": "$19.99 Recommended June 14, 2025 Mod ภาษาไทย Tomb Raider\nโหลดได้ที่ : www.patreon.com/c/EASYMOD",
       "url": "https://www.patreon.com/c/EASYMOD",
       "type": "RecommendedJune 14, 2025",
@@ -6727,7 +6799,7 @@
     {
       "appid": "2185060",
       "name": "Two Point Museum",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2185060/f518d1aa2754296e280ba3fe0d2bd4392fa6e3eb/header_292x136.jpg?t=1792668100",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2185060/ddea7f0c341643f62345bfcb389b5d7dbca1ea82/header_292x136_alt_assets_4.jpg?t=1792668100",
       "desc": "$29.99 Recommended April 30, 2025 Mod ภาษาไทย Two Point Museum\nโหลดได้ที่ : www.nexusmods.com/twopointmuseum/mods/1 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/twopointmuseum/mods/1",
       "type": "RecommendedApril 30, 2025",
@@ -6746,7 +6818,7 @@
       "appid": "3061810",
       "name": "Like a Dragon: Pirate Yakuza in Hawaii",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3061810/header_292x136.jpg?t=1781258528",
-      "desc": "$59.99 Recommended April 30, 2025 Mod ภาษาไทย Like a Dragon Pirate Yakuza in Hawaii\nโหลดได้ที่ : www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/127 Watch the full review [youtu.be]",
+      "desc": "$59.99 Recommended April 30, 2025 Mod ภาษาไทย Like a Dragon Pirate Yakuza in Hawaii\nโหลดได้ที่ : www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/127\nหรือ www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/237 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/likeadragonpirateyakuzainhawaii/mods/127",
       "type": "RecommendedApril 30, 2025",
       "price": "ฟรี / Mod"
@@ -6764,7 +6836,7 @@
       "appid": "2072450",
       "name": "Like a Dragon: Infinite Wealth",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2072450/header_292x136.jpg?t=1781262996",
-      "desc": "$69.99 Recommended April 30, 2025 Mod ภาษาไทย Like a Dragon Infinite Wealth\nโหลดได้ที่ : www.nexusmods.com/likeadragoninfinitewealth/mods/122",
+      "desc": "$69.99 Recommended April 30, 2025 Mod ภาษาไทย Like a Dragon Infinite Wealth\nโหลดได้ที่ : www.nexusmods.com/likeadragoninfinitewealth/mods/122\nหรือ www.nexusmods.com/likeadragoninfinitewealth/mods/494",
       "url": "https://www.nexusmods.com/likeadragoninfinitewealth/mods/122",
       "type": "RecommendedApril 30, 2025",
       "price": "ฟรี / Mod"
@@ -7069,7 +7141,7 @@
     {
       "appid": "2527500",
       "name": "MiSide",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2527500/header_292x136.jpg?t=1792667162",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2527500/header_292x136.jpg?t=1792668822",
       "desc": "$14.99 Recommended December 26, 2024 Mod ภาษาไทย และก็พากย์ไทย MiSide\nโหลดได้ที่ : sites.google.com/view/abaranger\n- แปลจากภาษาญี่ปุ่นโดยนักแปลมืออาชีพ\n  - พากย์ไทยมิตะ 100%\n  - ไม่พากย์เสียงพระเอก Watch the full review [www.youtube.com]",
       "url": "https://google.com/view/abaranger",
       "type": "RecommendedDecember 26, 2024",
@@ -7492,7 +7564,7 @@
     {
       "appid": "391220",
       "name": "Rise of the Tomb Raider™",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/header_292x136.jpg?t=1766187095",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/2e2fc1d2811647ccac4a7fd3a914b70b85051314/header_292x136.jpg?t=1792675385",
       "desc": "$29.99 Recommended June 7, 2024 VR Supported Mod ภาษาไทย Rise of the Tomb Raider\nโหลดได้ที่ : www.nexusmods.com/riseofthetombraider/mods/128\n* จำเป็นต้องใช้ ROTTR Mod Manager\nwww.nexusmods.com/riseofthetombraider/mods/94 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/riseofthetombraider/mods/128",
       "type": "RecommendedJune 7, 2024VR Supported",
@@ -7573,7 +7645,7 @@
     {
       "appid": "750920",
       "name": "Shadow of the Tomb Raider: Definitive Edition",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/750920/header_292x136.jpg?t=1765239925",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/750920/f3740f6adb527d3cca6137a7ffad6d535756a5e6/header_292x136.jpg?t=1792675045",
       "desc": "$39.99 Recommended May 31, 2024 Mod ภาษาไทย Shadow of the Tomb Raider\nโหลดได้ที่ :  https://easymods.org",
       "url": "https://easymods.org",
       "type": "RecommendedMay 31, 2024",
@@ -7871,7 +7943,7 @@
       "appid": "2058180",
       "name": "Judgment",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2058180/header_292x136.jpg?t=1781263750",
-      "desc": "$39.99 Recommended April 7, 2024 Mod ภาษาไทย Judgment แปล Google\nโหลดได้ที่ : www.nexusmods.com/judgment/mods/228\nหรือ yakuzathai.com",
+      "desc": "$39.99 Recommended April 7, 2024 Mod ภาษาไทย Judgment แปล Google\nโหลดได้ที่ : www.nexusmods.com/judgment/mods/228\nหรือ www.nexusmods.com/judgment/mods/365",
       "url": "https://www.nexusmods.com/judgment/mods/228",
       "type": "RecommendedApril 7, 2024",
       "price": "ฟรี / Mod"
@@ -7880,7 +7952,7 @@
       "appid": "1235140",
       "name": "Yakuza: Like a Dragon",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1235140/header_292x136.jpg?t=1781264130",
-      "desc": "$19.99 Recommended April 7, 2024 Mod ภาษาไทย Yakuza: Like a Dragon แปล Google\nโหลดได้ที่ : www.nexusmods.com/yakuzalikeadragon/mods/197",
+      "desc": "$19.99 Recommended April 7, 2024 Mod ภาษาไทย Yakuza: Like a Dragon\nโหลดได้ที่ : www.nexusmods.com/yakuzalikeadragon/mods/197\nหรือ www.nexusmods.com/yakuzalikeadragon/mods/336",
       "url": "https://www.nexusmods.com/yakuzalikeadragon/mods/197",
       "type": "RecommendedApril 7, 2024",
       "price": "ฟรี / Mod"
@@ -7970,7 +8042,7 @@
       "appid": "2058190",
       "name": "Lost Judgment",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2058190/header_292x136.jpg?t=1781263270",
-      "desc": "$39.99 Recommended March 31, 2024 Mod ภาษาไทย Lost Judgment\nโหลดได้ที่ : https://www.nexusmods.com/judgment/mods/228",
+      "desc": "$39.99 Recommended March 31, 2024 Mod ภาษาไทย Lost Judgment\nโหลดได้ที่ : www.nexusmods.com/judgment/mods/228\nหรือ www.nexusmods.com/lostjudgment/mods/800",
       "url": "https://www.nexusmods.com/judgment/mods/228",
       "type": "RecommendedMarch 31, 2024",
       "price": "ฟรี / Mod"
@@ -8060,7 +8132,7 @@
       "appid": "2375550",
       "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2375550/header_292x136.jpg?t=1781263435",
-      "desc": "$49.99 Recommended February 17, 2024 Mod ภาษาไทย Like a Dragon Gaiden: The Man Who Erased His Name\nโหลดได้ที่ : https://www.nexusmods.com/likeadragongaiden/mods/239",
+      "desc": "$49.99 Recommended February 17, 2024 Mod ภาษาไทย Like a Dragon Gaiden: The Man Who Erased His Name\nโหลดได้ที่ : www.nexusmods.com/likeadragongaiden/mods/239\nหรือ www.nexusmods.com/likeadragongaiden/mods/533",
       "url": "https://www.nexusmods.com/likeadragongaiden/mods/239",
       "type": "RecommendedFebruary 17, 2024",
       "price": "ฟรี / Mod"
@@ -8652,8 +8724,8 @@
     },
     {
       "appid": "286690",
-      "name": "Metro 2033 Redux",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/286690/header_292x136.jpg?t=1741110084",
+      "name": "METRO 2033 Redux",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/286690/643dc97456e8a6f98777c28e81dcc92b39e2882f/header_292x136_alt_assets_1.jpg?t=1792681167",
       "desc": "$19.99 Recommended March 31, 2023 Mod ภาษาไทย Metro 2033 Redux\nโหลดได้ที่ : https://www.nexusmods.com/metro2033redux/mods/9\nแปลโดย : เพจ Ni TouchzZ และ แปลได้ก็แปล Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/metro2033redux/mods/9",
       "type": "RecommendedMarch 31, 2023",
@@ -9472,7 +9544,7 @@
     {
       "appid": "515960",
       "name": "Martha Is Dead",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/515960/fdea1161a91f30d4b181b0e875986d6366e5a776/header_292x136.jpg?t=1792094877",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/515960/13a12224269c46a3629ec047ca66abdad0836417/header_292x136_alt_assets_5.jpg?t=1792686873",
       "desc": "Live $29.99 Recommended April 23, 2022 Mod ซับไตเติลภาษาไทยสำหรับ Martha is Dead\nโหลดได้ที่ : https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx Watch the full review [www.youtube.com]",
       "url": "https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx",
       "type": "RecommendedApril 23, 2022",
