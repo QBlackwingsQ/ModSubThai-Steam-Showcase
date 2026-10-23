@@ -1,12 +1,129 @@
 {
-  "total_count": 1174,
+  "total_count": 1187,
   "items": [
+    {
+      "appid": "1449280",
+      "name": "Ghostbusters: The Video Game Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1449280/header_292x136.jpg?t=1607351334",
+      "desc": "-80% $24.99 $4.99 80% off. $24.99 normally, discounted to $4.99 Recommended October 23 Mod ภาษาไทย Ghostbusters: The Video Game Remastered\nโหลดได้ที่ : www.nexusmods.com/ghostbustersthevideogameremastered/mods/99",
+      "url": "https://www.nexusmods.com/ghostbustersthevideogameremastered/mods/99",
+      "type": "RecommendedOctober 23",
+      "price": "-80% ฿109.00"
+    },
+    {
+      "appid": "4435490",
+      "name": "Call of Duty®: Modern Warfare® 4",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header_292x136.jpg?t=1792728107",
+      "desc": "$69.99 Recommended October 23 Mod ภาษาไทย Call of Duty: Modern Warfare 4\nโหลดได้ที่ : www.nexusmods.com/callofdutymodernwarfare4/mods/13",
+      "url": "https://www.nexusmods.com/callofdutymodernwarfare4/mods/13",
+      "type": "RecommendedOctober 23",
+      "price": "฿1,999.00"
+    },
+    {
+      "appid": "742300",
+      "name": "Mega Man 11",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/742300/header_292x136.jpg?t=1787717265",
+      "desc": "-67% $29.99 $9.89 67% off. $29.99 normally, discounted to $9.89 Recommended October 23 Mod ภาษาไทย Mega Man 11\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 23",
+      "price": "-67% ฿247.50"
+    },
+    {
+      "appid": "1796790",
+      "name": "Chef RPG",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1796790/799ab3a9ba6ca09039ac9494927ab8ced83d64cb/header_292x136_alt_assets_2.jpg?t=1787346270",
+      "desc": "$19.99 Recommended October 23 Mod ภาษาไทย CHEF RPG\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "RecommendedOctober 23",
+      "price": "฿400.00"
+    },
+    {
+      "appid": "2402680",
+      "name": "Dimraeth",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2402680/8fe3923c10dfda28e5a41c5a501aedc4909966a7/header_292x136.jpg?t=1790333636",
+      "desc": "$21.99 Recommended October 23 Mod ภาษาไทย Dimraeth\nโหลดได้ที่ : www.nexusmods.com/dimraeth/mods/29",
+      "url": "https://www.nexusmods.com/dimraeth/mods/29",
+      "type": "RecommendedOctober 23",
+      "price": "฿403.90"
+    },
+    {
+      "appid": "3232690",
+      "name": "Maid Cafe Simulator",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3232690/972d98e9f088075e81e205dc8dbd5edebcc876d1/header_292x136.jpg?t=1792061478",
+      "desc": "$23.99 Recommended October 23 Mod ภาษาไทย Maid Cafe Simulator\nโหลดได้ที่ : www.nexusmods.com/maidcafesimulator/mods/1",
+      "url": "https://www.nexusmods.com/maidcafesimulator/mods/1",
+      "type": "RecommendedOctober 23",
+      "price": "฿440.64"
+    },
+    {
+      "appid": "974480",
+      "name": "Echoes of Mystralia",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/974480/3a5b2fb27541d05ab9135b59b51ae77da87e5aed/header_292x136_alt_assets_3.jpg?t=1791468138",
+      "desc": "$19.99 Recommended October 23 Mod ภาษาไทย Echoes of Mystralia\nโหลดได้ที่ : www.nexusmods.com/echoesofmystralia/mods/1",
+      "url": "https://www.nexusmods.com/echoesofmystralia/mods/1",
+      "type": "RecommendedOctober 23",
+      "price": "฿369.00"
+    },
+    {
+      "appid": "1116880",
+      "name": "The Heroic Legend of Eagarlnia",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1116880/header_292x136.jpg?t=1679663475",
+      "desc": "$12.99 Recommended October 23 Mod ภาาาไทย  The Heroic Legend of Eagarlnia\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "RecommendedOctober 23",
+      "price": "฿219.00"
+    },
+    {
+      "appid": "226620",
+      "name": "Desktop Dungeons",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/226620/header_292x136.jpg?t=1681842667",
+      "desc": "$14.99 Recommended October 23 Mod ภาษาไทย Desktop Dungeons\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 23",
+      "price": "฿239.00"
+    },
+    {
+      "appid": "5342930",
+      "name": "Dementium II",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5342930/d60f8d81a5883693cbc0cd54854340290b1451d4/header_292x136.jpg?t=1792528486",
+      "desc": "$14.99 Recommended October 23 Mod ภาษาไทย Dementium II\nโหลดได้ที่ : www.nexusmods.com/dementiumii/mods/1",
+      "url": "https://www.nexusmods.com/dementiumii/mods/1",
+      "type": "RecommendedOctober 23",
+      "price": "฿295.00"
+    },
+    {
+      "appid": "4249100",
+      "name": "Resident Evil (1996)",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4249100/370da9c8c5e4573ea3c9d6ff22c88e89728fa0ed/header_292x136.jpg?t=1783037618",
+      "desc": "-50% $9.99 $4.99 50% off. $9.99 normally, discounted to $4.99 Recommended October 23 Mod ภาษาไทย Resident Evil (1996)\nโหลดได้ที่ : www.nexusmods.com/residentevil1996/mods/114",
+      "url": "https://www.nexusmods.com/residentevil1996/mods/114",
+      "type": "RecommendedOctober 23",
+      "price": "-50% ฿135.00"
+    },
+    {
+      "appid": "632300",
+      "name": "Hobo: Tough Life",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632300/header_292x136.jpg?t=1683874995",
+      "desc": "$29.99 Recommended October 23 Mod ภาษาไทย Hobo Tough Life\nโหลดได้ที่ : www.nexusmods.com/hobotoughlife/mods/17",
+      "url": "https://www.nexusmods.com/hobotoughlife/mods/17",
+      "type": "RecommendedOctober 23",
+      "price": "฿590.00"
+    },
+    {
+      "appid": "460120",
+      "name": "Megadimension Neptunia VII",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/460120/header_292x136.jpg?t=1730845028",
+      "desc": "$19.99 Recommended October 23 Mod ภาษาไทย Megadimension Neptunia VII\nโหลดได้ที่ :  www.nexusmods.com/megadimensionneptuniavii/mods/1",
+      "url": "https://www.nexusmods.com/megadimensionneptuniavii/mods/1",
+      "type": "RecommendedOctober 23",
+      "price": "฿400.00"
+    },
     {
       "appid": "3259780",
       "name": "FINAL FANTASY RESONANCE",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header_292x136.jpg?t=1792685446",
-      "desc": "$49.99 Recommended October 22 Mod ภาษาไทย Final Fantasy Resonance\nโหลดได้ที่ : mrt-game-studio.itch.io",
-      "url": "https://itch.io",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header_292x136.jpg?t=1792758611",
+      "desc": "Live $49.99 Recommended October 22 Mod ภาษาไทย Final Fantasy Resonance\nโหลดได้ที่ : www.nexusmods.com/finalfantasyresonance/mods/41",
+      "url": "https://www.nexusmods.com/finalfantasyresonance/mods/41",
       "type": "RecommendedOctober 22",
       "price": "฿1,691.00"
     },
@@ -644,7 +761,7 @@
       "appid": "4231820",
       "name": "Castlevania: Belmont's Curse",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4231820/6b65aec2c398006aea8b76e1463cc34d0e4ba68b/header_292x136.jpg?t=1792036946",
-      "desc": "$29.99 Recommended October 15 Mod ภาษาไทย Castlevania Belmont's Curse\nโหลดได้ที่: nexusmods.com/castlevaniabelmontscurse/mods/2\nnexusmods.com/castlevaniabelmontscurse/mods/43\nพากย์ไทย nexusmods.com/castlevaniabelmontscurse/mods/79",
+      "desc": "$29.99 Recommended October 15 Mod ภาษาไทย Castlevania Belmont's Curse\nโหลดได้ที่: nexusmods.com/castlevaniabelmontscurse/mods/2\nnexusmods.com/castlevaniabelmontscurse/mods/43\nพากย์ไทย nexusmods.com/castlevaniabelmontscurse/mods/79 Watch the full review [www.youtube.com]",
       "url": "https://nexusmods.com/castlevaniabelmontscurse/mods/2",
       "type": "RecommendedOctober 15",
       "price": "฿845.00"
@@ -742,7 +859,7 @@
     {
       "appid": "2208920",
       "name": "Assassin's Creed Valhalla",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/header_292x136.jpg?t=1786637382",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/header_292x136.jpg?t=1792771229",
       "desc": "$59.99 Recommended October 14 Mod ภาษาไทย Assassin's Creed Valhalla \nโหลดได้ที่ : www.nexusmods.com/assassinscreedvalhalla/mods/423",
       "url": "https://www.nexusmods.com/assassinscreedvalhalla/mods/423",
       "type": "RecommendedOctober 14",
@@ -1691,7 +1808,7 @@
       "desc": "-80% $14.99 $2.99 80% off. $14.99 normally, discounted to $2.99 Recommended September 29 Mod ภาษาไทย Call of Juarez Gunslinger\nโหลดได้ที่ : www.nexusmods.com/callofjuarezgunslinger/mods/21",
       "url": "https://www.nexusmods.com/callofjuarezgunslinger/mods/21",
       "type": "RecommendedSeptember 29",
-      "price": "-80% ฿93.80"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1768470",
@@ -1700,7 +1817,7 @@
       "desc": "$6.99 Recommended September 29 Mod ภาษาไทย The Heroes around Me\nโหลดได้ที่ : www.nexusmods.com/theheroesaroundme/mods/1",
       "url": "https://www.nexusmods.com/theheroesaroundme/mods/1",
       "type": "RecommendedSeptember 29",
-      "price": "฿155.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "622220",
@@ -1709,7 +1826,7 @@
       "desc": "$49.99 Recommended September 29 Mod ภาษาไทย Fate/EXTELLA LINK\nโหลดได้ : thaimod.pages.dev",
       "url": "https://thaimod.page",
       "type": "RecommendedSeptember 29",
-      "price": "฿579.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2432110",
@@ -1718,7 +1835,7 @@
       "desc": "$24.99 Recommended September 29 Mod ภาษาไทย WHITE ALBUM: Memories like Falling Snow\nโหลดได้ที่ :  thaimod.pages.dev",
       "url": "https://thaimod.page",
       "type": "RecommendedSeptember 29",
-      "price": "฿495.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2455640",
@@ -1727,7 +1844,7 @@
       "desc": "$49.99 Recommended September 29 Mod ภาษาไทย Romancing SaGa 2 Revenge of the Seven\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 29",
-      "price": "฿1,691.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2789460",
@@ -1736,7 +1853,7 @@
       "desc": "$14.99 Recommended September 28 Mod ภาษาไทย Ale Abbey - Monastery Brewery Tycoon\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 28",
-      "price": "฿329.90"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "392160",
@@ -1745,7 +1862,7 @@
       "desc": "$49.99 Recommended September 28 Mod ภาษาไทย X4: Foundations\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 28",
-      "price": "฿899.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3222640",
@@ -1754,7 +1871,7 @@
       "desc": "Live $19.99 Recommended September 28 Mod ภาษาไทย Wild West Pioneers \nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 28",
-      "price": "฿399.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1358700",
@@ -1763,7 +1880,7 @@
       "desc": "$39.99 Recommended September 28 Mod ภาษาไทย Stranger of Paradise: Final Fantasy Origin\nโหลดได้ที่ : www.nexusmods.com/strangerofparadisefinalfantasyorigin/mods/26",
       "url": "https://www.nexusmods.com/strangerofparadisefinalfantasyorigin/mods/26",
       "type": "RecommendedSeptember 28",
-      "price": "฿1,335.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2712590",
@@ -1772,7 +1889,7 @@
       "desc": "$19.99 Recommended September 28 Mod ภาษาไทย Dragon Shelter\nโหลดได้ที่ : modsfire.com/UttUd5M15j15O52",
       "url": "https://modsfire.com/UttUd5M15j15O52",
       "type": "RecommendedSeptember 28",
-      "price": "฿449.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2902170",
@@ -1781,7 +1898,7 @@
       "desc": "Live $19.99 Recommended September 28 Mod ภาษาไทย Kernel Hearts\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 28",
-      "price": "฿369.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2523720",
@@ -1790,7 +1907,7 @@
       "desc": "$39.99 Recommended September 28 Mod ภาษาไทย Gears of War: Reloaded \nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedSeptember 28",
-      "price": "฿1,290.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2820820",
@@ -1799,7 +1916,7 @@
       "desc": "$14.99 Recommended September 28 Mod ภาษาไทย Jotunnslayer Hordes of Hel\nโหลดได้ที่ : www.nexusmods.com/jotunnslayerhordesofhel/mods/1",
       "url": "https://www.nexusmods.com/jotunnslayerhordesofhel/mods/1",
       "type": "RecommendedSeptember 28",
-      "price": "฿315.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2642570",
@@ -2048,8 +2165,8 @@
       "appid": "4358690",
       "name": "Graveyard Keeper 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4358690/d63c37d6289ef7c48d89c0521fb82ac51d7f5ce8/header_292x136.jpg?t=1792159836",
-      "desc": "$24.99 Recommended September 24 Mod ภาษาไทย Graveyard Keeper 2\nโหลดได้ที่ : www.nexusmods.com/graveyardkeeper2/mods/53",
-      "url": "https://www.nexusmods.com/graveyardkeeper2/mods/53",
+      "desc": "$24.99 Recommended September 24 Mod ภาษาไทย Graveyard Keeper 2\nโหลดได้ที่ : www.nexusmods.com/graveyardkeeper2/mods/51\nหรือ www.nexusmods.com/graveyardkeeper2/mods/52",
+      "url": "https://www.nexusmods.com/graveyardkeeper2/mods/51",
       "type": "RecommendedSeptember 24",
       "price": "ฟรี / Mod"
     },
@@ -2588,7 +2705,7 @@
       "appid": "21690",
       "name": "Resident Evil 5",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/21690/header_292x136.jpg?t=1768960574",
-      "desc": "-75% $19.99 $4.99 75% off. $19.99 normally, discounted to $4.99 Recommended September 13 Mod ภาษาไทย Resident Evil 5 \nโหลดได้ที่ : www.nexusmods.com/residentevil5goldedition/mods/1104",
+      "desc": "-75% $19.99 $4.99 75% off. $19.99 normally, discounted to $4.99 Recommended September 13 Mod ภาษาไทย Resident Evil 5 \nโหลดได้ที่ : www.nexusmods.com/residentevil5goldedition/mods/1104 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/residentevil5goldedition/mods/1104",
       "type": "RecommendedSeptember 13",
       "price": "ฟรี / Mod"
@@ -2983,7 +3100,7 @@
     {
       "appid": "3751260",
       "name": "The Blood of Dawnwalker",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751260/a7062f3b59d491c2678e3fd7ce2672858e480641/header_292x136.jpg?t=1792665991",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751260/9a83d0fa47c662298e15a989ff142fb5c0fda5c7/header_292x136_alt_assets_0.jpg?t=1792762440",
       "desc": "$69.99 Recommended September 3 Mod ภาษาไทย The Blood of Dawnwalker\nโหลดได้ที่: nexusmods.com/thebloodofdawnwalker/mods/9\nหรือ EASYMOD \nหรือ nexusmods.com/thebloodofdawnwalker/mods/83\nหรือ nexusmods.com/thebloodofdawnwalker/mods/101",
       "url": "https://nexusmods.com/thebloodofdawnwalker/mods/9",
       "type": "RecommendedSeptember 3",
@@ -3568,7 +3685,7 @@
     {
       "appid": "2584270",
       "name": "Mortal Shell II",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/bfb38c9ef1c00bad92fa3992de1a737ef2e67923/header_292x136_alt_assets_4.jpg?t=1792501898",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/bfb38c9ef1c00bad92fa3992de1a737ef2e67923/header_292x136_alt_assets_4.jpg?t=1792757901",
       "desc": "$49.99 Recommended August 21 Mod ภาษาไทย Mortal Shell II\nโหลดได้ที่ : steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592938720043472492\nหรือ www.nexusmods.com/mortalshell2/mods/144",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592938720043472492",
       "type": "RecommendedAugust 21",
@@ -4415,7 +4532,7 @@
       "appid": "3371770",
       "name": "Funguys Swarm",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3371770/788a21f84133c2659224fd6c23d67cf1b719e529/header_292x136.jpg?t=1790648961",
-      "desc": "$9.99 Recommended July 31 Mod ภาษาไทย Funguys Swarm \nโหลดได้ที่ : www.nexusmods.com/funguysswarm/mods/1 Watch the full review [www.youtube.com]",
+      "desc": "Live $9.99 Recommended July 31 Mod ภาษาไทย Funguys Swarm \nโหลดได้ที่ : www.nexusmods.com/funguysswarm/mods/1 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/funguysswarm/mods/1",
       "type": "RecommendedJuly 31",
       "price": "ฟรี / Mod"
@@ -5305,7 +5422,7 @@
     {
       "appid": "3751950",
       "name": "Assassin's Creed Black Flag Resynced",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header_292x136.jpg?t=1792690936",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header_292x136.jpg?t=1792771656",
       "desc": "$59.99 Recommended July 9 Mod ภาษาไทย Assassin's Creed Black Flag Resynced\nโหลดได้ที่ : www.nexusmods.com/assassinscreedblackflagresynced/mods/10 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/assassinscreedblackflagresynced/mods/10",
       "type": "RecommendedJuly 9",
@@ -5359,7 +5476,7 @@
     {
       "appid": "2697000",
       "name": "The Legend of Khiimori",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2697000/5da5d838a1e059955dd878fdbde64885445076ab/header_292x136_alt_assets_6.jpg?t=1790172345",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2697000/58512e9ea2f796098e09e6edae8315258259ccc8/header_292x136.jpg?t=1790172345",
       "desc": "$29.99 Recommended July 5 Mod ภาษาไทย The Legend of Khiimori\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/806845425982318767",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/806845425982318767",
       "type": "RecommendedJuly 5",
@@ -6169,7 +6286,7 @@
     {
       "appid": "968870",
       "name": "Close To The Sun",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/968870/68c9b9586b9ccf71098ffa9190098d5e10f61c36/header_292x136.jpg?t=1792685948",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/968870/68c9b9586b9ccf71098ffa9190098d5e10f61c36/header_292x136.jpg?t=1792772110",
       "desc": "$19.99 Recommended December 17, 2025 Mod ภาษาไทย Close To The Sun\nโหลดได้ที่ : sites.google.com/view/mistertime",
       "url": "https://google.com/view/mistertime",
       "type": "RecommendedDecember 17, 2025",
@@ -6547,7 +6664,7 @@
     {
       "appid": "203160",
       "name": "Tomb Raider Game of the Year",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header_292x136.jpg?t=1792674634",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/203160/13a6dfaa4655377988aa627f03b2322f8bf18ec9/header_292x136_alt_assets_0.jpg?t=1792674634",
       "desc": "$19.99 Recommended June 14, 2025 Mod ภาษาไทย Tomb Raider\nโหลดได้ที่ : www.patreon.com/c/EASYMOD",
       "url": "https://www.patreon.com/c/EASYMOD",
       "type": "RecommendedJune 14, 2025",
@@ -7295,8 +7412,8 @@
       "appid": "1850510",
       "name": "TRIANGLE STRATEGY",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850510/header_292x136.jpg?t=1790952967",
-      "desc": "$59.99 Recommended October 26, 2024 Mod ภาษาไทย Triangle Strategy\nโหลดได้ที่ : https://shorturl.at/brIMZ\nแตกไฟล์ใน Steam Game > steamapps > common > TRIANGLE STRATEGY > TRIANGLE_STRATEGY > Content > Paks",
-      "url": "https://shorturl.at/brIMZ",
+      "desc": "$59.99 Recommended October 26, 2024 Mod ภาษาไทย Triangle Strategy\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
       "type": "RecommendedOctober 26, 2024",
       "price": "ฟรี / Mod"
     },
@@ -7339,7 +7456,7 @@
     {
       "appid": "3035570",
       "name": "Assassin's Creed Mirage",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035570/header_292x136.jpg?t=1786637416",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035570/header_292x136.jpg?t=1792772890",
       "desc": "$49.99 Recommended October 17, 2024 Mod ภาษาไทย Assassin’s Creed Mirage\nโหลดได้ที่ : https://www.nexusmods.com/assassinscreedmirage/mods/76 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/assassinscreedmirage/mods/76",
       "type": "RecommendedOctober 17, 2024",
@@ -7591,7 +7708,7 @@
     {
       "appid": "391220",
       "name": "Rise of the Tomb Raider™",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/2e2fc1d2811647ccac4a7fd3a914b70b85051314/header_292x136.jpg?t=1792675385",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391220/29279804029df9b7540caef5c086c9f0393e2e2d/header_292x136_alt_assets_0.jpg?t=1792675385",
       "desc": "$29.99 Recommended June 7, 2024 VR Supported Mod ภาษาไทย Rise of the Tomb Raider\nโหลดได้ที่ : www.nexusmods.com/riseofthetombraider/mods/128\n* จำเป็นต้องใช้ ROTTR Mod Manager\nwww.nexusmods.com/riseofthetombraider/mods/94 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/riseofthetombraider/mods/128",
       "type": "RecommendedJune 7, 2024VR Supported",
@@ -7672,7 +7789,7 @@
     {
       "appid": "750920",
       "name": "Shadow of the Tomb Raider: Definitive Edition",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/750920/f3740f6adb527d3cca6137a7ffad6d535756a5e6/header_292x136.jpg?t=1792675045",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/750920/86f9744a410121ff869cc19f63aa9e3dfcf54b8d/header_292x136_alt_assets_0.jpg?t=1792675045",
       "desc": "$39.99 Recommended May 31, 2024 Mod ภาษาไทย Shadow of the Tomb Raider\nโหลดได้ที่ :  https://easymods.org",
       "url": "https://easymods.org",
       "type": "RecommendedMay 31, 2024",
@@ -9176,7 +9293,7 @@
       "appid": "1343240",
       "name": "Thymesia",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1343240/header_292x136.jpg?t=1778528381",
-      "desc": "$24.99 Recommended September 1, 2022 Mod ภาษาไทย Thymesia\nโหลดได้ที่ : https://www.nexusmods.com/thymesia/mods/8\nนำไฟล์ PlagueProject-WindowsNoEditor_Artdekdok-Thai_P.pak ใส่โฟลเดอร์ Thymesia\\PlagueProject\\Content\\Paks\nโดย : Artdekdok Watch the full review [www.youtube.com]",
+      "desc": "-75% $31.99 $7.99 75% off. $31.99 normally, discounted to $7.99 Recommended September 1, 2022 Mod ภาษาไทย Thymesia\nโหลดได้ที่ : https://www.nexusmods.com/thymesia/mods/8\nนำไฟล์ PlagueProject-WindowsNoEditor_Artdekdok-Thai_P.pak ใส่โฟลเดอร์ Thymesia\\PlagueProject\\Content\\Paks\nโดย : Artdekdok Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/thymesia/mods/8",
       "type": "RecommendedSeptember 1, 2022",
       "price": "ฟรี / Mod"
@@ -9365,7 +9482,7 @@
       "appid": "418950",
       "name": "DreadOut: Keepers of The Dark",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/418950/fda36d7ec84bcbd8b692a1d94df5dbcc0d440ff9/header_292x136.jpg?t=1791981730",
-      "desc": "Live $6.99 Recommended June 3, 2022 Mod ภาษาไทย DreadOut: Keepers of The Dark\nโหลดได้ที่ : sites.google.com/view/transladethai",
+      "desc": "$6.99 Recommended June 3, 2022 Mod ภาษาไทย DreadOut: Keepers of The Dark\nโหลดได้ที่ : sites.google.com/view/transladethai",
       "url": "https://google.com/view/transladethai",
       "type": "RecommendedJune 3, 2022",
       "price": "ฟรี / Mod"
@@ -9571,8 +9688,8 @@
     {
       "appid": "515960",
       "name": "Martha Is Dead",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/515960/13a12224269c46a3629ec047ca66abdad0836417/header_292x136_alt_assets_5.jpg?t=1792686873",
-      "desc": "Live $29.99 Recommended April 23, 2022 Mod ซับไตเติลภาษาไทยสำหรับ Martha is Dead\nโหลดได้ที่ : https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx Watch the full review [www.youtube.com]",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/515960/13a12224269c46a3629ec047ca66abdad0836417/header_292x136_alt_assets_5.jpg?t=1792770155",
+      "desc": "$29.99 Recommended April 23, 2022 Mod ซับไตเติลภาษาไทยสำหรับ Martha is Dead\nโหลดได้ที่ : https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx Watch the full review [www.youtube.com]",
       "url": "https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx",
       "type": "RecommendedApril 23, 2022",
       "price": "ฟรี / Mod"
@@ -9653,7 +9770,7 @@
       "appid": "728880",
       "name": "Overcooked! 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/728880/9305414f49b2f7aee7f7198dc507d6b66383fdd6/header_292x136.jpg?t=1789548883",
-      "desc": "$24.99 Recommended February 19, 2022 Mod ภาษาไทยเกม Overcooked 2\nhttps://www.mediafire.com/file/jq4bk8jnd1og33l/Overcooked_2_Thai_Mod.rar",
+      "desc": "-66% $48.49 $16.48 66% off. $48.49 normally, discounted to $16.48 Recommended February 19, 2022 Mod ภาษาไทยเกม Overcooked 2\nhttps://www.mediafire.com/file/jq4bk8jnd1og33l/Overcooked_2_Thai_Mod.rar",
       "url": "https://www.mediafire.com/file/jq4bk8jnd1og33l/Overcooked_2_Thai_Mod.rar",
       "type": "RecommendedFebruary 19, 2022",
       "price": "ฟรี / Mod"
