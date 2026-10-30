@@ -1,6 +1,24 @@
 {
-  "total_count": 1229,
+  "total_count": 1231,
   "items": [
+    {
+      "appid": "2209900",
+      "name": "Moonlight Peaks",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2209900/9a9b199531ec49be95ea2d34e67dfab47106584b/header_292x136.jpg?t=1790728927",
+      "desc": "-20% $34.99 $27.99 20% off. $34.99 normally, discounted to $27.99 Recommended October 30 Mod ภาษาไทย Moonlight Peaks\nโหลดได้ที่ : mrt-game-studio.itch.io",
+      "url": "https://itch.io",
+      "type": "RecommendedOctober 30",
+      "price": "-20% ฿719.20"
+    },
+    {
+      "appid": "7000",
+      "name": "Tomb Raider: Legend",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/7000/header_292x136.jpg?t=1729009388",
+      "desc": "-86% $6.99 $0.97 86% off. $6.99 normally, discounted to $0.97 Recommended October 30 Mod ภาษาไทย Tomb Raider: Legend\nโหลดได้ที่ : www.nexusmods.com/tombraiderlegend/mods/116",
+      "url": "https://www.nexusmods.com/tombraiderlegend/mods/116",
+      "type": "RecommendedOctober 30",
+      "price": "-86% ฿26.46"
+    },
     {
       "appid": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
@@ -140,10 +158,10 @@
       "appid": "2121510",
       "name": "Tenebris Somnia",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2121510/61f3fb4ddb5387876aa498f621386e1d4442c219/header_292x136.jpg?t=1792365979",
-      "desc": "-20% $24.99 $19.99 20% off. $24.99 normally, discounted to $19.99 Recommended October 28 Mod ภาษาไทย Tenebris Somnia\nโหลดได้ที่ : www.nexusmods.com/tenebrissomnia/mods/10",
+      "desc": "$24.99 Recommended October 28 Mod ภาษาไทย Tenebris Somnia\nโหลดได้ที่ : www.nexusmods.com/tenebrissomnia/mods/10",
       "url": "https://www.nexusmods.com/tenebrissomnia/mods/10",
       "type": "RecommendedOctober 28",
-      "price": "-20% ฿207.20"
+      "price": "฿259.00"
     },
     {
       "appid": "3335310",
@@ -382,7 +400,7 @@
     {
       "appid": "4435490",
       "name": "Call of Duty®: Modern Warfare® 4",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header_292x136.jpg?t=1793201144",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header_292x136.jpg?t=1793390552",
       "desc": "$69.99 Recommended October 23 Mod ภาษาไทย Call of Duty: Modern Warfare 4\nโหลดได้ที่ : www.nexusmods.com/callofdutymodernwarfare4/mods/13",
       "url": "https://www.nexusmods.com/callofdutymodernwarfare4/mods/13",
       "type": "RecommendedOctober 23",
@@ -833,7 +851,7 @@
       "appid": "3398110",
       "name": "The Walking Trade",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3398110/2244b05e1dcca28000c8bda123be64b333b0e2ad/header_292x136.jpg?t=1792070016",
-      "desc": "Live $11.99 Recommended October 18 Mod ภาษาไทย The Walking Trade\nโหลดได้ที่ : www.nexusmods.com/thewalkingtrade/mods/33",
+      "desc": "$11.99 Recommended October 18 Mod ภาษาไทย The Walking Trade\nโหลดได้ที่ : www.nexusmods.com/thewalkingtrade/mods/33",
       "url": "https://www.nexusmods.com/thewalkingtrade/mods/33",
       "type": "RecommendedOctober 18",
       "price": "฿230.00"
@@ -968,10 +986,10 @@
       "appid": "1429880",
       "name": "Little Sim World",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1429880/f21dca9c6513a8ac1cac5be13705d956deac5a14/header_292x136_alt_assets_2.jpg?t=1793301881",
-      "desc": "$17.99 Recommended October 17 Mod ภาษาไทย Little Sim World\nโหลดได้ที่ : www.mediafire.com/file/o0r788bp9rmgy6x/LittleSimWorld_Thai_Mod_v1.1.1.zip",
+      "desc": "-30% $17.99 $12.59 30% off. $17.99 normally, discounted to $12.59 Recommended October 17 Mod ภาษาไทย Little Sim World\nโหลดได้ที่ : www.mediafire.com/file/o0r788bp9rmgy6x/LittleSimWorld_Thai_Mod_v1.1.1.zip",
       "url": "https://www.mediafire.com/file/o0r788bp9rmgy6x/LittleSimWorld_Thai_Mod_v1.1.1.zip",
       "type": "RecommendedOctober 17",
-      "price": "฿345.00"
+      "price": "-30% ฿241.50"
     },
     {
       "appid": "1253920",
@@ -1228,7 +1246,7 @@
     {
       "appid": "2208920",
       "name": "Assassin's Creed Valhalla",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/header_292x136.jpg?t=1792777686",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/header_292x136.jpg?t=1793391396",
       "desc": "$59.99 Recommended October 14 Mod ภาษาไทย Assassin's Creed Valhalla \nโหลดได้ที่ : www.nexusmods.com/assassinscreedvalhalla/mods/423",
       "url": "https://www.nexusmods.com/assassinscreedvalhalla/mods/423",
       "type": "RecommendedOctober 14",
@@ -1790,7 +1808,7 @@
       "desc": "$29.99 Recommended October 5 VR Supported Mod ภาษาไทย Senran Kagura Peach Beach Splash\nโหลดได้ที่ : www.nexusmods.com/senrankagurapeachbeachsplash/mods/9",
       "url": "https://www.nexusmods.com/senrankagurapeachbeachsplash/mods/9",
       "type": "RecommendedOctober 5VR Supported",
-      "price": "฿379.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1056960",
@@ -1799,7 +1817,7 @@
       "desc": "$19.99 Recommended October 5 Mod ภาษาไทย Wolfenstein: Youngblood\nโหลดได้ที่ : www.nexusmods.com/wolfensteinyoungblood/mods/8",
       "url": "https://www.nexusmods.com/wolfensteinyoungblood/mods/8",
       "type": "RecommendedOctober 5",
-      "price": "฿660.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "243930",
@@ -1912,7 +1930,7 @@
     {
       "appid": "949230",
       "name": "Cities: Skylines II",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/8fb6d4b60f7120ff56bea2efc92aee3a5bb7fe70/header_292x136_alt_assets_8.jpg?t=1793116151",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/header_292x136.jpg?t=1793116151",
       "desc": "$49.99 Recommended October 3 Mod ภาษาไทย Cities: Skylines II\nโฆลดได้ที่ : patreon.com/EASYMOD",
       "url": "https://patreon.com/EASYMOD",
       "type": "RecommendedOctober 3",
@@ -1957,7 +1975,7 @@
     {
       "appid": "225260",
       "name": "Brutal Legend",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/225260/header_292x136.jpg?t=1793215746",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/225260/header_292x136.jpg?t=1793393188",
       "desc": "$14.99 Recommended October 2 Mod ภาษาไทย Brutal Legend\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedOctober 2",
@@ -2416,7 +2434,7 @@
     {
       "appid": "233270",
       "name": "Far Cry 3 - Blood Dragon",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/233270/header_292x136.jpg?t=1752169303",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/233270/header_292x136.jpg?t=1793371876",
       "desc": "$14.99 Recommended September 26 Mod ภาษาไทย Far Cry 3 Blood Dragon \nโหลดได้ที่ : www.nexusmods.com/farcry3blooddragon/mods/14",
       "url": "https://www.nexusmods.com/farcry3blooddragon/mods/14",
       "type": "RecommendedSeptember 26",
@@ -2749,7 +2767,7 @@
     {
       "appid": "553850",
       "name": "HELLDIVERS™ 2",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header_292x136.jpg?t=1792487611",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header_292x136.jpg?t=1793395133",
       "desc": "$39.99 Recommended September 17 Mod ภาษาไทย HELLDIVERS 2\nโหลดได้ที่ : www.nexusmods.com/helldivers2/mods/16248",
       "url": "https://www.nexusmods.com/helldivers2/mods/16248",
       "type": "RecommendedSeptember 17",
@@ -2794,7 +2812,7 @@
     {
       "appid": "1658280",
       "name": "Eiyuden Chronicle: Hundred Heroes",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1658280/header_292x136.jpg?t=1752751979",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1658280/header_292x136.jpg?t=1793370653",
       "desc": "$49.99 Recommended September 16 Mod ภาษาไทย Eiyuden Chronicle Hundred Heroes \nโหลดได้ที่ : www.nexusmods.com/eiyudenchronicle/mods/30",
       "url": "https://www.nexusmods.com/eiyudenchronicle/mods/30",
       "type": "RecommendedSeptember 16",
@@ -3082,7 +3100,7 @@
     {
       "appid": "1938090",
       "name": "Call of Duty®",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header_292x136.jpg?t=1793206213",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header_292x136.jpg?t=1793386059",
       "desc": "Recommended September 12 Mod ภาษาไทย Call of duty\nโหลดได้ที่ : www.nexusmods.com/callofduty/mods/1691",
       "url": "https://www.nexusmods.com/callofduty/mods/1691",
       "type": "RecommendedSeptember 12",
@@ -4063,7 +4081,7 @@
     {
       "appid": "2584270",
       "name": "Mortal Shell II",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/bfb38c9ef1c00bad92fa3992de1a737ef2e67923/header_292x136_alt_assets_4.jpg?t=1792757901",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/bfb38c9ef1c00bad92fa3992de1a737ef2e67923/header_292x136_alt_assets_4.jpg?t=1793364808",
       "desc": "$49.99 Recommended August 21 Mod ภาษาไทย Mortal Shell II\nโหลดได้ที่ : steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592938720043472492\nหรือ www.nexusmods.com/mortalshell2/mods/144",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/592938720043472492",
       "type": "RecommendedAugust 21",
@@ -4297,7 +4315,7 @@
     {
       "appid": "19900",
       "name": "Far Cry® 2",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/19900/header_292x136.jpg?t=1709317476",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/19900/header_292x136.jpg?t=1793371798",
       "desc": "$9.99 Recommended August 16 Mod ภาษาไทย Far Cry 2\nโหลดได้ที่ : www.nexusmods.com/farcry2/mods/369",
       "url": "https://www.nexusmods.com/farcry2/mods/369",
       "type": "RecommendedAugust 16",
@@ -4442,7 +4460,7 @@
       "appid": "1155970",
       "name": "Roadwarden",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1155970/header_292x136.jpg?t=1771493971",
-      "desc": "Live $10.99 Recommended August 14 Mod ภาษาไทย Roadwarden\nโหลดได้ที่ : modthai-en0va.com",
+      "desc": "Live -75% $10.99 $2.74 75% off. $10.99 normally, discounted to $2.74 Recommended August 14 Mod ภาษาไทย Roadwarden\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 14",
       "price": "ฟรี / Mod"
@@ -5423,7 +5441,7 @@
       "appid": "3722330",
       "name": "Shift At Midnight",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3722330/759ecea2ffe1ad3819aefdda79e265b8b332bf8f/header_292x136.jpg?t=1793103951",
-      "desc": "Live -10% $9.99 $8.99 10% off. $9.99 normally, discounted to $8.99 Recommended July 18 Mod ภาษาไทย Shift At Midnight\nโหลดได้ที่ : www.nexusmods.com/shiftatmidnight/mods/1",
+      "desc": "-10% $9.99 $8.99 10% off. $9.99 normally, discounted to $8.99 Recommended July 18 Mod ภาษาไทย Shift At Midnight\nโหลดได้ที่ : www.nexusmods.com/shiftatmidnight/mods/1",
       "url": "https://www.nexusmods.com/shiftatmidnight/mods/1",
       "type": "RecommendedJuly 18",
       "price": "ฟรี / Mod"
@@ -5450,7 +5468,7 @@
       "appid": "2582320",
       "name": "Mixtape",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2582320/95bbf1097b6f66f39b56f6388250c97a2f43b59e/header_292x136.jpg?t=1785424305",
-      "desc": "$19.99 Recommended July 18 Mod ภาษาไทย Mixtape\nโหลดได้ที่ : www.nexusmods.com/mixtape/mods/5 Watch the full review [www.youtube.com]",
+      "desc": "-25% $19.99 $14.99 25% off. $19.99 normally, discounted to $14.99 Recommended July 18 Mod ภาษาไทย Mixtape\nโหลดได้ที่ : www.nexusmods.com/mixtape/mods/5 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/mixtape/mods/5",
       "type": "RecommendedJuly 18",
       "price": "ฟรี / Mod"
@@ -5593,7 +5611,7 @@
     {
       "appid": "1649010",
       "name": "Miasma Chronicles",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1649010/header_292x136.jpg?t=1764623984",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1649010/header_292x136.jpg?t=1793373317",
       "desc": "$34.99 Recommended July 12 Mod ภาษาไทย Miasma Chronicles\nโหลดได้ที่ : www.nexusmods.com/miasmachronicles/mods/5",
       "url": "https://www.nexusmods.com/miasmachronicles/mods/5",
       "type": "RecommendedJuly 12",
@@ -5621,7 +5639,7 @@
       "appid": "2375260",
       "name": "Tattoo Tycoon",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2375260/c50433e6260313f2af4a371ed3dac17755e7f80d/header_292x136.jpg?t=1791469795",
-      "desc": "$29.99 Recommended July 12 Mod ภาษาไทย Tattoo Tycoon\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "Live $29.99 Recommended July 12 Mod ภาษาไทย Tattoo Tycoon\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJuly 12",
       "price": "ฟรี / Mod"
@@ -5800,7 +5818,7 @@
     {
       "appid": "3751950",
       "name": "Assassin's Creed Black Flag Resynced",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/9b046115b1663a4be2b252712328e4f6c162da68/header_292x136.jpg?t=1792778634",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751950/8a128a3d00e5c23fd36443876a60e1b6d497fc7b/header_292x136_alt_assets_0.jpg?t=1793391152",
       "desc": "$59.99 Recommended July 9 Mod ภาษาไทย Assassin's Creed Black Flag Resynced\nโหลดได้ที่ : www.nexusmods.com/assassinscreedblackflagresynced/mods/10 Watch the full review [www.youtube.com]",
       "url": "https://www.nexusmods.com/assassinscreedblackflagresynced/mods/10",
       "type": "RecommendedJuly 9",
@@ -6017,7 +6035,7 @@
       "appid": "3412900",
       "name": "The Three Kingdoms: Rebirth",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3412900/0e7c7d38d63d424dfaeba4b83c55d36b3da9fcf4/header_292x136.jpg?t=1777478028",
-      "desc": "$19.99 Recommended June 20 Mod ภาษาไทย 代号三国：龙起\nโหลดได้ที่ : www.nexusmods.com/thethreekingdomsrebirth/mods/1",
+      "desc": "-30% $19.99 $13.99 30% off. $19.99 normally, discounted to $13.99 Recommended June 20 Mod ภาษาไทย 代号三国：龙起\nโหลดได้ที่ : www.nexusmods.com/thethreekingdomsrebirth/mods/1",
       "url": "https://www.nexusmods.com/thethreekingdomsrebirth/mods/1",
       "type": "RecommendedJune 20",
       "price": "ฟรี / Mod"
@@ -6367,7 +6385,7 @@
     {
       "appid": "3548580",
       "name": "Chill with You : Lo-Fi Story",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3548580/65a3e4d1502ea63a4cc0f0ae1a20926842a61df1/header_292x136_alt_assets_0.jpg?t=1793188356",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3548580/65a3e4d1502ea63a4cc0f0ae1a20926842a61df1/header_292x136_alt_assets_0.jpg?t=1793369118",
       "desc": "$11.99 Recommended March 7 Mod ภาษาไทย Chill with You : Lo-Fi Story\nโหลดได้ที่ : sites.google.com/view/mercenarytranslator",
       "url": "https://google.com/view/mercenarytranslator",
       "type": "RecommendedMarch 7",
@@ -6583,7 +6601,7 @@
     {
       "appid": "2489330",
       "name": "Whiskerwood",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2489330/7237c2ee5f5a5c9d05ac9e473d4bcb8573e4bc09/header_292x136.jpg?t=1793269712",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2489330/7237c2ee5f5a5c9d05ac9e473d4bcb8573e4bc09/header_292x136.jpg?t=1793371487",
       "desc": "$29.99 Recommended January 17 Mod ภาษาไทย Whiskerwood\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJanuary 17",
@@ -6755,7 +6773,7 @@
       "appid": "2592160",
       "name": "Dispatch",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2592160/header_292x136.jpg?t=1792683942",
-      "desc": "-20% $29.99 $23.99 20% off. $29.99 normally, discounted to $23.99 Recommended November 15, 2025 Mod ภาษาไทย Dispatch\nโหลดได้ที่ : www.nexusmods.com/dispatch/mods/1",
+      "desc": "$29.99 Recommended November 15, 2025 Mod ภาษาไทย Dispatch\nโหลดได้ที่ : www.nexusmods.com/dispatch/mods/1",
       "url": "https://www.nexusmods.com/dispatch/mods/1",
       "type": "RecommendedNovember 15, 2025",
       "price": "ฟรี / Mod"
@@ -7078,7 +7096,7 @@
     {
       "appid": "2285550",
       "name": "Doloc Town",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2285550/6c2919e6f64b0efa4976b0bfc4864893508da68a/header_292x136_alt_assets_1.jpg?t=1793268797",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2285550/6c2919e6f64b0efa4976b0bfc4864893508da68a/header_292x136_alt_assets_1.jpg?t=1793378737",
       "desc": "$19.99 Recommended June 6, 2025 Mod ภาษาไทย Doloc Town\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJune 6, 2025",
@@ -7105,7 +7123,7 @@
     {
       "appid": "3265070",
       "name": "City Tales - Medieval Era",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265070/58dc5c3bbde4cdadbc5f0d58106ac9f44a4ef75c/header_292x136.jpg?t=1791882896",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3265070/58dc5c3bbde4cdadbc5f0d58106ac9f44a4ef75c/header_292x136.jpg?t=1793376470",
       "desc": "$22.99 Recommended May 31, 2025 Mod ภาษาไทย City Tales - Medieval Era \nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedMay 31, 2025",
@@ -7123,8 +7141,8 @@
     {
       "appid": "3070880",
       "name": "Farming & Supermarket Simulator",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070880/b7f9a0070cbff881dee5bf6929b80d3a51ece93f/header_292x136.jpg?t=1793200983",
-      "desc": "Live $11.99 Recommended May 31, 2025 Mod ภาษาไทย Farming & Supermarket Simulator\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070880/b7f9a0070cbff881dee5bf6929b80d3a51ece93f/header_292x136.jpg?t=1793375122",
+      "desc": "Live -25% $11.99 $8.99 25% off. $11.99 normally, discounted to $8.99 Recommended May 31, 2025 Mod ภาษาไทย Farming & Supermarket Simulator\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedMay 31, 2025",
       "price": "ฟรี / Mod"
@@ -7420,7 +7438,7 @@
     {
       "appid": "1374490",
       "name": "RuneScape: Dragonwilds",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header_292x136.jpg?t=1791278745",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1374490/3e27915a647dbf05e17f2ff98d33c9a0765da539/header_292x136.jpg?t=1793372596",
       "desc": "$29.99 Recommended April 18, 2025 Mod ภาษาไทย RuneScape: Dragonwilds\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae\nหรือ www.nexusmods.com/runescapedragonwilds/mods/789",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedApril 18, 2025",
@@ -7438,7 +7456,7 @@
     {
       "appid": "3158270",
       "name": "Football Life Simulator",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3158270/e74611c53ef1a07bfbf63119c45c153af8decaed/header_292x136.jpg?t=1788849801",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3158270/e74611c53ef1a07bfbf63119c45c153af8decaed/header_292x136.jpg?t=1793376734",
       "desc": "$19.99 Recommended April 12, 2025 Mod ภาษาไทย Football Life Simulator\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedApril 12, 2025",
@@ -7870,7 +7888,7 @@
     {
       "appid": "1601580",
       "name": "Frostpunk 2",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1601580/header_292x136.jpg?t=1792058316",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1601580/header_292x136.jpg?t=1793379038",
       "desc": "$44.99 Recommended September 22, 2024 Mod ภาษาไทย Frostpunk 2\nโหลดได้ที่ : https://www.patreon.com/EASYMOD \nหรือ www.nexusmods.com/frostpunk2/mods/54",
       "url": "https://www.patreon.com/EASYMOD",
       "type": "RecommendedSeptember 22, 2024",
@@ -8249,7 +8267,7 @@
       "appid": "1273100",
       "name": "Builders of Greece",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1273100/fd93182e6ba9e037ae1793246cb46b783eed4790/header_292x136.jpg?t=1786627217",
-      "desc": "$19.99 Recommended May 18, 2024 Mod ภาษาไทย Builders of Greece\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
+      "desc": "-75% $19.99 $4.99 75% off. $19.99 normally, discounted to $4.99 Recommended May 18, 2024 Mod ภาษาไทย Builders of Greece\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
       "url": "https://sites.google.com/view/modthaiyaklongplae",
       "type": "RecommendedMay 18, 2024",
       "price": "ฟรี / Mod"
@@ -8393,7 +8411,7 @@
       "appid": "1363080",
       "name": "Manor Lords",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1363080/header_292x136.jpg?t=1793270840",
-      "desc": "$39.99 Recommended April 26, 2024 Mod ภาษาไทย Manor Lords\nโหลดได้ที่ : https://www.easymods.org\nหรือ www.nexusmods.com/manorlords/mods/335",
+      "desc": "$39.99 Recommended April 26, 2024 Mod ภาษาไทย Manor Lords\nโหลดได้ที่ : https://www.easymods.org\nหรือ www.nexusmods.com/manorlords/mods/335\nและ www.nexusmods.com/manorlords/mods/426",
       "url": "https://www.easymods.org",
       "type": "RecommendedApril 26, 2024",
       "price": "ฟรี / Mod"
@@ -10030,7 +10048,7 @@
     {
       "appid": "1139900",
       "name": "Ghostrunner",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1139900/header_292x136.jpg?t=1786099137",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1139900/header_292x136.jpg?t=1793370755",
       "desc": "-50% $39.99 $19.99 50% off. $39.99 normally, discounted to $19.99 Recommended April 23, 2022 Mod ภาษาไทย Ghostrunner\nโหลดได้ที่ : https://drive.google.com/file/d/1p46fxA5Fri8Bis-czPJN6SnXpA8EaMep Watch the full review [www.youtube.com]",
       "url": "https://drive.google.com/file/d/1p46fxA5Fri8Bis-czPJN6SnXpA8EaMep",
       "type": "RecommendedApril 23, 2022",
@@ -10040,7 +10058,7 @@
       "appid": "793460",
       "name": "112 Operator",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/793460/70a6ea2dae4c05cc1760189e87004608f1bc2f93/header_292x136.jpg?t=1791828263",
-      "desc": "$24.99 Recommended April 23, 2022 Mod ภาษาไทย 112 OPERATOR\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae Watch the full review [www.youtube.com]",
+      "desc": "-80% $24.99 $4.99 80% off. $24.99 normally, discounted to $4.99 Recommended April 23, 2022 Mod ภาษาไทย 112 OPERATOR\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae Watch the full review [www.youtube.com]",
       "url": "https://sites.google.com/view/modthaiyaklongplae",
       "type": "RecommendedApril 23, 2022",
       "price": "ฟรี / Mod"
@@ -10066,7 +10084,7 @@
     {
       "appid": "515960",
       "name": "Martha Is Dead",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/515960/13a12224269c46a3629ec047ca66abdad0836417/header_292x136_alt_assets_5.jpg?t=1792770155",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/515960/13a12224269c46a3629ec047ca66abdad0836417/header_292x136_alt_assets_5.jpg?t=1793382691",
       "desc": "Live -75% $29.99 $7.49 75% off. $29.99 normally, discounted to $7.49 Recommended April 23, 2022 Mod ซับไตเติลภาษาไทยสำหรับ Martha is Dead\nโหลดได้ที่ : https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx Watch the full review [www.youtube.com]",
       "url": "https://drive.google.com/file/d/1KGFVpvmjOlknNaHlkXDszB1fEX4-t3Hx",
       "type": "RecommendedApril 23, 2022",
@@ -10309,7 +10327,7 @@
     {
       "appid": "939960",
       "name": "Far Cry® New Dawn",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/939960/header_292x136.jpg?t=1750925197",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/939960/header_292x136.jpg?t=1793372426",
       "desc": "$39.99 Recommended October 25, 2021 Mod ภาษาไทย Far Cry New Dawn\nโหลดได้ที่ : www.nexusmods.com/farcrynewdawn/mods/87",
       "url": "https://www.nexusmods.com/farcrynewdawn/mods/87",
       "type": "RecommendedOctober 25, 2021",
@@ -10345,7 +10363,7 @@
     {
       "appid": "298110",
       "name": "Far Cry® 4",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/298110/731cff7e53820cb83436f93bfa86e493f6a0af45/header_292x136.jpg?t=1792528743",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/298110/731cff7e53820cb83436f93bfa86e493f6a0af45/header_292x136.jpg?t=1793367666",
       "desc": "$29.99 Recommended October 21, 2021 Mod Far Cry 4 Mod ภาษาไทย \nโหลดได้ที่ : www.info-meawtion.com/app/mods-Far-cry-4 Watch the full review [www.youtube.com]",
       "url": "https://www.info-meawtion.com/app/mods-Far-cry-4",
       "type": "RecommendedOctober 21, 2021",
