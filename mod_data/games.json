@@ -1,6 +1,60 @@
 {
-  "total_count": 1240,
+  "total_count": 1246,
   "items": [
+    {
+      "appid": "4249140",
+      "name": "Dino Crisis 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4249140/b372282ddfc27cd5c62bd5991ccc69fbfea81d18/header_292x136.jpg?t=1784794013",
+      "desc": "-50% $9.99 $4.99 50% off. $9.99 normally, discounted to $4.99 Recommended November 3 Mod ภาษาไทย Dino Crisis 2\nโหลดได้ที่ : www.nexusmods.com/dinocrisis2/mods/13",
+      "url": "https://www.nexusmods.com/dinocrisis2/mods/13",
+      "type": "RecommendedNovember 3",
+      "price": "-50% ฿135.00"
+    },
+    {
+      "appid": "2928600",
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2928600/f8a7d046233fb84b20fc546c98b8e2d3f3439033/header_292x136.jpg?t=1791824511",
+      "desc": "$39.99 Recommended November 3 Mod ภาษาไทย Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2\nโหลดได้ที่ : www.nexusmods.com/demonslayerkimetsunoyaibathehinokamichronicles2/mods/120",
+      "url": "https://www.nexusmods.com/demonslayerkimetsunoyaibathehinokamichronicles2/mods/120",
+      "type": "RecommendedNovember 3",
+      "price": "฿1,190.00"
+    },
+    {
+      "appid": "1490890",
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1490890/header_292x136.jpg?t=1762753763",
+      "desc": "$39.99 Recommended November 3 Mod ภาษาไทย Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles\nโหลดได้ที่ : www.nexusmods.com/demonslayerthehinokamichronicles/mods/50",
+      "url": "https://www.nexusmods.com/demonslayerthehinokamichronicles/mods/50",
+      "type": "RecommendedNovember 3",
+      "price": "฿1,190.00"
+    },
+    {
+      "appid": "2552310",
+      "name": "Dungeon Inn",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2552310/f002dbb9fc50036d1284b7e9d40b3046af53cb7f/header_292x136_alt_assets_0.jpg?t=1793324607",
+      "desc": "Live -20% $14.99 $11.99 20% off. $14.99 normally, discounted to $11.99 Recommended November 3 Mod ภาษาไทย Dungeon Inn\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "url": "https://google.com/view/modthaiyaklongplae",
+      "type": "RecommendedNovember 3",
+      "price": "-20% ฿236.00"
+    },
+    {
+      "appid": "205650",
+      "name": "The Testament of Sherlock Holmes",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/205650/header_292x136.jpg?t=1689178759",
+      "desc": "$19.99 Recommended November 3 Mod ภาษาไทย The Testament of Sherlock Holmes\nโหลดได้ที่ : www.nexusmods.com/thetestamentofsherlockholmes/mods/3",
+      "url": "https://www.nexusmods.com/thetestamentofsherlockholmes/mods/3",
+      "type": "RecommendedNovember 3",
+      "price": "฿549.00"
+    },
+    {
+      "appid": "2920220",
+      "name": "Terrible Lizards",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2920220/4b19bf2cbb1c1ef26cc0e898fc6e727776845b73/header_292x136.jpg?t=1793292736",
+      "desc": "-20% $24.99 $19.99 20% off. $24.99 normally, discounted to $19.99 Recommended November 3 Mod ภาษาไทย Terrible Lizards\nโหลดได้ที่ : file.kiwi/f4992fc4#G9ZBcHeATF90k8poLQdQBg",
+      "url": "https://store.steampowered.com/app/2920220/",
+      "type": "RecommendedNovember 3",
+      "price": "-20% ฿367.20"
+    },
     {
       "appid": "573100",
       "name": "Battlefleet Gothic: Armada 2",
@@ -103,7 +157,7 @@
     {
       "appid": "4348910",
       "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4348910/b241a3bc1cb144e70a4840157e127212738ea5b3/header_292x136_alt_assets_3.jpg?t=1793630310",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4348910/b241a3bc1cb144e70a4840157e127212738ea5b3/header_292x136_alt_assets_3.jpg?t=1793711740",
       "desc": "-10% $19.99 $17.99 10% off. $19.99 normally, discounted to $17.99 Recommended October 29 Mod ภาษาไทย Probably Stolen - Cyberpunk Shopkeeper Sim\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae\nหรือ patreon.com/EASYMOD",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedOctober 29",
@@ -464,7 +518,7 @@
       "appid": "2893570",
       "name": "DRAGON QUEST I & II HD-2D Remake",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2893570/035bf8ec4e6bd65ebea782063b1157e526533740/header_292x136.jpg?t=1773044632",
-      "desc": "$59.99 Recommended October 24 Mod ภาษาไทย DRAGON QUEST I & II HD-2D Remake\nโหลดได้ที่ : www.nexusmods.com/dragonquest1and2hd2dremake/mods/46",
+      "desc": "$59.99 Recommended October 24 Mod ภาษาไทย DRAGON QUEST I & II HD-2D Remake\nพากย์ไทยโหลดได้ที่ : www.nexusmods.com/dragonquest1and2hd2dremake/mods/46 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/dragonquest1and2hd2dremake/mods/46",
       "type": "RecommendedOctober 24",
       "price": "฿1,990.00"
@@ -1754,7 +1808,7 @@
       "desc": "$4.99 Recommended October 7 Mod ภาษาไทย State of Decay Year-One\nโหลดได้ที่ : www.nexusmods.com/stateofdecay/mods/635",
       "url": "https://www.nexusmods.com/stateofdecay/mods/635",
       "type": "RecommendedOctober 7",
-      "price": "฿99.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2015270",
@@ -1763,7 +1817,7 @@
       "desc": "$29.99 Recommended October 7 Mod ภาษาไทย Rotwood\nโหลดได้ที่ : stamp789.github.io/mee-game-kor-pla",
       "url": "https://stamp789.github.io/mee-game-kor-pla",
       "type": "RecommendedOctober 7",
-      "price": "฿315.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "488790",
@@ -1772,7 +1826,7 @@
       "desc": "$29.99 Recommended October 7 Mod ภาษาไทย South Park™: The Fractured But Whole\nโฆลดได้ที่ : www.nexusmods.com/southparkthefracturedbutwhole/mods/69",
       "url": "https://www.nexusmods.com/southparkthefracturedbutwhole/mods/69",
       "type": "RecommendedOctober 7",
-      "price": "฿859.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "209160",
@@ -1781,7 +1835,7 @@
       "desc": "$39.99 Recommended October 7 Mod ภาษาไทย Call of Duty: Ghosts\nโหลดได้ที่ : www.nexusmods.com/callofdutyghosts/mods/8",
       "url": "https://www.nexusmods.com/callofdutyghosts/mods/8",
       "type": "RecommendedOctober 7",
-      "price": "฿1,380.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "4249130",
@@ -1790,7 +1844,7 @@
       "desc": "-50% $9.99 $4.99 50% off. $9.99 normally, discounted to $4.99 Recommended October 7 Mod ภาษาไทย Dino Crisis\nโหลดได้ที่ : www.nexusmods.com/dinocrisis/mods/6",
       "url": "https://www.nexusmods.com/dinocrisis/mods/6",
       "type": "RecommendedOctober 7",
-      "price": "-50% ฿135.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1266700",
@@ -1799,7 +1853,7 @@
       "desc": "$39.99 Recommended October 7 Mod ภาษาไทย Destroy All Humans 2 Reprobed\nโหลดได้ที่ : www.nexusmods.com/destroyallhumans2reprobed/mods/28",
       "url": "https://www.nexusmods.com/destroyallhumans2reprobed/mods/28",
       "type": "RecommendedOctober 7",
-      "price": "฿685.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "917150",
@@ -2389,7 +2443,7 @@
     {
       "appid": "2642570",
       "name": "Pinball Storm: Lokanta",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2642570/header_292x136.jpg?t=1793605504",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2642570/header_292x136.jpg?t=1793680171",
       "desc": "$5.99 Recommended September 28 Mod ภาษาไทย Pinball Storm Lokanta\nโหลดไดที่ : www.nexusmods.com/pinballstormlokanta/mods/1",
       "url": "https://www.nexusmods.com/pinballstormlokanta/mods/1",
       "type": "RecommendedSeptember 28",
@@ -3991,7 +4045,7 @@
     {
       "appid": "2825860",
       "name": "The Sinking City 2",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2825860/05f1db0ecea4914621f13ebaa81710e505de2c6b/header_292x136.jpg?t=1793629438",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2825860/05f1db0ecea4914621f13ebaa81710e505de2c6b/header_292x136.jpg?t=1793693279",
       "desc": "$49.99 Recommended August 25 Mod ภาษาไทย The Sinking City 2\nโหลดได้ที่ : www.nexusmods.com/thesinkingcity2/mods/28",
       "url": "https://www.nexusmods.com/thesinkingcity2/mods/28",
       "type": "RecommendedAugust 25",
@@ -4198,7 +4252,7 @@
     {
       "appid": "1843940",
       "name": "Brigandine The Legend of Runersia",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1843940/38e3e02c7742ea935008640a8d893584a072c4a5/header_292x136.jpg?t=1790362197",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1843940/3730d3051009b5fb790efa10fa55e1084ac4b810/header_292x136.jpg?t=1793712073",
       "desc": "$39.99 Recommended August 20 Mod ภาษาไทย Brigandine The Legend of Runersia\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedAugust 20",
@@ -5719,7 +5773,7 @@
     {
       "appid": "2375260",
       "name": "Tattoo Tycoon",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2375260/c50433e6260313f2af4a371ed3dac17755e7f80d/header_292x136.jpg?t=1791469795",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2375260/c50433e6260313f2af4a371ed3dac17755e7f80d/header_292x136.jpg?t=1793711947",
       "desc": "Live $29.99 Recommended July 12 Mod ภาษาไทย Tattoo Tycoon\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJuly 12",
@@ -6097,7 +6151,7 @@
     {
       "appid": "3794610",
       "name": "Goblin Vyke: The Thief Tycoon",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3794610/49a3680ab635aa1b8db4c60aa18dedc793804c13/header_292x136.jpg?t=1790136665",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3794610/49a3680ab635aa1b8db4c60aa18dedc793804c13/header_292x136.jpg?t=1793679377",
       "desc": "-30% $14.99 $10.49 30% off. $14.99 normally, discounted to $10.49 Recommended June 20 Mod ภาษาไทย Goblin Vyke\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJune 20",
@@ -6169,7 +6223,7 @@
     {
       "appid": "1659040",
       "name": "HITMAN World of Assassination",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header_292x136.jpg?t=1793287448",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header_292x136.jpg?t=1793706156",
       "desc": "$29.99 Recommended June 20 VR Supported Mod ภาษาไทยเกม HITMAN World of Assassination\nโหลดได้ที่ : www.nexusmods.com/hitman3/mods/1322\nหรือ www.nexusmods.com/hitman3/mods/1452",
       "url": "https://www.nexusmods.com/hitman3/mods/1322",
       "type": "RecommendedJune 20VR Supported",
@@ -6466,7 +6520,7 @@
     {
       "appid": "3548580",
       "name": "Chill with You : Lo-Fi Story",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3548580/65a3e4d1502ea63a4cc0f0ae1a20926842a61df1/header_292x136_alt_assets_0.jpg?t=1793369118",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3548580/2c7a564c618bbfb933436be119f0f8cb040bae4b/header_292x136.jpg?t=1793369118",
       "desc": "$11.99 Recommended March 7 Mod ภาษาไทย Chill with You : Lo-Fi Story\nโหลดได้ที่ : sites.google.com/view/mercenarytranslator\nหรือ www.nexusmods.com/chillwithyoulofistory/mods/17",
       "url": "https://google.com/view/mercenarytranslator",
       "type": "RecommendedMarch 7",
@@ -7150,7 +7204,7 @@
     {
       "appid": "2104890",
       "name": "RoadCraft",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/header_292x136.jpg?t=1789034884",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2104890/header_292x136.jpg?t=1793712518",
       "desc": "$39.99 Recommended June 7, 2025 Mod ภาษาไทย Roadcraft \nโหลดได้ที่ : patreon.com/EASYMOD",
       "url": "https://patreon.com/EASYMOD",
       "type": "RecommendedJune 7, 2025",
@@ -7483,7 +7537,7 @@
     {
       "appid": "3020510",
       "name": "Heroes' Vow: Three Kingdoms",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3020510/4e3b3b9676fd500df19bc2cfa0e69f9e3d744989/header_292x136.jpg?t=1792381597",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3020510/4e3b3b9676fd500df19bc2cfa0e69f9e3d744989/header_292x136.jpg?t=1793698016",
       "desc": "$19.99 Recommended April 30, 2025 Mod ภาษาไทย Legend of Heroes: Three Kingdoms\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae Watch the full review [www.youtube.com]",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedApril 30, 2025",
@@ -7492,7 +7546,7 @@
     {
       "appid": "2891120",
       "name": "Mad Smartphone Tycoon",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2891120/header_292x136.jpg?t=1793343267",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2891120/header_292x136.jpg?t=1793685876",
       "desc": "-80% $11.99 $2.39 80% off. $11.99 normally, discounted to $2.39 Recommended April 24, 2025 Mod ภาษาไทย Mad Smartphone Tycoon\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedApril 24, 2025",
