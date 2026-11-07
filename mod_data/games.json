@@ -1,6 +1,42 @@
 {
-  "total_count": 1260,
+  "total_count": 1264,
   "items": [
+    {
+      "appid": "621060",
+      "name": "PC Building Simulator",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/621060/header_292x136.jpg?t=1653555111",
+      "desc": "$19.99 Recommended November 7 Mod ภาษาไทย PC Building Simulator\nโหลดได้ที่ : www.nexusmods.com/pcbuildingsimulator/mods/361",
+      "url": "https://www.nexusmods.com/pcbuildingsimulator/mods/361",
+      "type": "RecommendedNovember 7",
+      "price": "฿400.00"
+    },
+    {
+      "appid": "1588550",
+      "name": "Cairn",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1588550/92c8e2f5ea09fcd6e9db1a10193b66da99a1720e/header_292x136_alt_assets_0.jpg?t=1793979546",
+      "desc": "$29.99 Recommended November 7 Mod ภาษาไทย Cairn\nโหลดได้ที่ : https://mrt-game-studio.itch.io Watch the full review [youtu.be]",
+      "url": "https://mrt-game-studio.itch.io",
+      "type": "RecommendedNovember 7",
+      "price": "฿590.00"
+    },
+    {
+      "appid": "2300320",
+      "name": "Farming Simulator 25",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2300320/c2a205133d23cd24faf3c152d972a1d0177661b8/header_292x136.jpg?t=1793106374",
+      "desc": "Live $29.99 Recommended November 7 Mod ภาษาไทย Farming Simulator 25\nโหลดได้ที่ : https://mrt-game-studio.itch.io Watch the full review [youtu.be]",
+      "url": "https://mrt-game-studio.itch.io",
+      "type": "RecommendedNovember 7",
+      "price": "฿779.00"
+    },
+    {
+      "appid": "2448570",
+      "name": "Road Rash™: 30th Anniversary Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2448570/a12ed683c51938590f28400c89cd8c8204e1e8db/header_292x136.jpg?t=1793986604",
+      "desc": "-50% $9.99 $4.99 50% off. $9.99 normally, discounted to $4.99 Recommended November 7 Mod ภาษาไทย Road Rash™\nโหลดได้ที่ :  https://mrt-game-studio.itch.io Watch the full review [youtu.be]",
+      "url": "https://mrt-game-studio.itch.io",
+      "type": "RecommendedNovember 7",
+      "price": "-50% ฿139.50"
+    },
     {
       "appid": "1997660",
       "name": "GreedFall: The Dying World",
@@ -158,7 +194,7 @@
       "appid": "2552310",
       "name": "Dungeon Inn",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2552310/f002dbb9fc50036d1284b7e9d40b3046af53cb7f/header_292x136_alt_assets_0.jpg?t=1793324607",
-      "desc": "Live $14.99 Recommended November 3 Mod ภาษาไทย Dungeon Inn\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "$14.99 Recommended November 3 Mod ภาษาไทย Dungeon Inn\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedNovember 3",
       "price": "฿295.00"
@@ -319,7 +355,7 @@
     {
       "appid": "2774040",
       "name": "The Boss Gangster: Criminal Empire",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2774040/633657e57def1d539ef868eb0c8d10fa1102dc33/header_292x136_alt_assets_2.jpg?t=1793409277",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2774040/633657e57def1d539ef868eb0c8d10fa1102dc33/header_292x136_alt_assets_2.jpg?t=1794063431",
       "desc": "Live -20% $18.99 $15.19 20% off. $18.99 normally, discounted to $15.19 Recommended October 28 Mod ภาษาไทย The Boss Gangster: Criminal Empire\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedOctober 28",
@@ -1772,7 +1808,7 @@
       "desc": "$24.99 Recommended October 10 Mod ภาษาไทย Cubic Odyssey\nโหลดได้ที่ : www.nexusmods.com/cubicodyssey/mods/51",
       "url": "https://www.nexusmods.com/cubicodyssey/mods/51",
       "type": "RecommendedOctober 10",
-      "price": "฿495.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1971870",
@@ -1781,7 +1817,7 @@
       "desc": "$49.99 Recommended October 10 Mod ภาษาไทย Mortal Kombat 1\nโหลดได้ที่ : www.nexusmods.com/mortalkombat/mods/1695",
       "url": "https://www.nexusmods.com/mortalkombat/mods/1695",
       "type": "RecommendedOctober 10",
-      "price": "฿1,790.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "990380",
@@ -1790,7 +1826,7 @@
       "desc": "$19.99 Recommended October 10 Mod ภาษาไทย Metal Eden\nโหลดได้ที่ : www.nexusmods.com/metaleden/mods/5",
       "url": "https://www.nexusmods.com/metaleden/mods/5",
       "type": "RecommendedOctober 10",
-      "price": "฿474.38"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1674200",
@@ -1799,7 +1835,7 @@
       "desc": "$16.99 Recommended October 10 Mod ภาษาไทย Alaska Gold Fever\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedOctober 10",
-      "price": "฿349.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "201870",
@@ -4199,7 +4235,7 @@
       "appid": "4164790",
       "name": "Survival Log",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4164790/5f5a1a66f988690c1507b383be89b2869c17e17f/header_292x136.jpg?t=1793931062",
-      "desc": "$10.99 Recommended August 24 Mod ภาษาไทย Survival Log\nโหลดได้ที่ : github.com/waylanders05/Survival-Log-Thai-Mod",
+      "desc": "Live $10.99 Recommended August 24 Mod ภาษาไทย Survival Log\nโหลดได้ที่ : github.com/waylanders05/Survival-Log-Thai-Mod",
       "url": "https://github.com/waylanders05/Survival-Log-Thai-Mod",
       "type": "RecommendedAugust 24",
       "price": "ฟรี / Mod"
@@ -5126,7 +5162,7 @@
       "appid": "4594150",
       "name": "Sir, We Have an Orc Problem",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4594150/d8a7b3d55e3a2b42350732db0155fc2a9346c10b/header_292x136.jpg?t=1792747497",
-      "desc": "-10% $9.99 $8.99 10% off. $9.99 normally, discounted to $8.99 Recommended August 1 Mod ภาษาไทย Sir, We Have an Orc Problem\nโหลดได้ที่ : github.com/mgprona/swhaop-thai-mod",
+      "desc": "$9.99 Recommended August 1 Mod ภาษาไทย Sir, We Have an Orc Problem\nโหลดได้ที่ : github.com/mgprona/swhaop-thai-mod",
       "url": "https://github.com/mgprona/swhaop-thai-mod",
       "type": "RecommendedAugust 1",
       "price": "ฟรี / Mod"
@@ -7780,7 +7816,7 @@
     {
       "appid": "1465470",
       "name": "The Crust",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1465470/7458a8b466e5b906e4ddf1a13a0d0c0c6fb65d37/header_292x136_alt_assets_18.jpg?t=1791564122",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1465470/3f8a8fdfce140e37a104ace2e6d2bc88f8a90c68/header_292x136_alt_assets_19.jpg?t=1794086697",
       "desc": "Live -40% $31.99 $19.19 40% off. $31.99 normally, discounted to $19.19 Recommended February 25, 2025 Mod ภาษาไทย The Crust\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedFebruary 25, 2025",
@@ -8582,7 +8618,7 @@
       "appid": "2103140",
       "name": "Magicraft",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2103140/c67d87d288165604423bcac5f3857d555f9dabd9/header_292x136.jpg?t=1790072393",
-      "desc": "-25% $15.99 $11.99 25% off. $15.99 normally, discounted to $11.99 Recommended May 10, 2024 Mod ภาษาไทย Magicraft\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
+      "desc": "$15.99 Recommended May 10, 2024 Mod ภาษาไทย Magicraft\nโหลดได้ที่ : https://sites.google.com/view/modthaiyaklongplae",
       "url": "https://sites.google.com/view/modthaiyaklongplae",
       "type": "RecommendedMay 10, 2024",
       "price": "ฟรี / Mod"
@@ -9293,7 +9329,7 @@
       "appid": "1094920",
       "name": "Hazel Sky",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1094920/header_292x136.jpg?t=1779871713",
-      "desc": "-90% $24.99 $2.49 90% off. $24.99 normally, discounted to $2.49 Recommended July 2, 2023 Mod ภาษาไทย Hazel Sky\nโหลดได้ที่ : https://www.nexusmods.com/hazelsky/mods/1\nแปลโดย : https://sites.google.com/view/artdekdok\nคัดลอกไฟล์ Icarus-Thai-Artdekdok_P ไปไว้ที่ Hazel Sky\\Icarus\\Content\\Paks",
+      "desc": "$24.99 Recommended July 2, 2023 Mod ภาษาไทย Hazel Sky\nโหลดได้ที่ : https://www.nexusmods.com/hazelsky/mods/1\nแปลโดย : https://sites.google.com/view/artdekdok\nคัดลอกไฟล์ Icarus-Thai-Artdekdok_P ไปไว้ที่ Hazel Sky\\Icarus\\Content\\Paks",
       "url": "https://www.nexusmods.com/hazelsky/mods/1",
       "type": "RecommendedJuly 2, 2023",
       "price": "ฟรี / Mod"
@@ -9581,7 +9617,7 @@
       "appid": "914800",
       "name": "Coffee Talk",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/914800/header_292x136.jpg?t=1789739649",
-      "desc": "-50% $12.99 $6.49 50% off. $12.99 normally, discounted to $6.49 Recommended February 20, 2023 Mod ภาษาไทย Coffee Talk\nโหลดได้ที่ : https://sites.google.com/view/transladethai/",
+      "desc": "$12.99 Recommended February 20, 2023 Mod ภาษาไทย Coffee Talk\nโหลดได้ที่ : https://sites.google.com/view/transladethai/",
       "url": "https://sites.google.com/view/transladethai/",
       "type": "RecommendedFebruary 20, 2023",
       "price": "ฟรี / Mod"
@@ -9608,7 +9644,7 @@
       "appid": "829660",
       "name": "No Time to Relax",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/829660/header_292x136.jpg?t=1772735521",
-      "desc": "$13.99 Recommended January 14, 2023 Mod ภาษาไทย No Time to Relax\nโหลดได้ที่ : https://hamstersquad.github.io/\nลากโฟลเดอร์ No Time to Relax_Data ใส่ใน Steam > steamapps > common > No Time to Relax",
+      "desc": "-80% $13.99 $2.79 80% off. $13.99 normally, discounted to $2.79 Recommended January 14, 2023 Mod ภาษาไทย No Time to Relax\nโหลดได้ที่ : https://hamstersquad.github.io/\nลากโฟลเดอร์ No Time to Relax_Data ใส่ใน Steam > steamapps > common > No Time to Relax",
       "url": "https://hamstersquad.github.io/",
       "type": "RecommendedJanuary 14, 2023",
       "price": "ฟรี / Mod"
@@ -11138,7 +11174,7 @@
       "appid": "232090",
       "name": "Killing Floor 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/232090/header_292x136.jpg?t=1774538987",
-      "desc": "-90% $29.99 $2.99 90% off. $29.99 normally, discounted to $2.99 Recommended September 21, 2020 Killing Floor 2 Mod Thai\nกำลังแปล https://www.facebook.com/Ttranslationgame",
+      "desc": "$29.99 Recommended September 21, 2020 Killing Floor 2 Mod Thai\nกำลังแปล https://www.facebook.com/Ttranslationgame",
       "url": "https://www.facebook.com/Ttranslationgame",
       "type": "RecommendedSeptember 21, 2020",
       "price": "ฟรี / Mod"
