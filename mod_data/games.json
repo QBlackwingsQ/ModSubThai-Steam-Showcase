@@ -1,6 +1,33 @@
 {
-  "total_count": 1264,
+  "total_count": 1267,
   "items": [
+    {
+      "appid": "3372060",
+      "name": "Hell Maiden",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3372060/c54405ee570fbf01dc92dc8bbbb5f26ef1f300cc/header_292x136.jpg?t=1793100358",
+      "desc": "$9.99 Recommended November 7 Mod ภาษาไทย Hell Maiden\nโหลดได้ที่ : www.nexusmods.com/hellmaiden/mods/3",
+      "url": "https://www.nexusmods.com/hellmaiden/mods/3",
+      "type": "RecommendedNovember 7",
+      "price": "฿230.00"
+    },
+    {
+      "appid": "2334730",
+      "name": "Death Must Die",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2334730/70e0e4f26d9d6669fff784089ee35163c8401d0b/header_292x136.jpg?t=1744305567",
+      "desc": "$6.99 Recommended November 7 Mod ภาษาไทย Death Must Die\nโหลดได้ที่ : www.nexusmods.com/deathmustdie/mods/30",
+      "url": "https://www.nexusmods.com/deathmustdie/mods/30",
+      "type": "RecommendedNovember 7",
+      "price": "฿155.00"
+    },
+    {
+      "appid": "2537590",
+      "name": "Microsoft Flight Simulator 2024",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2537590/header_292x136.jpg?t=1791557822",
+      "desc": "$69.99 Recommended November 7 Mod ภาษาไทย Microsoft Flight Simulator 2024\nโหลดได้ที่ : https://mrt-game-studio.itch.io",
+      "url": "https://mrt-game-studio.itch.io",
+      "type": "RecommendedNovember 7",
+      "price": "฿2,449.00"
+    },
     {
       "appid": "621060",
       "name": "PC Building Simulator",
@@ -1781,7 +1808,7 @@
       "desc": "$19.99 Recommended October 10 Mod ภาษาไทย Neon Abyss 2\nโหลดได้ที่ : www.nodnuattranslator.com",
       "url": "https://www.nodnuattranslator.com",
       "type": "RecommendedOctober 10",
-      "price": "฿400.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1295920",
@@ -1790,7 +1817,7 @@
       "desc": "$24.99 Recommended October 10 Mod ภาษาไทย The Mortuary Assistant \nโหลดได้ที่ : www.nexusmods.com/themortuaryassistant/mods/11",
       "url": "https://www.nexusmods.com/themortuaryassistant/mods/11",
       "type": "RecommendedOctober 10",
-      "price": "฿319.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2827820",
@@ -1799,7 +1826,7 @@
       "desc": "$34.99 Recommended October 10 Mod ภาษาไทย The Relic The First Guardian\nโหลดได้ที่ : www.nexusmods.com/therelicthefirstguardian/mods/5",
       "url": "https://www.nexusmods.com/therelicthefirstguardian/mods/5",
       "type": "RecommendedOctober 10",
-      "price": "฿635.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3400000",
@@ -1904,7 +1931,7 @@
       "appid": "2290000",
       "name": "TerraScape",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2290000/header_292x136.jpg?t=1793886105",
-      "desc": "Live $14.99 Recommended October 10 Mod ภาษาไทย TerraScape\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "$14.99 Recommended October 10 Mod ภาษาไทย TerraScape\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedOctober 10",
       "price": "ฟรี / Mod"
@@ -6134,7 +6161,7 @@
       "appid": "1669000",
       "name": "Age of Wonders 4",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669000/68c09090edc5317dfbdcbb5bb2b693a4301e727e/header_292x136_alt_assets_15.jpg?t=1793955877",
-      "desc": "Live -60% $49.99 $19.99 60% off. $49.99 normally, discounted to $19.99 Recommended July 6 Mod ภาษาไทย Age of Wonders 4\nโหลดได้ที่ : https://modthai-en0va.com",
+      "desc": "-60% $49.99 $19.99 60% off. $49.99 normally, discounted to $19.99 Recommended July 6 Mod ภาษาไทย Age of Wonders 4\nโหลดได้ที่ : https://modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedJuly 6",
       "price": "ฟรี / Mod"
