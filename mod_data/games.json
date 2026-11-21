@@ -1,6 +1,87 @@
 {
-  "total_count": 1316,
+  "total_count": 1325,
   "items": [
+    {
+      "appid": "4521650",
+      "name": "Farm & Feast",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4521650/356c421629853f15b63e8abc80b05940d365982d/header_292x136_alt_assets_0.jpg?t=1794818088",
+      "desc": "Live -20% $14.99 $11.99 20% off. $14.99 normally, discounted to $11.99 Recommended November 20 Mod ภาษาไทย Farm & Feast\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "-20% ฿223.20"
+    },
+    {
+      "appid": "2950790",
+      "name": "IRON NEST: Heavy Turret Simulator",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2950790/e6c9e990560078611472e5dab98e79a405ed33f4/header_292x136.jpg?t=1794919284",
+      "desc": "$19.99 Recommended November 20 Mod ภาษาไทย IRON NEST: Heavy Turret Simulator\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "฿299.00"
+    },
+    {
+      "appid": "1362910",
+      "name": "Waterpark Simulator",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1362910/header_292x136.jpg?t=1612233067",
+      "desc": "$0.99 Recommended November 20 Mod ภาษาไทย Waterpark Simulator\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "฿23.00"
+    },
+    {
+      "appid": "3562580",
+      "name": "Agefield High: Rock the School",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3562580/a8e9cf70e0a843030ada838228d7414b90bdcdd3/header_292x136.jpg?t=1787405221",
+      "desc": "$29.99 Recommended November 20 Mod ภาษาไทย Agefield High: Rock the School\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "฿590.00"
+    },
+    {
+      "appid": "2523770",
+      "name": "The Lord of the Rings: War in the North™ - Legacy Edition",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2523770/ce49411b23ef7bfe8dd88c1c58f29a4584cf961e/header_292x136.jpg?t=1794005624",
+      "desc": "$19.99 Recommended November 20 Mod ภาษาไทย The Lord of the Rings: War in the North\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "฿400.00"
+    },
+    {
+      "appid": "2589500",
+      "name": "Whisper of the House",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2589500/0b5fd2835b6fcab5855e8dc32d55702f2b7821af/header_292x136.jpg?t=1792728608",
+      "desc": "$14.99 Recommended November 20 Mod ภาษาไทย Whisper of the House\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "฿315.00"
+    },
+    {
+      "appid": "1262580",
+      "name": "Need for Speed™ Payback",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1262580/header_292x136.jpg?t=1777543107",
+      "desc": "-85% $29.99 $4.49 85% off. $29.99 normally, discounted to $4.49 Recommended November 20 Mod ภาษาไทย Need for Speed™ Payback\nโหลดได้ที่ : thai-mod-retirement.pages.dev Watch the full review [youtu.be]",
+      "url": "https://thai-mod-retirement.page",
+      "type": "RecommendedNovember 20",
+      "price": "-85% ฿119.85"
+    },
+    {
+      "appid": "227300",
+      "name": "Euro Truck Simulator 2",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header_292x136.jpg?t=1794502925",
+      "desc": "Live -75% $19.99 $4.99 75% off. $19.99 normally, discounted to $4.99 Recommended November 20 Mod ภาษาไทย Euro Truck Simulator 2\nโหลดได้ที่ : steamcommunity.com/sharedfiles/filedetails/?id=3842898089",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3842898089",
+      "type": "RecommendedNovember 20",
+      "price": "-75% ฿107.49"
+    },
+    {
+      "appid": "4251460",
+      "name": "Godzilla: Destroy All Monsters Melee Remastered",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4251460/28023d80b51185fe3dbadadf608523942f47238c/header_292x136.jpg?t=1793714569",
+      "desc": "$29.99 Recommended November 20 Mod ภาษาไทย Godzilla: Destroy All Monsters Melee Remastered\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 20",
+      "price": "฿549.00"
+    },
     {
       "appid": "1378990",
       "name": "Crash Bandicoot™ 4: It’s About Time",
@@ -1727,7 +1808,7 @@
       "desc": "$19.99 Recommended October 17 Mod ภาษาไทย CARRION\nโหลดได้ที่ : www.nexusmods.com/carrion/mods/14",
       "url": "https://www.nexusmods.com/carrion/mods/14",
       "type": "RecommendedOctober 17",
-      "price": "฿400.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1284190",
@@ -1736,7 +1817,7 @@
       "desc": "$23.99 Recommended October 17 Mod ภาษาไทย The Planet Crafter \nโหลดได้ที่ : www.mediafire.com/file/3s89dekymnakzq1/PlanetCrafter_ThaiMod_v2.103.zip",
       "url": "https://www.mediafire.com/file/3s89dekymnakzq1/PlanetCrafter_ThaiMod_v2.103.zip",
       "type": "RecommendedOctober 17",
-      "price": "฿499.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1857740",
@@ -1745,7 +1826,7 @@
       "desc": "$39.99 Recommended October 17 Mod ภาษาไทย MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERED\nโหลดได้ที่ : www.nexusmods.com/mobilesuitgundamseedbattledestinyremastered/mods/11",
       "url": "https://www.nexusmods.com/mobilesuitgundamseedbattledestinyremastered/mods/11",
       "type": "RecommendedOctober 17",
-      "price": "฿1,190.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1429880",
@@ -1754,7 +1835,7 @@
       "desc": "$17.99 Recommended October 17 Mod ภาษาไทย Little Sim World\nโหลดได้ที่ : www.mediafire.com/file/o0r788bp9rmgy6x/LittleSimWorld_Thai_Mod_v1.1.1.zip",
       "url": "https://www.mediafire.com/file/o0r788bp9rmgy6x/LittleSimWorld_Thai_Mod_v1.1.1.zip",
       "type": "RecommendedOctober 17",
-      "price": "฿345.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1253920",
@@ -1763,7 +1844,7 @@
       "desc": "$24.99 Recommended October 17 Mod ภาษาไทย Rogue Legacy 2\nโหลดได้ที่ : www.mediafire.com/file/q0s82cil3g07bd7/RogueLegacy2_Thai_Mod_v1.2.2.zip",
       "url": "https://www.mediafire.com/file/q0s82cil3g07bd7/RogueLegacy2_Thai_Mod_v1.2.2.zip",
       "type": "RecommendedOctober 17",
-      "price": "฿495.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3496000",
@@ -1772,7 +1853,7 @@
       "desc": "$9.99 Recommended October 17 Mod ภาษาไทย Ship, Inc.\nโหลดได้ที่ : sites.google.com/view/plaehailen",
       "url": "https://google.com/view/plaehailen",
       "type": "RecommendedOctober 17",
-      "price": "฿220.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1798010",
@@ -1781,7 +1862,7 @@
       "desc": "$39.99 Recommended October 17 Mod ภาษาไทย Mega Man Battle Network Legacy Collection Vol. 1\nโหลดได้ที่ : mrt-game-studio.itch.io",
       "url": "https://itch.io",
       "type": "RecommendedOctober 17",
-      "price": "฿1,090.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "403640",
@@ -1790,7 +1871,7 @@
       "desc": "$29.99 Recommended October 17 Mod ภาษาไทย Dishonored 2\nโหลดได้ที่ : www.nexusmods.com/dishonored2/mods/212\nหรือ www.nexusmods.com/dishonored2/mods/229",
       "url": "https://www.nexusmods.com/dishonored2/mods/212",
       "type": "RecommendedOctober 17",
-      "price": "฿990.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "10090",
@@ -1799,7 +1880,7 @@
       "desc": "-25% $19.99 $14.99 25% off. $19.99 normally, discounted to $14.99 Recommended October 17 Mod ภาษาไทย Call of Duty: World at War\nโหลดได้ที่ : www.nexusmods.com/callofdutyworldatwar/mods/137",
       "url": "https://www.nexusmods.com/callofdutyworldatwar/mods/137",
       "type": "RecommendedOctober 17",
-      "price": "-25% ฿524.25"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "42680",
@@ -5315,8 +5396,8 @@
       "appid": "4369130",
       "name": "Chop Chop Inc.",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4369130/8bceabf2e3a7a845696baf18c09b377684d116ae/header_292x136.jpg?t=1794313699",
-      "desc": "$12.99 Recommended August 12 Mod ภาษาไทย Chop Chop Inc.\nโหลดได้ที่ : drive.google.com/file/d/19GwalaOjVMkF0ptlNPSBQs_XynABMlBC",
-      "url": "https://google.com/file/d/19GwalaOjVMkF0ptlNPSBQs_XynABMlBC",
+      "desc": "$12.99 Recommended August 12 Mod ภาษาไทย Chop Chop Inc.\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
       "type": "RecommendedAugust 12",
       "price": "ฟรี / Mod"
     },
@@ -6467,7 +6548,7 @@
       "appid": "3446240",
       "name": "Eastern Era",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3446240/483ab16576771e4c0d06c55cdfe73dd94b8a9ccf/header_292x136.jpg?t=1795167507",
-      "desc": "-15% $24.99 $21.24 15% off. $24.99 normally, discounted to $21.24 Recommended July 9 Mod ภาษาไทย Eastern Era\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "-15% $24.99 $21.24 15% off. $24.99 normally, discounted to $21.24 Recommended July 9 Mod ภาษาไทย Eastern Era\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae\nหรือ www.nexusmods.com/easternera/mods/1",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJuly 9",
       "price": "ฟรี / Mod"
@@ -7691,7 +7772,7 @@
       "appid": "2274620",
       "name": "Discounty",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2274620/3d9db2e0d82e171901fd0242273193de8708967c/header_292x136.jpg?t=1795097818",
-      "desc": "-40% $19.99 $11.99 40% off. $19.99 normally, discounted to $11.99 Recommended September 11, 2025 Mod ภาษาไทย Discounty\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "-40% $19.99 $11.99 40% off. $19.99 normally, discounted to $11.99 Recommended September 11, 2025 Mod ภาษาไทย Discounty\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae\nหรือ thai-mods.vercel.app",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedSeptember 11, 2025",
       "price": "ฟรี / Mod"
