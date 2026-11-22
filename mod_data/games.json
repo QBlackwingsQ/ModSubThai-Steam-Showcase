@@ -1,6 +1,42 @@
 {
-  "total_count": 1333,
+  "total_count": 1337,
   "items": [
+    {
+      "appid": "996580",
+      "name": "Spyro™ Reignited Trilogy",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/996580/header_292x136.jpg?t=1781038162",
+      "desc": "$39.99 Recommended November 22 Mod ภาษาไทย Spyro™ Reignited Trilogy\nโหลดได้ที่ : thai-mod-retirement.pages.dev\nไฟล์ .pak วางใน \\Falcon\\Content\\Paks\n CreditT.mp4 วางใน /Movie",
+      "url": "https://thai-mod-retirement.page",
+      "type": "RecommendedNovember 22",
+      "price": "฿1,399.00"
+    },
+    {
+      "appid": "4225980",
+      "name": "Trails in the Sky 2nd Chapter",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4225980/4d0a1769f70fbdd8d1d84d0ce06c21bb5c2d0790/header_292x136.jpg?t=1790979567",
+      "desc": "$59.99 Recommended November 21 Mod ภาษาไทย Trails in the Sky 2nd Chapter\nโหลดได้ที่ : thai-mod-retirement.pages.dev",
+      "url": "https://thai-mod-retirement.page",
+      "type": "RecommendedNovember 21",
+      "price": "฿2,190.00"
+    },
+    {
+      "appid": "1933370",
+      "name": "Mark of the Deep",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1933370/d353e340086cd4d46263cfe02c25469b56c87862/header_292x136.jpg?t=1788364373",
+      "desc": "$19.99 Recommended November 21 Mod ภาษาไทย Mark of the Deep\nโหลดได้ที่ : thai-mod-retirement.pages.dev",
+      "url": "https://thai-mod-retirement.page",
+      "type": "RecommendedNovember 21",
+      "price": "฿400.00"
+    },
+    {
+      "appid": "1215940",
+      "name": "Forever Ago",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1215940/463f75c014bc0ee1c6daf2ccda036edb28a0bb36/header_292x136.jpg?t=1795041098",
+      "desc": "$19.99 Recommended November 21 Mod ภาษาไทย Forever Ago\nโหลดได้ที่ : thai-mod-retirement.pages.dev",
+      "url": "https://thai-mod-retirement.page",
+      "type": "RecommendedNovember 21",
+      "price": "฿399.00"
+    },
     {
       "appid": "270880",
       "name": "American Truck Simulator",
@@ -671,7 +707,7 @@
       "appid": "1669980",
       "name": "Volcano Princess",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1669980/header_292x136.jpg?t=1793357371",
-      "desc": "$10.99 Recommended November 7 Mod ภาษาไทย Volcano Princess\nโหลดได้ที่ : modthai-en0va.com",
+      "desc": "$10.99 Recommended November 7 Mod ภาษาไทย Volcano Princess\nโหลดได้ที่ : modthai-en0va.com\nหรือ www.nexusmods.com/volcanoprincess/mods/11",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedNovember 7",
       "price": "฿239.00"
@@ -1772,7 +1808,7 @@
       "desc": "Live $11.99 Recommended October 18 Mod ภาษาไทย The Walking Trade\nโหลดได้ที่ : www.nexusmods.com/thewalkingtrade/mods/33",
       "url": "https://www.nexusmods.com/thewalkingtrade/mods/33",
       "type": "RecommendedOctober 18",
-      "price": "฿230.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3470960",
@@ -1781,7 +1817,7 @@
       "desc": "$29.99 Recommended October 18 Mod ภาษาไทย Tales of Eternia Remastered\nโหลดได้ที่ : mrt-game-studio.itch.io\nหรือ stamp789.github.io/mee-game-kor-pla",
       "url": "https://itch.io",
       "type": "RecommendedOctober 18",
-      "price": "฿890.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1895880",
@@ -1790,7 +1826,7 @@
       "desc": "-60% $59.99 $23.99 60% off. $59.99 normally, discounted to $23.99 Recommended October 18 Mod ภาษาไทย Ratchet and Clank Rift Apart \nโหลดได้ที่ : www.nexusmods.com/ratchetandclankriftapart/mods/90",
       "url": "https://www.nexusmods.com/ratchetandclankriftapart/mods/90",
       "type": "RecommendedOctober 18",
-      "price": "-60% ฿676.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "251150",
@@ -1799,7 +1835,7 @@
       "desc": "$19.99 Recommended October 18 Mod ภาษาไทย The Legend of Heroes: Trails in the Sky\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedOctober 18",
-      "price": "฿369.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3639070",
@@ -4379,8 +4415,8 @@
       "appid": "2638890",
       "name": "Onimusha: Way of the Sword",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2638890/ce31174fea86d0bafa21b26e853dcd0b7326e36f/header_292x136.jpg?t=1794985748",
-      "desc": "$69.99 Recommended September 4 Mod ภาษาไทย Onimusha: Way of the Sword \nโหลดได้ที่ : www.nexusmods.com/onimushawayofthesword/mods/34\nหรือ www.nexusmods.com/onimushawayofthesword/mods/56 Watch the full review [youtu.be]",
-      "url": "https://www.nexusmods.com/onimushawayofthesword/mods/34",
+      "desc": "$69.99 Recommended September 4 Mod ภาษาไทย Onimusha: Way of the Sword \nโหลดได้ที่ : nexusmods.com/onimushawayofthesword/mods/34\nหรือ nexusmods.com/onimushawayofthesword/mods/56\nหรือ nexusmods.com/onimushawayofthesword/mods/6 Watch the full review [youtu.be]",
+      "url": "https://nexusmods.com/onimushawayofthesword/mods/34",
       "type": "RecommendedSeptember 4",
       "price": "ฟรี / Mod"
     },
@@ -4973,8 +5009,8 @@
       "appid": "2661300",
       "name": "Grounded 2",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2661300/91c758b9591805d15b26d9fa185a8b9ebab0a334/header_292x136.jpg?t=1792539149",
-      "desc": "-20% $29.99 $23.99 20% off. $29.99 normally, discounted to $23.99 Recommended August 21 Mod ภาษาไทย Grounded 2\nโหลดได้ที่ : www.facebook.com/profile.php?id=61565630320285",
-      "url": "https://www.facebook.com/profile.php?id=61565630320285",
+      "desc": "-20% $29.99 $23.99 20% off. $29.99 normally, discounted to $23.99 Recommended August 21 Mod ภาษาไทย Grounded 2\nโหลดได้ที่ : www.nexusmods.com/grounded2/mods/289",
+      "url": "https://www.nexusmods.com/grounded2/mods/289",
       "type": "RecommendedAugust 21",
       "price": "ฟรี / Mod"
     },
