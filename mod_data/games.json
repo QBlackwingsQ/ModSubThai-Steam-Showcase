@@ -1,6 +1,78 @@
 {
-  "total_count": 1337,
+  "total_count": 1345,
   "items": [
+    {
+      "appid": "1932160",
+      "name": "Neptunia: Sisters VS Sisters",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1932160/header_292x136.jpg?t=1776732218",
+      "desc": "$49.99 Recommended November 22 Mod ภาษาไทย Neptunia: Sisters VS Sisters\nโหลดได้ที่ : www.nexusmods.com/neptuniasistersvssisters/mods/11",
+      "url": "https://www.nexusmods.com/neptuniasistersvssisters/mods/11",
+      "type": "RecommendedNovember 22",
+      "price": "฿579.00"
+    },
+    {
+      "appid": "889600",
+      "name": "The Caligula Effect: Overdose",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/889600/header_292x136.jpg?t=1732662201",
+      "desc": "-65% $49.99 $17.49 65% off. $49.99 normally, discounted to $17.49 Recommended November 22 Mod ภาษาไทย The Caligula Effect: Overdose\nโหลดได้ที่ : www.nexusmods.com/thecaligulaeffectoverdose/mods/12",
+      "url": "https://www.nexusmods.com/thecaligulaeffectoverdose/mods/12",
+      "type": "RecommendedNovember 22",
+      "price": "-65% ฿314.65"
+    },
+    {
+      "appid": "2747770",
+      "name": "Wednesdays",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2747770/header_292x136.jpg?t=1790967859",
+      "desc": "$9.99 Recommended November 22 Mod ภาษาไทย Wednesdays\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedNovember 22",
+      "price": "฿220.00"
+    },
+    {
+      "appid": "504390",
+      "name": "Along the Edge",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/504390/header_292x136.jpg?t=1794325695",
+      "desc": "-90% $13.99 $1.39 90% off. $13.99 normally, discounted to $1.39 Recommended November 22 Mod ภาษาไทย Along the Edge\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedNovember 22",
+      "price": "-90% ฿29.50"
+    },
+    {
+      "appid": "233860",
+      "name": "Kenshi",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/233860/fa72ac8a032fd876780cd5b554e4c03b4976ef74/header_292x136.jpg?t=1779293333",
+      "desc": "$29.99 Recommended November 22 Mod ภาษาไทย Kenshi\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedNovember 22",
+      "price": "฿379.00"
+    },
+    {
+      "appid": "1250",
+      "name": "Killing Floor",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1250/header_292x136.jpg?t=1789667388",
+      "desc": "$19.99 Recommended November 22 Mod ภาษาไทย Killing Floor\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedNovember 22",
+      "price": "฿369.00"
+    },
+    {
+      "appid": "55230",
+      "name": "Saints Row: The Third",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/55230/header_292x136.jpg?t=1764671029",
+      "desc": "-75% $9.99 $2.49 75% off. $9.99 normally, discounted to $2.49 Recommended November 22 Mod ภาษาไทย Saints Row: The Third\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedNovember 22",
+      "price": "-75% ฿59.26"
+    },
+    {
+      "appid": "2990600",
+      "name": "Fireside Feelings",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2990600/89d745fd5604055c7b68b44ed28eba5b7df89d58/header_292x136.jpg?t=1795085580",
+      "desc": "$7.99 Recommended November 22 Mod ภาษาไทย Fireside Feelings\nโหลดได้ที่ : modthai-en0va.com",
+      "url": "https://modthai-en0va.com",
+      "type": "RecommendedNovember 22",
+      "price": "฿161.00"
+    },
     {
       "appid": "996580",
       "name": "Spyro™ Reignited Trilogy",
@@ -157,7 +229,7 @@
     {
       "appid": "2589500",
       "name": "Whisper of the House",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2589500/0b5fd2835b6fcab5855e8dc32d55702f2b7821af/header_292x136.jpg?t=1792728608",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2589500/0b5fd2835b6fcab5855e8dc32d55702f2b7821af/header_292x136.jpg?t=1795406901",
       "desc": "$14.99 Recommended November 20 Mod ภาษาไทย Whisper of the House\nโหลดได้ที่ : thai-mods.vercel.app",
       "url": "https://thai-mods.vercel.app",
       "type": "RecommendedNovember 20",
@@ -1736,7 +1808,7 @@
       "desc": "$29.99 Recommended October 19 Mod ภาษาไทย Tavern Keeper\nโหลดได้ที่ : www.nexusmods.com/tavernkeeper/mods/8",
       "url": "https://www.nexusmods.com/tavernkeeper/mods/8",
       "type": "RecommendedOctober 19",
-      "price": "฿599.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2624870",
@@ -1745,7 +1817,7 @@
       "desc": "-35% $39.99 $25.99 35% off. $39.99 normally, discounted to $25.99 Recommended October 19 Mod ภาษาไทย Life is strange Reunion\nโหลดได้ที่ : www.nexusmods.com/lifeisstrangereunion/mods/78",
       "url": "https://www.nexusmods.com/lifeisstrangereunion/mods/78",
       "type": "RecommendedOctober 19",
-      "price": "-35% ฿844.35"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2160070",
@@ -1763,7 +1835,7 @@
       "desc": "$29.99 Recommended October 19 Mod ภาษาไทย METAL GEAR SOLID 4: Guns of the Patriots\nโหลดได้ที่ : www.nexusmods.com/metalgearsolid4mc/mods/105",
       "url": "https://www.nexusmods.com/metalgearsolid4mc/mods/105",
       "type": "RecommendedOctober 19",
-      "price": "฿850.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3195440",
@@ -1772,7 +1844,7 @@
       "desc": "Live $17.99 Recommended October 19 Mod ภาษาไทย Welcome to Elderfield\nโหลดได้ที่ : www.nexusmods.com/welcometoelderfield/mods/57 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/welcometoelderfield/mods/57",
       "type": "RecommendedOctober 19",
-      "price": "฿345.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "2600",
@@ -1781,7 +1853,7 @@
       "desc": "-50% $19.99 $9.99 50% off. $19.99 normally, discounted to $9.99 Recommended October 18 Mod ภาษาไทย Vampire: The Masquerade - Bloodlines\nโหลดได้ที่ : www.nexusmods.com/vampirebloodlines/mods/428",
       "url": "https://www.nexusmods.com/vampirebloodlines/mods/428",
       "type": "RecommendedOctober 18",
-      "price": "-50% ฿349.50"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "345240",
@@ -1790,7 +1862,7 @@
       "desc": "-80% $9.99 $1.99 80% off. $9.99 normally, discounted to $1.99 Recommended October 18 Mod ภาษาไทย SHOGUN: Total War™ - Collection\nโหลดได้ที่ : modthai-en0va.com",
       "url": "https://modthai-en0va.com",
       "type": "RecommendedOctober 18",
-      "price": "-80% ฿38.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1733690",
@@ -1799,7 +1871,7 @@
       "desc": "$19.99 Recommended October 18 Mod ภาษาไทย Mandate Order \nโหลดได้ที่ : www.nexusmods.com/mandateorder/mods/4 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/mandateorder/mods/4",
       "type": "RecommendedOctober 18",
-      "price": "฿395.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3398110",
@@ -4954,7 +5026,7 @@
     {
       "appid": "1118520",
       "name": "Paralives",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1118520/277ab7a2ad1bbce0f4837bb37a3c86d109bd5258/header_292x136.jpg?t=1793026174",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1118520/277ab7a2ad1bbce0f4837bb37a3c86d109bd5258/header_292x136.jpg?t=1795400773",
       "desc": "$39.99 Recommended August 22 Mod ภาษาไทย Paralives\nโหลดได้ที่ : www.patreon.com/EASYMOD/posts/paralives-99-ew-159201493\nหรือ www.nexusmods.com/paralives/mods/18\nหรือ www.nexusmods.com/paralives/mods/333 Watch the full review [www.youtube.com]",
       "url": "https://www.patreon.com/EASYMOD/posts/paralives-99-ew-159201493",
       "type": "RecommendedAugust 22",
@@ -5296,7 +5368,7 @@
     {
       "appid": "4108460",
       "name": "PatriotMemoirs",
-      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108460/2a073edc3bf141cbf11b54da238e98c3fdb92e96/header_292x136.jpg?t=1785990990",
+      "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108460/2a073edc3bf141cbf11b54da238e98c3fdb92e96/header_292x136.jpg?t=1795401283",
       "desc": "$15.58 Recommended August 15 Mod ภาษาไทย 灭寇1939\nโหลดได้ที่ : www.nexusmods.com/patriotmemoirs/mods/1",
       "url": "https://www.nexusmods.com/patriotmemoirs/mods/1",
       "type": "RecommendedAugust 15",
@@ -6872,7 +6944,7 @@
       "appid": "2933130",
       "name": "The Lord of the Rings: Return to Moria™",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2933130/6b8f8cf6304969c5c1d72fb3b33e5a31a1255f83/header_292x136.jpg?t=1790022388",
-      "desc": "Live -65% $29.99 $10.49 65% off. $29.99 normally, discounted to $10.49 Recommended July 5 Mod ภาษาไทย The Lord of the Rings: Return to Moria\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798966340583087069",
+      "desc": "-65% $29.99 $10.49 65% off. $29.99 normally, discounted to $10.49 Recommended July 5 Mod ภาษาไทย The Lord of the Rings: Return to Moria\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798966340583087069",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798966340583087069",
       "type": "RecommendedJuly 5",
       "price": "ฟรี / Mod"
@@ -6962,7 +7034,7 @@
       "appid": "2966320",
       "name": "Starsand Island",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2966320/29147965072e19c602f20a7c28d6513c1d859a35/header_292x136.jpg?t=1794191859",
-      "desc": "$39.99 Recommended June 20 Mod ภาษาไทย Starsand Island\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae\nหรือ www.nexusmods.com/starsandisland/mods/57",
+      "desc": "$39.99 Recommended June 20 Mod ภาษาไทย Starsand Island\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae\nหรือ www.nexusmods.com/starsandisland/mods/57\nหรือ steamcommunity.com/sharedfiles/filedetails/?id=3809233859",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedJune 20",
       "price": "ฟรี / Mod"
@@ -7682,7 +7754,7 @@
       "appid": "1134700",
       "name": "Wild Terra 2: New Lands",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1134700/4d16c9087b2bfe12d7fa8176ef084631e00761d6/header_292x136_alt_assets_11.jpg?t=1793623567",
-      "desc": "Live $39.99 Recommended November 21, 2025 Mod ภาษาไทย Wild Terra 2 New Lands\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
+      "desc": "$39.99 Recommended November 21, 2025 Mod ภาษาไทย Wild Terra 2 New Lands\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedNovember 21, 2025",
       "price": "ฟรี / Mod"
@@ -11597,7 +11669,7 @@
       "appid": "262060",
       "name": "Darkest Dungeon®",
       "img": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header_292x136.jpg?t=1789168187",
-      "desc": "-85% $24.99 $3.74 85% off. $24.99 normally, discounted to $3.74 Recommended April 1, 2021 Mod Darkest Dungeon ภาษาไทย ติดตามได้ที่ \nโหลดได้ที่ : plae-eng-len-eng.project-hub.it.com",
+      "desc": "-85% $24.99 $3.74 85% off. $24.99 normally, discounted to $3.74 Recommended April 1, 2021 Mod Darkest Dungeon ภาษาไทย ติดตามได้ที่ \nโหลดได้ที่ : plae-eng-len-eng.project-hub.it.com\nหรือ modthai-en0va.com",
       "url": "https://it.com",
       "type": "RecommendedApril 1, 2021",
       "price": "ฟรี / Mod"
