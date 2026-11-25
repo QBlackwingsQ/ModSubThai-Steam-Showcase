@@ -1,6 +1,60 @@
 {
-  "total_count": 1355,
+  "total_count": 1361,
   "items": [
+    {
+      "appid": "1849250",
+      "name": "EA SPORTS™ WRC",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1849250/header_292x136.jpg?t=1779987212",
+      "desc": "-70% $49.99 $14.99 70% off. $49.99 normally, discounted to $14.99 Recommended November 24 VR Supported Mod ภาษาไทย EA Sports WRC\nโหลดได้ที่ : thai-mod-retirement.pages.dev Watch the full review [youtu.be]",
+      "url": "https://thai-mod-retirement.page",
+      "type": "RecommendedNovember 24VR Supported",
+      "price": "-70% ฿419.70"
+    },
+    {
+      "appid": "204360",
+      "name": "Castle Crashers®",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/header_292x136.jpg?t=1764096331",
+      "desc": "$14.99 Recommended November 24 Mod ภาษาไทย Castle Crashers\nโหลดได้ที่ : www.mediafire.com/file/kegxhu3qiz0ta61/Castle_Crashers_Thai_Mod_by_AI_LUV_Translate_v1.0.zip",
+      "url": "https://www.mediafire.com/file/kegxhu3qiz0ta61/Castle_Crashers_Thai_Mod_by_AI_LUV_Translate_v1.0.zip",
+      "type": "RecommendedNovember 24",
+      "price": "฿239.00"
+    },
+    {
+      "appid": "236090",
+      "name": "Dust: An Elysian Tail",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236090/header_292x136.jpg?t=1667838728",
+      "desc": "-80% $14.99 $2.99 80% off. $14.99 normally, discounted to $2.99 Recommended November 24 Mod ภาษาไทย Dust: An Elysian Tail \nโหลดได้ที่ : www.mediafire.com/file/hc2c0302mijt0wd/Dust_An_Elysian_Tail_Thai_Mod_by_AI_LUV_Translate_v1.0.zip",
+      "url": "https://www.mediafire.com/file/hc2c0302mijt0wd/Dust_An_Elysian_Tail_Thai_Mod_by_AI_LUV_Translate_v1.0.zip",
+      "type": "RecommendedNovember 24",
+      "price": "-80% ฿63.00"
+    },
+    {
+      "appid": "3581230",
+      "name": "Cozy Game Restoration",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3581230/72723670e61f2e3c107ec8f34a4acb06a7e8db20/header_292x136.jpg?t=1794200472",
+      "desc": "$14.99 Recommended November 24 Mod ภาษาไทย Cozy Game Restoration\nโหลดได้ที่ : thai-mods.vercel.app",
+      "url": "https://thai-mods.vercel.app",
+      "type": "RecommendedNovember 24",
+      "price": "฿295.00"
+    },
+    {
+      "appid": "2864560",
+      "name": "Rune Factory: Guardians of Azuma",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2864560/header_292x136.jpg?t=1771027230",
+      "desc": "-50% $59.99 $29.99 50% off. $59.99 normally, discounted to $29.99 Recommended November 24 Mod ภาษาไทย Rune Factory Guardians of Azuma\nโหลดได้ที่ : www.nexusmods.com/runefactoryguardiansofazuma/mods/235",
+      "url": "https://www.nexusmods.com/runefactoryguardiansofazuma/mods/235",
+      "type": "RecommendedNovember 24",
+      "price": "-50% ฿740.00"
+    },
+    {
+      "appid": "2106840",
+      "name": "PARANORMASIGHT: The Seven Mysteries of Honjo",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2106840/header_292x136.jpg?t=1776154854",
+      "desc": "-50% $19.99 $9.99 50% off. $19.99 normally, discounted to $9.99 Recommended November 24 Mod ภาษาไทย PARANORMASIGHT The Seven Mysteries of Honjo\nโหลดได้ที่ : www.mediafire.com/file/0acd79zgx1lc6ow/PARANORMASIGHT_Thai_Mod_Fix_1.1.zip",
+      "url": "https://www.mediafire.com/file/0acd79zgx1lc6ow/PARANORMASIGHT_Thai_Mod_Fix_1.1.zip",
+      "type": "RecommendedNovember 24",
+      "price": "-50% ฿310.00"
+    },
     {
       "appid": "3341510",
       "name": "Neptunia Game Maker R:Evolution",
@@ -616,7 +670,7 @@
     {
       "appid": "4530370",
       "name": "Football Manager 27",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header_292x136.jpg?t=1795493367",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4530370/32b41d18ffaac3d2e1dc1a9c3915538db0ba3fca/header_292x136.jpg?t=1795582514",
       "desc": "$59.99 Recommended November 13 Mod ภาษาไทย Football Manager 27\nโหลดได้ที่ : https://mrt-game-studio.itch.io\nหรือ www.nexusmods.com/footballmanager27/mods/2 Watch the full review [youtu.be]",
       "url": "https://mrt-game-studio.itch.io",
       "type": "RecommendedNovember 13",
@@ -1012,7 +1066,7 @@
     {
       "appid": "2552310",
       "name": "Dungeon Inn",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552310/header_292x136.jpg?t=1795123686",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2552310/f002dbb9fc50036d1284b7e9d40b3046af53cb7f/header_292x136_alt_assets_0.jpg?t=1795578234",
       "desc": "$14.99 Recommended November 3 Mod ภาษาไทย Dungeon Inn\nโหลดได้ที่ : sites.google.com/view/modthaiyaklongplae",
       "url": "https://google.com/view/modthaiyaklongplae",
       "type": "RecommendedNovember 3",
@@ -1048,7 +1102,7 @@
     {
       "appid": "3064040",
       "name": "Bluey's Happy Snaps",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/9c25353d43657241f08c1204abc55ae9e2a09983/header_292x136.jpg?t=1795505866",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3064040/9c25353d43657241f08c1204abc55ae9e2a09983/header_292x136.jpg?t=1795569212",
       "desc": "-30% $54.99 $38.49 30% off. $54.99 normally, discounted to $38.49 Recommended November 2 Mod ภาษาไทย Bluey's Happy Snaps\nโหลดได้ที่ : mrt-game-studio.itch.io Watch the full review [youtu.be]",
       "url": "https://itch.io",
       "type": "RecommendedNovember 2",
@@ -1754,7 +1808,7 @@
       "desc": "$14.99 Recommended October 20 Mod ภาษาไทย Dementium: The Ward\nโหลดได้ที่ : www.nexusmods.com/dementiumtheward/mods/7",
       "url": "https://www.nexusmods.com/dementiumtheward/mods/7",
       "type": "RecommendedOctober 20",
-      "price": "฿315.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1915550",
@@ -1763,7 +1817,7 @@
       "desc": "$24.99 Recommended October 20 Mod ภาษาไทย Nemesis: Lockdown\nแปลไทย+พากย์ไทย โหลดได้ที่ : 100วันพันบอร์ด.com",
       "url": "https://store.steampowered.com/app/1915550/",
       "type": "RecommendedOctober 20",
-      "price": "฿495.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1689500",
@@ -1772,7 +1826,7 @@
       "desc": "-35% $22.99 $14.94 35% off. $22.99 normally, discounted to $14.94 Recommended October 20 Mod ภาษาไทย Dune Imperium\nโหลดได้ที่ : 100วันพันบอร์ด.com",
       "url": "https://store.steampowered.com/app/1689500/",
       "type": "RecommendedOctober 20",
-      "price": "-35% ฿296.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1325800",
@@ -1781,7 +1835,7 @@
       "desc": "$14.99 Recommended October 20 Mod ภาษาไทย Viticulture \nโหลดได้ที่ : 100วันพันบอร์ด.com",
       "url": "https://store.steampowered.com/app/1325800/",
       "type": "RecommendedOctober 20",
-      "price": "฿239.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1722840",
@@ -1790,7 +1844,7 @@
       "desc": "-45% $19.99 $10.99 45% off. $19.99 normally, discounted to $10.99 Recommended October 20 Mod ภาษาไทย Everdell\nโหลดได้ที่ : 100วันพันบอร์ด.com",
       "url": "https://store.steampowered.com/app/1722840/",
       "type": "RecommendedOctober 20",
-      "price": "-45% ฿158.95"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "3031880",
@@ -1799,7 +1853,7 @@
       "desc": "$16.99 Recommended October 20 Mod ภาษาไทย Car Park Capital\nโหลดได้ที่ : www.nexusmods.com/carparkcapital/mods/2",
       "url": "https://www.nexusmods.com/carparkcapital/mods/2",
       "type": "RecommendedOctober 20",
-      "price": "฿309.00"
+      "price": "ฟรี / Mod"
     },
     {
       "appid": "1471270",
@@ -5080,7 +5134,7 @@
     {
       "appid": "588430",
       "name": "Fallout Shelter",
-      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588430/c672068e9934f33c743d4b2fd33814f08adb52e6/header_292x136.jpg?t=1795553532",
+      "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588430/41b41780127eadd2531d4714bade102ba8c8f89f/header_292x136_alt_assets_52.jpg?t=1795553532",
       "desc": "Free To Play Recommended August 23 Mod ภาษาไทย Fallout Shelter\nโหลดได้ที่ : www.nexusmods.com/falloutshelter/mods/211 Watch the full review [youtu.be]",
       "url": "https://www.nexusmods.com/falloutshelter/mods/211",
       "type": "RecommendedAugust 23",
@@ -7034,7 +7088,7 @@
       "appid": "2933130",
       "name": "The Lord of the Rings: Return to Moria™",
       "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933130/6b8f8cf6304969c5c1d72fb3b33e5a31a1255f83/header_292x136.jpg?t=1790022388",
-      "desc": "Live -65% $29.99 $10.49 65% off. $29.99 normally, discounted to $10.49 Recommended July 5 Mod ภาษาไทย The Lord of the Rings: Return to Moria\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798966340583087069",
+      "desc": "-65% $29.99 $10.49 65% off. $29.99 normally, discounted to $10.49 Recommended July 5 Mod ภาษาไทย The Lord of the Rings: Return to Moria\nโหลดได้ที่ : https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798966340583087069",
       "url": "https://steamcommunity.com/groups/AzuNyanMoeChanModThai/discussions/0/798966340583087069",
       "type": "RecommendedJuly 5",
       "price": "ฟรี / Mod"
